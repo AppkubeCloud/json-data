@@ -1,0 +1,2247 @@
+{
+    "CLOUD-ENVIRONMENTS": [
+        {
+            "Name": "AWS",
+            "STATS": {
+                "Total Landing Zone": "6",
+                "Total Product Enclaves": "20",
+                "Total Cloud Assets": "560",
+                "Total Alerts": "690",
+                "Total Billing": "2006097"
+            },
+            "Landing Zones": [
+                {
+                    "Account-No": 53543545454,
+                    "OU": "Synectiks-HR",
+                    "ADDED_AT": 545565475775756767676,
+                    "STATS": {
+                        "Total Product Enclaves": "20",
+                        "Total Product Clusters": "50",
+                        "Total Products": "5",
+                        "Total Services": "500",
+                        "Current Month Billing": "20029394"
+                    },
+                    "Product-Enclaves" : [
+                        {
+                            "NAME" : "VPC1",
+                            "STATS": {
+                                "Total No Of Clusters": 8,
+                                "Total No Of Products": 5,
+                                "Total No Of Product-Envs": 15,
+                                "Total No Of App Services": 80,
+                                "Total No Of Data Services": 40,
+                                "Total InCluster Services": 60,
+                                "Total CloudManaged Services": 60,
+                                "Total Alerts": "690",
+                                "Total Billing": "2006097"
+                            },
+                            "CLUSTERS" : [
+                                {
+                                    "Name": "VPC1-Cluster1",
+                                    "STATS": {
+                                        "Total No Of Products": 2,
+                                        "Total No Of Product-Envs": 6,
+                                        "Total No Of App Services": 80,
+                                        "Total No Of Data Services": 40,
+                                        "Total Alerts": "500",
+                                        "Total Billing": "20065666"
+                                    },
+                                    "App-Services" : [
+                                        {
+                                            "Name": "Admission-app1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Admission Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Fees-app1",
+                                            "Associated Business Service":"Fees",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Fees Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ],
+                                    "Data-Services" : [
+                                        {
+                                            "Name": "Admission-data1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission Postgresql database",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "50",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Admission-data2",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission ES database",
+                                            "HostingType" :"InCluster",
+
+                                            "STATS": {
+                                                "Total Cost so far": "60",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ]
+                                },
+                                {
+                                    "Name": "VPC1-Cluster2",
+                                    "STATS": {
+                                        "Total No Of Products": 2,
+                                        "Total No Of Product-Envs": 4,
+                                        "Total No Of App Services": 80,
+                                        "Total No Of Data Services": 40,
+                                        "Total Alerts": "400",
+                                        "Total Billing": "20057666"
+                                    },
+                                    "App-Services" : [
+                                        {
+                                            "Name": "Admission-app1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Admission Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Fees-app1",
+                                            "Associated Business Service":"Fees",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Fees Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ],
+                                    "Data-Services" : [
+                                        {
+                                            "Name": "Admission-data1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission Postgresql database",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "50",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Admission-data2",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission ES database",
+                                            "HostingType" :"InCluster",
+
+                                            "STATS": {
+                                                "Total Cost so far": "60",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ]
+                                }
+                            ],
+                            "CLOUD-MANAGED_SERVICES" :{
+                                "App-Services" : [
+                                    {
+                                        "Name": "Attendance-app1",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description":"Attendance Java API",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"LAMBDA",
+                                        "STATS": {
+                                            "Total Cost so far": "76",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    },
+                                    {
+                                        "Name": "Fees-app1",
+                                        "Associated Business Service":"Fees",
+                                        "Associated Env":"TEST",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description":"Fees Java API",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"LAMBDA",
+                                        "STATS": {
+                                            "Total Cost so far": "76",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    }
+
+                                ],
+                                "Data-Services" : [
+                                    {
+                                        "Name": "Attendance-data1",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description": " Attendance Postgresql database",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"RDS",
+                                        "STATS": {
+                                            "Total Cost so far": "50",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    },
+                                    {
+                                        "Name": "Attendance-data2",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description": " Attendance ES database",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"AWS-SEARCH",
+                                        "STATS": {
+                                            "Total Cost so far": "60",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    }
+
+                                ]
+
+                            } 
+                        },
+                        {   
+                            "NAME" : "VPC2",
+                            "STATS": {
+                                "Total No Of Clusters": 8,
+                                "Total No Of Products": 5,
+                                "Total No Of Product-Envs": 15,
+                                "Total No Of App Services": 80,
+                                "Total No Of Data Services": 40,
+                                "Total InCluster Services": 60,
+                                "Total CloudManaged Services": 60,
+                                "Total Alerts": "690",
+                                "Total Billing": "2006097"
+                            },
+                            "CLUSTERS" : [
+                                {
+                                    "Name": "VPC2-Cluster1",
+                                    "STATS": {
+                                        "Total No Of Products": 2,
+                                        "Total No Of Product-Envs": 6,
+                                        "Total No Of App Services": 80,
+                                        "Total No Of Data Services": 40,
+                                        "Total Alerts": "500",
+                                        "Total Billing": "20065666"
+                                    },
+                                    "App-Services" : [
+                                        {
+                                            "Name": "Admission-app1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Admission Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Fees-app1",
+                                            "Associated Business Service":"Fees",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Fees Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ],
+                                    "Data-Services" : [
+                                        {
+                                            "Name": "Admission-data1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission Postgresql database",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "50",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Admission-data2",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission ES database",
+                                            "HostingType" :"InCluster",
+
+                                            "STATS": {
+                                                "Total Cost so far": "60",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ]
+                                },
+                                {
+                                    "Name": "VPC2-Cluster2",
+                                    "STATS": {
+                                        "Total No Of Products": 2,
+                                        "Total No Of Product-Envs": 4,
+                                        "Total No Of App Services": 80,
+                                        "Total No Of Data Services": 40,
+                                        "Total Alerts": "400",
+                                        "Total Billing": "20057666"
+                                    },
+                                    "App-Services" : [
+                                        {
+                                            "Name": "Admission-app1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Admission Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Fees-app1",
+                                            "Associated Business Service":"Fees",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Fees Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ],
+                                    "Data-Services" : [
+                                        {
+                                            "Name": "Admission-data1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission Postgresql database",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "50",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Admission-data2",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission ES database",
+                                            "HostingType" :"InCluster",
+
+                                            "STATS": {
+                                                "Total Cost so far": "60",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ]
+                                }
+                            ],
+                            "CLOUD-MANAGED_SERVICES" :{
+                                "App-Services" : [
+                                    {
+                                        "Name": "Attendance-app1",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description":"Attendance Java API",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"LAMBDA",
+                                        "STATS": {
+                                            "Total Cost so far": "76",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    },
+                                    {
+                                        "Name": "Fees-app1",
+                                        "Associated Business Service":"Fees",
+                                        "Associated Env":"TEST",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description":"Fees Java API",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"LAMBDA",
+                                        "STATS": {
+                                            "Total Cost so far": "76",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    }
+
+                                ],
+                                "Data-Services" : [
+                                    {
+                                        "Name": "Attendance-data1",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description": " Attendance Postgresql database",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"RDS",
+                                        "STATS": {
+                                            "Total Cost so far": "50",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    },
+                                    {
+                                        "Name": "Attendance-data2",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description": " Attendance ES database",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"AWS-SEARCH",
+                                        "STATS": {
+                                            "Total Cost so far": "60",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    }
+
+                                ]
+
+                            } 
+                        }
+                    ],
+                    "GLOBAL-SERVICES" : {
+                        "Firewall-Services" : [
+                            {
+                                "Name": "Account1-Firewall1",
+                                "Products-Protected ":"Product1",
+                                "STATS": {
+                                    "Total Cost so far": "76",
+                                    "Last-Day-Cost": "6",
+                                    "Last-Week-Cost": "15",
+                                    "Last-Month-Cost": "15"
+                                }        
+                            }
+                        ],
+                        "CDN-Services" : [
+                            {
+                                "Name": "Account1-CDN1",
+                                "Products-Used ":"Product1",
+                                "Associated Dept":"HR",
+                                "Description": " Accoun1 CDN",
+                                "HostingType" :"CloudManaged",
+                                "Associated Cloud Location":"CDN",
+                                "STATS": {
+                                    "Total Cost so far": "50",
+                                    "Last-Day-Cost": "6",
+                                    "Last-Week-Cost": "15",
+                                    "Last-Month-Cost": "15"
+                                }        
+                            }
+                        ],
+                        "S3-Services" : [
+                            {
+                                "Name": "Account1-S3",
+                                "Products-Used ":"Product1",
+                                "Associated Dept":"HR",
+                                "Description": " Accoun1 S3",
+                                "HostingType" :"CloudManaged",
+                                "Associated Cloud Location":"S3",
+                                "STATS": {
+                                    "Total Cost so far": "50",
+                                    "Last-Day-Cost": "6",
+                                    "Last-Week-Cost": "15",
+                                    "Last-Month-Cost": "15"
+                                }        
+                            }
+                        ]
+
+                    }
+                },
+                {
+                    "Account-No": 7674357676,
+                    "OU": "Synectiks-HR",
+                    "ADDED_AT": 545565475775756767676,
+                    "STATS": {
+                        "Total Product Enclaves": "20",
+                        "Total Product Clusters": "50",
+                        "Total Products": "5",
+                        "Total Services": "500",
+                        "Current Month Billing": "20029394"
+                    },
+                    "Product-Enclaves" : [
+                        {
+                            "NAME" : "VPC1",
+                            "STATS": {
+                                "Total No Of Clusters": 8,
+                                "Total No Of Products": 5,
+                                "Total No Of Product-Envs": 15,
+                                "Total No Of App Services": 80,
+                                "Total No Of Data Services": 40,
+                                "Total InCluster Services": 60,
+                                "Total CloudManaged Services": 60,
+                                "Total Alerts": "690",
+                                "Total Billing": "2006097"
+                            },
+                            "CLUSTERS" : [
+                                {
+                                    "Name": "VPC1-Cluster1",
+                                    "STATS": {
+                                        "Total No Of Products": 2,
+                                        "Total No Of Product-Envs": 6,
+                                        "Total No Of App Services": 80,
+                                        "Total No Of Data Services": 40,
+                                        "Total Alerts": "500",
+                                        "Total Billing": "20065666"
+                                    },
+                                    "App-Services" : [
+                                        {
+                                            "Name": "Admission-app1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Admission Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Fees-app1",
+                                            "Associated Business Service":"Fees",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Fees Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ],
+                                    "Data-Services" : [
+                                        {
+                                            "Name": "Admission-data1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission Postgresql database",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "50",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Admission-data2",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission ES database",
+                                            "HostingType" :"InCluster",
+
+                                            "STATS": {
+                                                "Total Cost so far": "60",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ]
+                                },
+                                {
+                                    "Name": "VPC1-Cluster2",
+                                    "STATS": {
+                                        "Total No Of Products": 2,
+                                        "Total No Of Product-Envs": 4,
+                                        "Total No Of App Services": 80,
+                                        "Total No Of Data Services": 40,
+                                        "Total Alerts": "400",
+                                        "Total Billing": "20057666"
+                                    },
+                                    "App-Services" : [
+                                        {
+                                            "Name": "Admission-app1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Admission Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Fees-app1",
+                                            "Associated Business Service":"Fees",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Fees Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ],
+                                    "Data-Services" : [
+                                        {
+                                            "Name": "Admission-data1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission Postgresql database",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "50",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Admission-data2",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission ES database",
+                                            "HostingType" :"InCluster",
+
+                                            "STATS": {
+                                                "Total Cost so far": "60",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ]
+                                }
+                            ],
+                            "CLOUD-MANAGED_SERVICES" :{
+                                "App-Services" : [
+                                    {
+                                        "Name": "Attendance-app1",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description":"Attendance Java API",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"LAMBDA",
+                                        "STATS": {
+                                            "Total Cost so far": "76",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    },
+                                    {
+                                        "Name": "Fees-app1",
+                                        "Associated Business Service":"Fees",
+                                        "Associated Env":"TEST",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description":"Fees Java API",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"LAMBDA",
+                                        "STATS": {
+                                            "Total Cost so far": "76",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    }
+
+                                ],
+                                "Data-Services" : [
+                                    {
+                                        "Name": "Attendance-data1",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description": " Attendance Postgresql database",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"RDS",
+                                        "STATS": {
+                                            "Total Cost so far": "50",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    },
+                                    {
+                                        "Name": "Attendance-data2",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description": " Attendance ES database",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"AWS-SEARCH",
+                                        "STATS": {
+                                            "Total Cost so far": "60",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    }
+
+                                ]
+
+                            } 
+                        },
+                        {   
+                            "NAME" : "VPC2",
+                            "STATS": {
+                                "Total No Of Clusters": 8,
+                                "Total No Of Products": 5,
+                                "Total No Of Product-Envs": 15,
+                                "Total No Of App Services": 80,
+                                "Total No Of Data Services": 40,
+                                "Total InCluster Services": 60,
+                                "Total CloudManaged Services": 60,
+                                "Total Alerts": "690",
+                                "Total Billing": "2006097"
+                            },
+                            "CLUSTERS" : [
+                                {
+                                    "Name": "VPC2-Cluster1",
+                                    "STATS": {
+                                        "Total No Of Products": 2,
+                                        "Total No Of Product-Envs": 6,
+                                        "Total No Of App Services": 80,
+                                        "Total No Of Data Services": 40,
+                                        "Total Alerts": "500",
+                                        "Total Billing": "20065666"
+                                    },
+                                    "App-Services" : [
+                                        {
+                                            "Name": "Admission-app1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Admission Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Fees-app1",
+                                            "Associated Business Service":"Fees",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Fees Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ],
+                                    "Data-Services" : [
+                                        {
+                                            "Name": "Admission-data1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission Postgresql database",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "50",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Admission-data2",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission ES database",
+                                            "HostingType" :"InCluster",
+
+                                            "STATS": {
+                                                "Total Cost so far": "60",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ]
+                                },
+                                {
+                                    "Name": "VPC2-Cluster2",
+                                    "STATS": {
+                                        "Total No Of Products": 2,
+                                        "Total No Of Product-Envs": 4,
+                                        "Total No Of App Services": 80,
+                                        "Total No Of Data Services": 40,
+                                        "Total Alerts": "400",
+                                        "Total Billing": "20057666"
+                                    },
+                                    "App-Services" : [
+                                        {
+                                            "Name": "Admission-app1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Admission Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Fees-app1",
+                                            "Associated Business Service":"Fees",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Fees Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ],
+                                    "Data-Services" : [
+                                        {
+                                            "Name": "Admission-data1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission Postgresql database",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "50",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Admission-data2",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission ES database",
+                                            "HostingType" :"InCluster",
+
+                                            "STATS": {
+                                                "Total Cost so far": "60",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ]
+                                }
+                            ],
+                            "CLOUD-MANAGED_SERVICES" :{
+                                "App-Services" : [
+                                    {
+                                        "Name": "Attendance-app1",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description":"Attendance Java API",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"LAMBDA",
+                                        "STATS": {
+                                            "Total Cost so far": "76",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    },
+                                    {
+                                        "Name": "Fees-app1",
+                                        "Associated Business Service":"Fees",
+                                        "Associated Env":"TEST",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description":"Fees Java API",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"LAMBDA",
+                                        "STATS": {
+                                            "Total Cost so far": "76",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    }
+
+                                ],
+                                "Data-Services" : [
+                                    {
+                                        "Name": "Attendance-data1",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description": " Attendance Postgresql database",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"RDS",
+                                        "STATS": {
+                                            "Total Cost so far": "50",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    },
+                                    {
+                                        "Name": "Attendance-data2",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description": " Attendance ES database",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"AWS-SEARCH",
+                                        "STATS": {
+                                            "Total Cost so far": "60",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    }
+
+                                ]
+
+                            } 
+                        }
+                    ],
+                    "GLOBAL-SERVICES" : {
+                        "Firewall-Services" : [
+                            {
+                                "Name": "Account1-Firewall1",
+                                "Products-Protected ":"Product1",
+                                "STATS": {
+                                    "Total Cost so far": "76",
+                                    "Last-Day-Cost": "6",
+                                    "Last-Week-Cost": "15",
+                                    "Last-Month-Cost": "15"
+                                }        
+                            }
+                        ],
+                        "CDN-Services" : [
+                            {
+                                "Name": "Account1-CDN1",
+                                "Products-Used ":"Product1",
+                                "Associated Dept":"HR",
+                                "Description": " Accoun1 CDN",
+                                "HostingType" :"CloudManaged",
+                                "Associated Cloud Location":"CDN",
+                                "STATS": {
+                                    "Total Cost so far": "50",
+                                    "Last-Day-Cost": "6",
+                                    "Last-Week-Cost": "15",
+                                    "Last-Month-Cost": "15"
+                                }        
+                            }
+                        ],
+                        "S3-Services" : [
+                            {
+                                "Name": "Account1-S3",
+                                "Products-Used ":"Product1",
+                                "Associated Dept":"HR",
+                                "Description": " Accoun1 S3",
+                                "HostingType" :"CloudManaged",
+                                "Associated Cloud Location":"S3",
+                                "STATS": {
+                                    "Total Cost so far": "50",
+                                    "Last-Day-Cost": "6",
+                                    "Last-Week-Cost": "15",
+                                    "Last-Month-Cost": "15"
+                                }        
+                            }
+                        ]
+
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Azure",
+            "STATS": {
+                "Total Landing Zone": "6",
+                "Total Product Enclaves": "20",
+                "Total Cloud Assets": "560",
+                "Total Alerts": "690",
+                "Total Billing": "2006097"
+            },
+            "Landing Zones": [
+                {
+                    "Project-No": 53543545454,
+                    "OU": "Synectiks-HR",
+                    "ADDED_AT": 545565475775756767676,
+                    "STATS": {
+                        "Total Product Enclaves": "20",
+                        "Total Product Clusters": "50",
+                        "Total Products": "5",
+                        "Total Services": "500",
+                        "Current Month Billing": "20029394"
+                    },
+                    "Product-Enclaves" : [
+                        {
+                            "NAME" : "VPC1",
+                            "STATS": {
+                                "Total No Of Clusters": 8,
+                                "Total No Of Products": 5,
+                                "Total No Of Product-Envs": 15,
+                                "Total No Of App Services": 80,
+                                "Total No Of Data Services": 40,
+                                "Total InCluster Services": 60,
+                                "Total CloudManaged Services": 60,
+                                "Total Alerts": "690",
+                                "Total Billing": "2006097"
+                            },
+                            "CLUSTERS" : [
+                                {
+                                    "Name": "VPC122Cluster1",
+                                    "STATS": {
+                                        "Total No Of Products": 2,
+                                        "Total No Of Product-Envs": 6,
+                                        "Total No Of App Services": 80,
+                                        "Total No Of Data Services": 40,
+                                        "Total Alerts": "500",
+                                        "Total Billing": "20065666"
+                                    },
+                                    "App-Services" : [
+                                        {
+                                            "Name": "Admission-app1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Admission Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Fees-app1",
+                                            "Associated Business Service":"Fees",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Fees Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ],
+                                    "Data-Services" : [
+                                        {
+                                            "Name": "Admission-data1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission Postgresql database",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "50",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Admission-data2",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission ES database",
+                                            "HostingType" :"InCluster",
+
+                                            "STATS": {
+                                                "Total Cost so far": "60",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ]
+                                },
+                                {
+                                    "Name": "VPC1-Cluster2",
+                                    "STATS": {
+                                        "Total No Of Products": 2,
+                                        "Total No Of Product-Envs": 4,
+                                        "Total No Of App Services": 80,
+                                        "Total No Of Data Services": 40,
+                                        "Total Alerts": "400",
+                                        "Total Billing": "20057666"
+                                    },
+                                    "App-Services" : [
+                                        {
+                                            "Name": "Admission-app1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Admission Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Fees-app1",
+                                            "Associated Business Service":"Fees",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Fees Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ],
+                                    "Data-Services" : [
+                                        {
+                                            "Name": "Admission-data1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission Postgresql database",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "50",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Admission-data2",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission ES database",
+                                            "HostingType" :"InCluster",
+
+                                            "STATS": {
+                                                "Total Cost so far": "60",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ]
+                                }
+                            ],
+                            "CLOUD-MANAGED_SERVICES" :{
+                                "App-Services" : [
+                                    {
+                                        "Name": "Attendance-app1",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description":"Attendance Java API",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"LAMBDA",
+                                        "STATS": {
+                                            "Total Cost so far": "76",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    },
+                                    {
+                                        "Name": "Fees-app1",
+                                        "Associated Business Service":"Fees",
+                                        "Associated Env":"TEST",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description":"Fees Java API",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"LAMBDA",
+                                        "STATS": {
+                                            "Total Cost so far": "76",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    }
+
+                                ],
+                                "Data-Services" : [
+                                    {
+                                        "Name": "Attendance-data1",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description": " Attendance Postgresql database",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"RDS",
+                                        "STATS": {
+                                            "Total Cost so far": "50",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    },
+                                    {
+                                        "Name": "Attendance-data2",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description": " Attendance ES database",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"AWS-SEARCH",
+                                        "STATS": {
+                                            "Total Cost so far": "60",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    }
+
+                                ]
+
+                            } 
+                        },
+                        {   
+                            "NAME" : "VPC2",
+                            "STATS": {
+                                "Total No Of Clusters": 8,
+                                "Total No Of Products": 5,
+                                "Total No Of Product-Envs": 15,
+                                "Total No Of App Services": 80,
+                                "Total No Of Data Services": 40,
+                                "Total InCluster Services": 60,
+                                "Total CloudManaged Services": 60,
+                                "Total Alerts": "690",
+                                "Total Billing": "2006097"
+                            },
+                            "CLUSTERS" : [
+                                {
+                                    "Name": "VPC2-Cluster1",
+                                    "STATS": {
+                                        "Total No Of Products": 2,
+                                        "Total No Of Product-Envs": 6,
+                                        "Total No Of App Services": 80,
+                                        "Total No Of Data Services": 40,
+                                        "Total Alerts": "500",
+                                        "Total Billing": "20065666"
+                                    },
+                                    "App-Services" : [
+                                        {
+                                            "Name": "Admission-app1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Admission Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Fees-app1",
+                                            "Associated Business Service":"Fees",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Fees Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ],
+                                    "Data-Services" : [
+                                        {
+                                            "Name": "Admission-data1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission Postgresql database",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "50",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Admission-data2",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission ES database",
+                                            "HostingType" :"InCluster",
+
+                                            "STATS": {
+                                                "Total Cost so far": "60",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ]
+                                },
+                                {
+                                    "Name": "VPC2-Cluster2",
+                                    "STATS": {
+                                        "Total No Of Products": 2,
+                                        "Total No Of Product-Envs": 4,
+                                        "Total No Of App Services": 80,
+                                        "Total No Of Data Services": 40,
+                                        "Total Alerts": "400",
+                                        "Total Billing": "20057666"
+                                    },
+                                    "App-Services" : [
+                                        {
+                                            "Name": "Admission-app1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Admission Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Fees-app1",
+                                            "Associated Business Service":"Fees",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Fees Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ],
+                                    "Data-Services" : [
+                                        {
+                                            "Name": "Admission-data1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission Postgresql database",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "50",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Admission-data2",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission ES database",
+                                            "HostingType" :"InCluster",
+
+                                            "STATS": {
+                                                "Total Cost so far": "60",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ]
+                                }
+                            ],
+                            "CLOUD-MANAGED_SERVICES" :{
+                                "App-Services" : [
+                                    {
+                                        "Name": "Attendance-app1",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description":"Attendance Java API",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"LAMBDA",
+                                        "STATS": {
+                                            "Total Cost so far": "76",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    },
+                                    {
+                                        "Name": "Fees-app1",
+                                        "Associated Business Service":"Fees",
+                                        "Associated Env":"TEST",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description":"Fees Java API",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"LAMBDA",
+                                        "STATS": {
+                                            "Total Cost so far": "76",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    }
+
+                                ],
+                                "Data-Services" : [
+                                    {
+                                        "Name": "Attendance-data1",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description": " Attendance Postgresql database",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"RDS",
+                                        "STATS": {
+                                            "Total Cost so far": "50",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    },
+                                    {
+                                        "Name": "Attendance-data2",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description": " Attendance ES database",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"AWS-SEARCH",
+                                        "STATS": {
+                                            "Total Cost so far": "60",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    }
+
+                                ]
+
+                            } 
+                        }
+                    ],
+                    "GLOBAL-SERVICES" : {
+                        "Firewall-Services" : [
+                            {
+                                "Name": "Account1-Firewall1",
+                                "Products-Protected ":"Product1",
+                                "STATS": {
+                                    "Total Cost so far": "76",
+                                    "Last-Day-Cost": "6",
+                                    "Last-Week-Cost": "15",
+                                    "Last-Month-Cost": "15"
+                                }        
+                            }
+                        ],
+                        "CDN-Services" : [
+                            {
+                                "Name": "Account1-CDN1",
+                                "Products-Used ":"Product1",
+                                "Associated Dept":"HR",
+                                "Description": " Accoun1 CDN",
+                                "HostingType" :"CloudManaged",
+                                "Associated Cloud Location":"CDN",
+                                "STATS": {
+                                    "Total Cost so far": "50",
+                                    "Last-Day-Cost": "6",
+                                    "Last-Week-Cost": "15",
+                                    "Last-Month-Cost": "15"
+                                }        
+                            }
+                        ],
+                        "S3-Services" : [
+                            {
+                                "Name": "Account1-S3",
+                                "Products-Used ":"Product1",
+                                "Associated Dept":"HR",
+                                "Description": " Accoun1 S3",
+                                "HostingType" :"CloudManaged",
+                                "Associated Cloud Location":"S3",
+                                "STATS": {
+                                    "Total Cost so far": "50",
+                                    "Last-Day-Cost": "6",
+                                    "Last-Week-Cost": "15",
+                                    "Last-Month-Cost": "15"
+                                }        
+                            }
+                        ]
+
+                    }
+                },
+                {}
+            ]
+        },
+        {
+            "Name": "GCP",
+            "STATS": {
+                "Total Landing Zone": "6",
+                "Total Product Enclaves": "20",
+                "Total Cloud Assets": "560",
+                "Total Alerts": "690",
+                "Total Billing": "2006097"
+            },
+            "Landing Zones": [
+                {
+                    "Project-No": 53543545454,
+                    "OU": "Synectiks-HR",
+                    "ADDED_AT": 545565475775756767676,
+                    "STATS": {
+                        "Total Product Enclaves": "20",
+                        "Total Product Clusters": "50",
+                        "Total Products": "5",
+                        "Total Services": "500",
+                        "Current Month Billing": "20029394"
+                    },
+                    "Product-Enclaves" : [
+                        {
+                            "NAME" : "VPC1",
+                            "STATS": {
+                                "Total No Of Clusters": 8,
+                                "Total No Of Products": 5,
+                                "Total No Of Product-Envs": 15,
+                                "Total No Of App Services": 80,
+                                "Total No Of Data Services": 40,
+                                "Total InCluster Services": 60,
+                                "Total CloudManaged Services": 60,
+                                "Total Alerts": "690",
+                                "Total Billing": "2006097"
+                            },
+                            "CLUSTERS" : [
+                                {
+                                    "Name": "VPC1-Cluster1",
+                                    "STATS": {
+                                        "Total No Of Products": 2,
+                                        "Total No Of Product-Envs": 6,
+                                        "Total No Of App Services": 80,
+                                        "Total No Of Data Services": 40,
+                                        "Total Alerts": "500",
+                                        "Total Billing": "20065666"
+                                    },
+                                    "App-Services" : [
+                                        {
+                                            "Name": "Admission-app1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Admission Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Fees-app1",
+                                            "Associated Business Service":"Fees",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Fees Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ],
+                                    "Data-Services" : [
+                                        {
+                                            "Name": "Admission-data1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission Postgresql database",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "50",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Admission-data2",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission ES database",
+                                            "HostingType" :"InCluster",
+
+                                            "STATS": {
+                                                "Total Cost so far": "60",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ]
+                                },
+                                {
+                                    "Name": "VPC1-Cluster2",
+                                    "STATS": {
+                                        "Total No Of Products": 2,
+                                        "Total No Of Product-Envs": 4,
+                                        "Total No Of App Services": 80,
+                                        "Total No Of Data Services": 40,
+                                        "Total Alerts": "400",
+                                        "Total Billing": "20057666"
+                                    },
+                                    "App-Services" : [
+                                        {
+                                            "Name": "Admission-app1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Admission Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Fees-app1",
+                                            "Associated Business Service":"Fees",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Fees Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ],
+                                    "Data-Services" : [
+                                        {
+                                            "Name": "Admission-data1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission Postgresql database",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "50",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Admission-data2",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission ES database",
+                                            "HostingType" :"InCluster",
+
+                                            "STATS": {
+                                                "Total Cost so far": "60",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ]
+                                }
+                            ],
+                            "CLOUD-MANAGED_SERVICES" :{
+                                "App-Services" : [
+                                    {
+                                        "Name": "Attendance-app1",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description":"Attendance Java API",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"LAMBDA",
+                                        "STATS": {
+                                            "Total Cost so far": "76",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    },
+                                    {
+                                        "Name": "Fees-app1",
+                                        "Associated Business Service":"Fees",
+                                        "Associated Env":"TEST",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description":"Fees Java API",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"LAMBDA",
+                                        "STATS": {
+                                            "Total Cost so far": "76",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    }
+
+                                ],
+                                "Data-Services" : [
+                                    {
+                                        "Name": "Attendance-data1",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description": " Attendance Postgresql database",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"RDS",
+                                        "STATS": {
+                                            "Total Cost so far": "50",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    },
+                                    {
+                                        "Name": "Attendance-data2",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description": " Attendance ES database",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"AWS-SEARCH",
+                                        "STATS": {
+                                            "Total Cost so far": "60",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    }
+
+                                ]
+
+                            } 
+                        },
+                        {   
+                            "NAME" : "VPC2",
+                            "STATS": {
+                                "Total No Of Clusters": 8,
+                                "Total No Of Products": 5,
+                                "Total No Of Product-Envs": 15,
+                                "Total No Of App Services": 80,
+                                "Total No Of Data Services": 40,
+                                "Total InCluster Services": 60,
+                                "Total CloudManaged Services": 60,
+                                "Total Alerts": "690",
+                                "Total Billing": "2006097"
+                            },
+                            "CLUSTERS" : [
+                                {
+                                    "Name": "VPC2-Cluster1",
+                                    "STATS": {
+                                        "Total No Of Products": 2,
+                                        "Total No Of Product-Envs": 6,
+                                        "Total No Of App Services": 80,
+                                        "Total No Of Data Services": 40,
+                                        "Total Alerts": "500",
+                                        "Total Billing": "20065666"
+                                    },
+                                    "App-Services" : [
+                                        {
+                                            "Name": "Admission-app1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Admission Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Fees-app1",
+                                            "Associated Business Service":"Fees",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Fees Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ],
+                                    "Data-Services" : [
+                                        {
+                                            "Name": "Admission-data1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission Postgresql database",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "50",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Admission-data2",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"PROD",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission ES database",
+                                            "HostingType" :"InCluster",
+
+                                            "STATS": {
+                                                "Total Cost so far": "60",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ]
+                                },
+                                {
+                                    "Name": "VPC2-Cluster2",
+                                    "STATS": {
+                                        "Total No Of Products": 2,
+                                        "Total No Of Product-Envs": 4,
+                                        "Total No Of App Services": 80,
+                                        "Total No Of Data Services": 40,
+                                        "Total Alerts": "400",
+                                        "Total Billing": "20057666"
+                                    },
+                                    "App-Services" : [
+                                        {
+                                            "Name": "Admission-app1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Admission Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Fees-app1",
+                                            "Associated Business Service":"Fees",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description":"Fees Java API",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "76",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ],
+                                    "Data-Services" : [
+                                        {
+                                            "Name": "Admission-data1",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission Postgresql database",
+                                            "HostingType" :"InCluster",
+                                            "STATS": {
+                                                "Total Cost so far": "50",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        },
+                                        {
+                                            "Name": "Admission-data2",
+                                            "Associated Business Service":"Admission",
+                                            "Associated Env":"STAGE",
+                                            "Associated Dept":"HR",
+                                            "Associated Namespace":"HRMS",
+                                            "Description": " Admission ES database",
+                                            "HostingType" :"InCluster",
+
+                                            "STATS": {
+                                                "Total Cost so far": "60",
+                                                "Last-Day-Cost": "6",
+                                                "Last-Week-Cost": "15",
+                                                "Last-Month-Cost": "15"
+                                            }        
+                                        }
+
+                                    ]
+                                }
+                            ],
+                            "CLOUD-MANAGED_SERVICES" :{
+                                "App-Services" : [
+                                    {
+                                        "Name": "Attendance-app1",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description":"Attendance Java API",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"LAMBDA",
+                                        "STATS": {
+                                            "Total Cost so far": "76",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    },
+                                    {
+                                        "Name": "Fees-app1",
+                                        "Associated Business Service":"Fees",
+                                        "Associated Env":"TEST",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description":"Fees Java API",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"LAMBDA",
+                                        "STATS": {
+                                            "Total Cost so far": "76",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    }
+
+                                ],
+                                "Data-Services" : [
+                                    {
+                                        "Name": "Attendance-data1",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description": " Attendance Postgresql database",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"RDS",
+                                        "STATS": {
+                                            "Total Cost so far": "50",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    },
+                                    {
+                                        "Name": "Attendance-data2",
+                                        "Associated Business Service":"Attendance",
+                                        "Associated Env":"PROD",
+                                        "Associated Dept":"HR",
+                                        "Associated Namespace":"NA",
+                                        "Description": " Attendance ES database",
+                                        "HostingType" :"CloudManaged",
+                                        "Associated Cloud Location":"AWS-SEARCH",
+                                        "STATS": {
+                                            "Total Cost so far": "60",
+                                            "Last-Day-Cost": "6",
+                                            "Last-Week-Cost": "15",
+                                            "Last-Month-Cost": "15"
+                                        }        
+                                    }
+
+                                ]
+
+                            } 
+                        }
+                    ],
+                    "GLOBAL-SERVICES" : {
+                        "Firewall-Services" : [
+                            {
+                                "Name": "Account1-Firewall1",
+                                "Products-Protected ":"Product1",
+                                "STATS": {
+                                    "Total Cost so far": "76",
+                                    "Last-Day-Cost": "6",
+                                    "Last-Week-Cost": "15",
+                                    "Last-Month-Cost": "15"
+                                }        
+                            }
+                        ],
+                        "CDN-Services" : [
+                            {
+                                "Name": "Account1-CDN1",
+                                "Products-Used ":"Product1",
+                                "Associated Dept":"HR",
+                                "Description": " Accoun1 CDN",
+                                "HostingType" :"CloudManaged",
+                                "Associated Cloud Location":"CDN",
+                                "STATS": {
+                                    "Total Cost so far": "50",
+                                    "Last-Day-Cost": "6",
+                                    "Last-Week-Cost": "15",
+                                    "Last-Month-Cost": "15"
+                                }        
+                            }
+                        ],
+                        "S3-Services" : [
+                            {
+                                "Name": "Account1-S3",
+                                "Products-Used ":"Product1",
+                                "Associated Dept":"HR",
+                                "Description": " Accoun1 S3",
+                                "HostingType" :"CloudManaged",
+                                "Associated Cloud Location":"S3",
+                                "STATS": {
+                                    "Total Cost so far": "50",
+                                    "Last-Day-Cost": "6",
+                                    "Last-Week-Cost": "15",
+                                    "Last-Month-Cost": "15"
+                                }        
+                            }
+                        ]
+
+                    }
+                },
+                {}
+            ]
+        }
+
+    ]
+}
