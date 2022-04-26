@@ -1,4 +1,112 @@
 {
     "services" : [
+        {
+            "id" : 31,
+            "name": "DrillDownAalytics-app1",
+            "description":"Common DrillDownAalytics NodeJs Based Service",
+            "associatedOU":"Synectiks",
+            "associatedDept":"HR",
+            "associatedProduct":"EMS",
+            "associatedEnv":"PROD",
+            "associatedLandingZone":"567373484",
+            "associatedProductEnclave":"567373484-VPC1",
+            "associatedCluster":"567373484-VPC1-Cluster1",
+            "serviceNature": "Common", 
+            "associatedCommonService":"DrillDownAalytics",
+            "associatedBusinessService":"NA",  
+            "serviceType": "App", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"EMS",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"567373484-VPC1-Cluster1",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        },
+        {
+            "id" : 32,
+            "name": "DrillDownAalytics-app2",
+            "description":"Common DrillDownAalytics Druid Java Service",
+            "associatedOU":"Synectiks",
+            "associatedDept":"HR",
+            "associatedProduct":"EMS",
+            "associatedEnv":"PROD",
+            "associatedLandingZone":"567373484",
+            "associatedProductEnclave":"567373484-VPC1",
+            "associatedCluster":"567373484-VPC1-Cluster1",
+            "serviceNature": "Common", 
+            "associatedCommonService":"DrillDownAalytics",
+            "associatedBusinessService":"NA",  
+            "serviceType": "App", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"EMS",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"567373484-VPC1-Cluster1",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        },
+        {
+            "id" : 33,
+            "name": "DrillDownAalytics-data1",
+            "description":"Common DrillDownAalytics Druid Service Postgresql Database",
+            "associatedOU":"Synectiks",
+            "associatedDept":"HR",
+            "associatedProduct":"EMS",
+            "associatedEnv":"PROD",
+            "associatedLandingZone":"567373484",
+            "associatedProductEnclave":"567373484-VPC1",
+            "associatedCluster":"567373484-VPC1-Cluster1",
+            "serviceNature": "Common", 
+            "associatedCommonService":"DrillDownAalytics",
+            "associatedBusinessService":"NA",  
+            "serviceType": "Data", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"EMS",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"567373484-VPC1-Cluster1",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        },
+        {
+            "id" : 34,
+            "name": "DrillDownAalytics-data2",
+            "description":"Common DrillDownAalytics Service S3 ObjectStore",
+            "associatedOU":"Synectiks",
+            "associatedDept":"HR",
+            "associatedProduct":"EMS",
+            "associatedEnv":"PROD",
+            "associatedLandingZone":"567373484",
+            "associatedProductEnclave":"NA",
+            "associatedCluster":"NA",
+            "serviceNature": "Common", 
+            "associatedCommonService":"DrillDownAalytics",
+            "associatedBusinessService":"NA",  
+            "serviceType": "Data", 
+            "serviceHostingType": "GLOBAL",                   
+            "associatedClusterNamespace":"NA",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"567373484-S3-114",    
+            "associatedGlobalServiceLocation":"S3",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        }
     ]
 }
