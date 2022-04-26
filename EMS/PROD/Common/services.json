@@ -272,7 +272,7 @@
         },
         {
             "id" : 11,
-            "name": "CMSCatalogue-app1",
+            "name": "catalogue-app1",
             "description":"Common CMSCatalogue Service Node API",
             "associatedOU":"Synectiks",
             "associatedDept":"HR",
@@ -299,7 +299,7 @@
         },
         {
             "id" : 12,
-            "name": "CMSCatalogue-data1",
+            "name": "catalogue-data1",
             "description":"Common CMSCatalogue Service Git Database",
             "associatedOU":"Synectiks",
             "associatedDept":"HR",
