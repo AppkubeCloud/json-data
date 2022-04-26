@@ -1,9 +1,9 @@
 {
     "services" : [
         {
-            "id" : 11,
-            "name": "catalogue-app1",
-            "description":"Common CMSCatalogue Service Node API",
+            "id" : 37,
+            "name": "changecentral-app1",
+            "description":"Common changecentral Service Node API",
             "associatedOU":"Synectiks",
             "associatedDept":"HR",
             "associatedProduct":"EMS",
@@ -12,7 +12,7 @@
             "associatedProductEnclave":"567373484-VPC1",
             "associatedCluster":"567373484-VPC1-Cluster1",
             "serviceNature": "Common", 
-            "associatedCommonService":"CMSCatalogue",
+            "associatedCommonService":"changecentral",
             "associatedBusinessService":"NA",  
             "serviceType": "App", 
             "serviceHostingType": "Cluster",                   
@@ -28,8 +28,8 @@
             }        
         },
         {
-            "id" : 12,
-            "name": "catalogue-data1",
+            "id" : 38,
+            "name": "changecentral-data1",
             "description":"Common CMSCatalogue Service Git Database",
             "associatedOU":"Synectiks",
             "associatedDept":"HR",
@@ -39,13 +39,13 @@
             "associatedProductEnclave":"567373484-VPC1",
             "associatedCluster":"567373484-VPC1-Cluster1",
             "serviceNature": "Common", 
-            "associatedCommonService":"CMSCatalogue",
+            "associatedCommonService":"changecentral",
             "associatedBusinessService":"NA",  
             "serviceType": "Data", 
             "serviceHostingType": "GLOBAL",                   
             "associatedClusterNamespace":"NA",  
             "associatedManagedCloudServiceLocation":"NA",
-            "associatedCloudElementId":"GIT-1",    
+            "associatedCloudElementId":"GIT-2",    
             "associatedGlobalServiceLocation":"GIT",             
             "stats": {
                 "totalCostSoFar": "76",

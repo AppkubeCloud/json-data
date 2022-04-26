@@ -42,7 +42,7 @@
             "associatedCommonService":"WorkflowEngine",
             "associatedBusinessService":"NA",  
             "serviceType": "Data", 
-            "serviceHostingType": "GLABAL",                   
+            "serviceHostingType": "GLOBAL",                   
             "associatedClusterNamespace":"NA",  
             "associatedManagedCloudServiceLocation":"NA",
             "associatedCloudElementId":"S3-1234",    
