@@ -1,0 +1,85 @@
+{
+    "services" : [
+        {
+            "id" : 39,
+            "name": "scriptcentral-app1",
+            "description":"Common scriptcentral Service GO API",
+            "associatedOU":"Synectiks",
+            "associatedDept":"HR",
+            "associatedProduct":"EMS",
+            "associatedEnv": "STAGE",
+            "associatedLandingZone":"567373484",
+            "associatedProductEnclave":"567373484-VPC1",
+            "associatedCluster":"567373484-VPC1-Cluster2",
+            "serviceNature": "Common", 
+            "associatedCommonService":"scriptcentral",
+            "associatedBusinessService":"NA",  
+            "serviceType": "App", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"EMS",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"567373484-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        },
+        {
+            "id" : 40,
+            "name": "scriptcentral-data1",
+            "description":"Common scriptcentral Service Postgresql Database",
+            "associatedOU":"Synectiks",
+            "associatedDept":"HR",
+            "associatedProduct":"EMS",
+            "associatedEnv": "STAGE",
+            "associatedLandingZone":"567373484",
+            "associatedProductEnclave":"567373484-VPC1",
+            "associatedCluster":"567373484-VPC1-Cluster2",
+            "serviceNature": "Common", 
+            "associatedCommonService":"scriptcentral",
+            "associatedBusinessService":"NA",  
+            "serviceType": "Data", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"EMS",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"567373484-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        },
+        {
+            "id" : 41,
+            "name": "scriptcentral-data2",
+            "description":"Common scriptcentral Service S3 ObjectStore",
+            "associatedOU":"Synectiks",
+            "associatedDept":"HR",
+            "associatedProduct":"EMS",
+            "associatedEnv": "STAGE",
+            "associatedLandingZone":"567373484",
+            "associatedProductEnclave":"NA",
+            "associatedCluster":"NA",
+            "serviceNature": "Common", 
+            "associatedCommonService":"scriptcentral",
+            "associatedBusinessService":"NA",  
+            "serviceType": "Data", 
+            "serviceHostingType": "GLOBAL",                   
+            "associatedClusterNamespace":"NA",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"567373484-S3-112",    
+            "associatedGlobalServiceLocation":"S3",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        }
+    ]
+}
