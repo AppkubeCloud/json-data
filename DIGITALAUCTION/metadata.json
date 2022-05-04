@@ -1,0 +1,7 @@
+Department - LOGISTICS
+Product - Auction
+CLoud - AWS
+AWS-Account - 897373451 
+AWS-Account-Vpc1 - VPC1 //PROD //STAGE //DEV  //TEST
+AWS-Account-Vpc1-Cluster1 - Cluster1 //PROD 
+AWS-Account-Vpc1-Cluster2 - Cluster2  //DEV /TEST /STAGE
