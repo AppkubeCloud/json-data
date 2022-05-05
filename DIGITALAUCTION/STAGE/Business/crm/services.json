@@ -1,0 +1,58 @@
+{
+    "services" : [
+        {
+            "id" : 53,
+            "name": "CRM-app1",
+            "description":"CRM Business Service Java API",
+            "associatedOU":"Synectiks",
+            "associatedDept":"LOGISTICS",
+            "associatedProduct":"AUCTION",
+            "associatedEnv": "STAGE",
+            "associatedLandingZone":"897373451",
+            "associatedProductEnclave":"897373451-VPC1",
+            "associatedCluster":"897373451-VPC1-Cluster2",
+            "serviceNature": "Business", 
+            "associatedCommonService":"NA",
+            "associatedBusinessService":"CRM",
+            "serviceType": "App", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"AUCTION",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"897373451-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        },
+        {
+            "id" : 54,
+            "name": "CRM-data1",
+            "description":"CRM Busines Service Postgresql Database",
+            "associatedOU":"Synectiks",
+            "associatedDept":"LOGISTICS",
+            "associatedProduct":"AUCTION",
+            "associatedEnv": "STAGE",
+            "associatedLandingZone":"897373451",
+            "associatedProductEnclave":"897373451-VPC1",
+            "associatedCluster":"897373451-VPC1-Cluster2",
+            "serviceNature": "Business", 
+            "associatedCommonService":"NA",
+            "associatedBusinessService":"CRM",  
+            "serviceType": "Data", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"AUCTION",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"897373451-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        }
+    ]
+}

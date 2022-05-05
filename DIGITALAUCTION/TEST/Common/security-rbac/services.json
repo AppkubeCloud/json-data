@@ -1,0 +1,58 @@
+{
+    "services" : [
+        {
+            "id" : 4,
+            "name": "SecurityRbac-app1",
+            "description":"Common Security/RBAC Service Java API",
+            "associatedOU":"Synectiks",
+            "associatedDept":"LOGISTICS",
+            "associatedProduct":"AUCTION",
+            "associatedEnv": "TEST",
+            "associatedLandingZone":"897373451",
+            "associatedProductEnclave":"897373451-VPC1",
+            "associatedCluster":"897373451-VPC1-Cluster2",
+            "serviceNature": "Common", 
+            "associatedCommonService":"SecurityRbac",
+            "associatedBusinessService":"NA",  
+            "serviceType": "App", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"AUCTION",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"897373451-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        },
+        {
+            "id" : 5,
+            "name": "SecurityRbac-data1",
+            "description":"Common Security/RBAC Postgresql Database",
+            "associatedOU":"Synectiks",
+            "associatedDept":"LOGISTICS",
+            "associatedProduct":"AUCTION",
+            "associatedEnv": "TEST",
+            "associatedLandingZone":"897373451",
+            "associatedProductEnclave":"897373451-VPC1",
+            "associatedCluster":"897373451-VPC1-Cluster2",
+            "serviceNature": "Common", 
+            "associatedCommonService":"SecurityRbac",
+            "associatedBusinessService":"NA",  
+            "serviceType": "Data", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"AUCTION",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"897373451-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        }
+    ]
+}

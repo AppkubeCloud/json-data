@@ -1,0 +1,58 @@
+{
+    "services" : [
+        {
+            "id" : 13,
+            "name": "WorkflowEngine-app1",
+            "description":"Common WorkflowEngine Service JAVA API",
+            "associatedOU":"Synectiks",
+            "associatedDept":"LOGISTICS",
+            "associatedProduct":"AUCTION",
+            "associatedEnv": "STAGE",
+            "associatedLandingZone":"897373451",
+            "associatedProductEnclave":"897373451-VPC1",
+            "associatedCluster":"897373451-VPC1-Cluster2",
+            "serviceNature": "Common", 
+            "associatedCommonService":"WorkflowEngine",
+            "associatedBusinessService":"NA",  
+            "serviceType": "App", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"AUCTION",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"897373451-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        },
+        {
+            "id" : 14,
+            "name": "WorkflowEngine-data1",
+            "description":"Common WorkflowEngine Service S3 ObjectStore",
+            "associatedOU":"Synectiks",
+            "associatedDept":"LOGISTICS",
+            "associatedProduct":"AUCTION",
+            "associatedEnv": "STAGE",
+            "associatedLandingZone":"897373451",
+            "associatedProductEnclave":"NA",
+            "associatedCluster":"NA",
+            "serviceNature": "Common", 
+            "associatedCommonService":"WorkflowEngine",
+            "associatedBusinessService":"NA",  
+            "serviceType": "Data", 
+            "serviceHostingType": "GLOBAL",                   
+            "associatedClusterNamespace":"NA",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"S3-1234",    
+            "associatedGlobalServiceLocation":"S3",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        }
+    ]
+}

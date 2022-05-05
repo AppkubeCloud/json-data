@@ -1,0 +1,58 @@
+{
+    "services" : [
+        {
+            "id" : 29,
+            "name": "RealTimeAalytics-app1",
+            "description":"Common Realtime Grafana Based Analytic Service",
+            "associatedOU":"Synectiks",
+            "associatedDept":"LOGISTICS",
+            "associatedProduct":"AUCTION",
+            "associatedEnv": "STAGE",
+            "associatedLandingZone":"897373451",
+            "associatedProductEnclave":"897373451-VPC1",
+            "associatedCluster":"897373451-VPC1-Cluster2",
+            "serviceNature": "Common", 
+            "associatedCommonService":"RealTimeAalytics",
+            "associatedBusinessService":"NA",  
+            "serviceType": "App", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"AUCTION",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"897373451-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        },
+        {
+            "id" : 30,
+            "name": "RealTimeAalytics-data1",
+            "description":"Common RealTimeAalytics Grafana Service Postgresql Database",
+            "associatedOU":"Synectiks",
+            "associatedDept":"LOGISTICS",
+            "associatedProduct":"AUCTION",
+            "associatedEnv": "STAGE",
+            "associatedLandingZone":"897373451",
+            "associatedProductEnclave":"897373451-VPC1",
+            "associatedCluster":"897373451-VPC1-Cluster2",
+            "serviceNature": "Common", 
+            "associatedCommonService":"RealTimeAalytics",
+            "associatedBusinessService":"NA",  
+            "serviceType": "Data", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"AUCTION",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"897373451-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        }
+    ]
+}
