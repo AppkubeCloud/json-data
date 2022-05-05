@@ -1,0 +1,58 @@
+{
+    "services" : [
+        {
+            "id" : 63,
+            "name": "Transport-app1",
+            "description":"Transport Business Service Java API",
+            "associatedOU":"Synectiks",
+            "associatedDept":"HR",
+            "associatedProduct":"EMS",
+            "associatedEnv": "DEV",
+            "associatedLandingZone":"567373484",
+            "associatedProductEnclave":"567373484-VPC1",
+            "associatedCluster":"567373484-VPC1-Cluster2",
+            "serviceNature": "Business", 
+            "associatedCommonService":"NA",
+            "associatedBusinessService":"Transport",
+            "serviceType": "App", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"EMS",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"567373484-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        },
+        {
+            "id" : 64,
+            "name": "Transport-data1",
+            "description":"Transport Busines Service Postgresql Database",
+            "associatedOU":"Synectiks",
+            "associatedDept":"HR",
+            "associatedProduct":"EMS",
+            "associatedEnv": "DEV",
+            "associatedLandingZone":"567373484",
+            "associatedProductEnclave":"567373484-VPC1",
+            "associatedCluster":"567373484-VPC1-Cluster2",
+            "serviceNature": "Business", 
+            "associatedCommonService":"NA",
+            "associatedBusinessService":"Transport",  
+            "serviceType": "Data", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"EMS",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"567373484-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        }
+    ]
+}

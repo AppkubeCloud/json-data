@@ -1,6 +1,7 @@
-AWS
+Department - HR
+Product - EMS
+CLoud - AWS
 AWS-Account - 567373484
-AWS-Account-Vpc1 - VPC1 //PROD /STAGE
-AWS-Account-Vpc2 - VPC2 //DEV /TEST
-AWS-Account-Vpc1-Cluster1 - Cluster1 //PROD /STAGE
-AWS-Account-Vpc2-Cluster2 - Cluster2  //DEV /TEST
+AWS-Account-Vpc1 - VPC1 //PROD //STAGE //DEV  //TEST
+AWS-Account-Vpc1-Cluster1 - Cluster1 //PROD 
+AWS-Account-Vpc2-Cluster2 - Cluster2  //DEV /TEST /STAGE

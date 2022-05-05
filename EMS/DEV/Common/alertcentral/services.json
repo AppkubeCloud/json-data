@@ -1,0 +1,85 @@
+{
+    "services" : [
+        {
+            "id" : 18,
+            "name": "AlertCentral-app1",
+            "description":"Common AlertCentral Service Java API",
+            "associatedOU":"Synectiks",
+            "associatedDept":"HR",
+            "associatedProduct":"EMS",
+            "associatedEnv": "DEV",
+            "associatedLandingZone":"567373484",
+            "associatedProductEnclave":"567373484-VPC1",
+            "associatedCluster":"567373484-VPC1-Cluster2",
+            "serviceNature": "Common", 
+            "associatedCommonService":"AlertCentral",
+            "associatedBusinessService":"NA",  
+            "serviceType": "App", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"EMS",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"567373484-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        },
+        {
+            "id" : 19,
+            "name": "AlertCentral-data1",
+            "description":"Common AlertCentral Service Mongodb Database",
+            "associatedOU":"Synectiks",
+            "associatedDept":"HR",
+            "associatedProduct":"EMS",
+            "associatedEnv": "DEV",
+            "associatedLandingZone":"567373484",
+            "associatedProductEnclave":"567373484-VPC1",
+            "associatedCluster":"567373484-VPC1-Cluster2",
+            "serviceNature": "Common", 
+            "associatedCommonService":"AlertCentral",
+            "associatedBusinessService":"NA",  
+            "serviceType": "Data", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"EMS",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"567373484-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        },
+        {
+            "id" : 20,
+            "name": "AlertCentral-data2",
+            "description":"Common AlertCentral Service ES Database",
+            "associatedOU":"Synectiks",
+            "associatedDept":"HR",
+            "associatedProduct":"EMS",
+            "associatedEnv": "DEV",
+            "associatedLandingZone":"567373484",
+            "associatedProductEnclave":"567373484-VPC1",
+            "associatedCluster":"567373484-VPC1-Cluster2",
+            "serviceNature": "Common", 
+            "associatedCommonService":"AlertCentral",
+            "associatedBusinessService":"NA",  
+            "serviceType": "Data", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"EMS",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"567373484-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        }
+    ]
+}
