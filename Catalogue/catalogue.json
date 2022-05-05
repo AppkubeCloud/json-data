@@ -570,7 +570,7 @@
                 "description":"Amazon Redshift Monitoring and Audit connection Log",
                 "associatedDataSourceType":"AWS-PullLog-Api",
                 "associatedDataType":"LOG",
-                "associatedSLAType":"PERFORMANCE",
+                "associatedSLAType":"AVAILABILITY",
                 "associatedCloud":"AWS",
                 "associatedCloudElementType":"Redshift",
                 "jsonLocation":"s3://synectiks-monitoring-dashboards/AWS Dashboards/AWS Redshift/AWS - Redshift - Audit - Connection Log.json"
@@ -581,7 +581,7 @@
                 "description":"Amazon Redshift Monitoring and Overview of CloudTrail Events",
                 "associatedDataSourceType":"AWS-PullLog-Api",
                 "associatedDataType":"LOG",
-                "associatedSLAType":"PERFORMANCE",
+                "associatedSLAType":"AVAILABILITY",
                 "associatedCloud":"AWS",
                 "associatedCloudElementType":"Redshift",
                 "jsonLocation":"s3://synectiks-monitoring-dashboards/AWS Dashboards/AWS Redshift/AWS - RedShift - CloudTrail events Overview1.json"
