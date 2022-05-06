@@ -1,0 +1,58 @@
+{
+    "services" : [
+        {
+            "id" : 47,
+            "name": "Onboarding-app1",
+            "description":"Onboarding Business Service Java API",
+            "associatedOU":"Synectiks",
+            "associatedDept":"HR",
+            "associatedProduct":"HRMS",
+            "associatedEnv": "STAGE",
+            "associatedLandingZone":"237373414",
+            "associatedProductEnclave":"237373414-VPC1",
+            "associatedCluster":"237373414-VPC1-Cluster2",
+            "serviceNature": "Business", 
+            "associatedCommonService":"NA",
+            "associatedBusinessService":"Onboarding",
+            "serviceType": "App", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"HRMS-STAGE",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"237373414-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        },
+        {
+            "id" : 48,
+            "name": "Onboarding-data1",
+            "description":"Onboarding Busines Service Postgresql Database",
+            "associatedOU":"Synectiks",
+            "associatedDept":"HR",
+            "associatedProduct":"HRMS",
+            "associatedEnv": "STAGE",
+            "associatedLandingZone":"237373414",
+            "associatedProductEnclave":"237373414-VPC1",
+            "associatedCluster":"237373414-VPC1-Cluster2",
+            "serviceNature": "Business", 
+            "associatedCommonService":"NA",
+            "associatedBusinessService":"Onboarding",  
+            "serviceType": "Data", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"HRMS-STAGE",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"237373414-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        }
+    ]
+}

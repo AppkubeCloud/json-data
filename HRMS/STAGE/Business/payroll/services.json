@@ -1,0 +1,58 @@
+{
+    "services" : [
+        {
+            "id" : 57,
+            "name": "Payroll-app1",
+            "description":"Payroll Business Service Java API",
+            "associatedOU":"Synectiks",
+            "associatedDept":"HR",
+            "associatedProduct":"HRMS",
+            "associatedEnv": "STAGE",
+            "associatedLandingZone":"237373414",
+            "associatedProductEnclave":"237373414-VPC1",
+            "associatedCluster":"237373414-VPC1-Cluster2",
+            "serviceNature": "Business", 
+            "associatedCommonService":"NA",
+            "associatedBusinessService":"Payroll",
+            "serviceType": "App", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"HRMS-STAGE",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"237373414-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        },
+        {
+            "id" : 58,
+            "name": "Payroll-data1",
+            "description":"Payroll Busines Service Postgresql Database",
+            "associatedOU":"Synectiks",
+            "associatedDept":"HR",
+            "associatedProduct":"HRMS",
+            "associatedEnv": "STAGE",
+            "associatedLandingZone":"237373414",
+            "associatedProductEnclave":"237373414-VPC1",
+            "associatedCluster":"237373414-VPC1-Cluster2",
+            "serviceNature": "Business", 
+            "associatedCommonService":"NA",
+            "associatedBusinessService":"Payroll",  
+            "serviceType": "Data", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"HRMS-STAGE",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"237373414-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        }
+    ]
+}

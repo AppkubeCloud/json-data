@@ -1,0 +1,58 @@
+{
+    "services" : [
+        {
+            "id" : 47,
+            "name": "Rating-app1",
+            "description":"Rating Business Service Java API",
+            "associatedOU":"Synectiks",
+            "associatedDept":"HR",
+            "associatedProduct":"HRMS",
+            "associatedEnv": "STAGE",
+            "associatedLandingZone":"237373414",
+            "associatedProductEnclave":"237373414-VPC1",
+            "associatedCluster":"237373414-VPC1-Cluster2",
+            "serviceNature": "Business", 
+            "associatedCommonService":"NA",
+            "associatedBusinessService":"Rating",
+            "serviceType": "App", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"HRMS-STAGE",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"237373414-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        },
+        {
+            "id" : 48,
+            "name": "Rating-data1",
+            "description":"Rating Busines Service Postgresql Database",
+            "associatedOU":"Synectiks",
+            "associatedDept":"HR",
+            "associatedProduct":"HRMS",
+            "associatedEnv": "STAGE",
+            "associatedLandingZone":"237373414",
+            "associatedProductEnclave":"237373414-VPC1",
+            "associatedCluster":"237373414-VPC1-Cluster2",
+            "serviceNature": "Business", 
+            "associatedCommonService":"NA",
+            "associatedBusinessService":"Rating",  
+            "serviceType": "Data", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"HRMS-STAGE",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"237373414-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        }
+    ]
+}

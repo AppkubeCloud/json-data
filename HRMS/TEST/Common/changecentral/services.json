@@ -1,0 +1,58 @@
+{
+    "services" : [
+        {
+            "id" : 37,
+            "name": "changecentral-app1",
+            "description":"Common changecentral Service Node API",
+            "associatedOU":"Synectiks",
+            "associatedDept":"HR",
+            "associatedProduct":"HRMS",
+            "associatedEnv": "TEST",
+            "associatedLandingZone":"237373414",
+            "associatedProductEnclave":"237373414-VPC1",
+            "associatedCluster":"237373414-VPC1-Cluster2",
+            "serviceNature": "Common", 
+            "associatedCommonService":"changecentral",
+            "associatedBusinessService":"NA",  
+            "serviceType": "App", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"HRMS-TEST",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"237373414-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        },
+        {
+            "id" : 38,
+            "name": "changecentral-data1",
+            "description":"Common CMSCatalogue Service Git Database",
+            "associatedOU":"Synectiks",
+            "associatedDept":"HR",
+            "associatedProduct":"HRMS",
+            "associatedEnv": "TEST",
+            "associatedLandingZone":"237373414",
+            "associatedProductEnclave":"237373414-VPC1",
+            "associatedCluster":"237373414-VPC1-Cluster2",
+            "serviceNature": "Common", 
+            "associatedCommonService":"changecentral",
+            "associatedBusinessService":"NA",  
+            "serviceType": "Data", 
+            "serviceHostingType": "GLOBAL",                   
+            "associatedClusterNamespace":"NA",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"GIT-2",    
+            "associatedGlobalServiceLocation":"GIT",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        }
+    ]
+}

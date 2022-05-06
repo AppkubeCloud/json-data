@@ -1,0 +1,58 @@
+{
+    "services" : [
+        {
+            "id" : 35,
+            "name": "StaicReporting-app1",
+            "description":"Common StaicReporting NodeJs Based Service",
+            "associatedOU":"Synectiks",
+            "associatedDept":"HR",
+            "associatedProduct":"HRMS",
+            "associatedEnv": "STAGE",
+            "associatedLandingZone":"237373414",
+            "associatedProductEnclave":"237373414-VPC1",
+            "associatedCluster":"237373414-VPC1-Cluster2",
+            "serviceNature": "Common", 
+            "associatedCommonService":"StaicReporting",
+            "associatedBusinessService":"NA",  
+            "serviceType": "App", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"HRMS-STAGE",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"237373414-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        },
+        {
+            "id" : 36,
+            "name": "StaicReporting-data1",
+            "description":"Common StaicReporting Service S3 ObjectStore",
+            "associatedOU":"Synectiks",
+            "associatedDept":"HR",
+            "associatedProduct":"HRMS",
+            "associatedEnv": "STAGE",
+            "associatedLandingZone":"237373414",
+            "associatedProductEnclave":"NA",
+            "associatedCluster":"NA",
+            "serviceNature": "Common", 
+            "associatedCommonService":"StaicReporting",
+            "associatedBusinessService":"NA",  
+            "serviceType": "Data", 
+            "serviceHostingType": "GLOBAL",                   
+            "associatedClusterNamespace":"NA",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"237373414-S3-115",    
+            "associatedGlobalServiceLocation":"S3",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        }
+    ]
+}
