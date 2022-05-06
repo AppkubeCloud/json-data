@@ -1,0 +1,58 @@
+{
+    "services" : [
+        {
+            "id" : 45,
+            "name": "Inventory-app1",
+            "description":"Inventory Business Service Java API",
+            "associatedOU":"Synectiks",
+            "associatedDept":"LOGISTICS",
+            "associatedProduct":"PROCUREMENT",
+            "associatedEnv": "STAGE",
+            "associatedLandingZone":"687373481",
+            "associatedProductEnclave":"687373481-VPC1",
+            "associatedCluster":"687373481-VPC1-Cluster2",
+            "serviceNature": "Business", 
+            "associatedCommonService":"NA",
+            "associatedBusinessService":"Inventory",
+            "serviceType": "App", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"PROCUREMENT-STAGE",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"687373481-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        },
+        {
+            "id" : 46,
+            "name": "Inventory-data1",
+            "description":"Inventory Busines Service Postgresql Database",
+            "associatedOU":"Synectiks",
+            "associatedDept":"LOGISTICS",
+            "associatedProduct":"PROCUREMENT",
+            "associatedEnv": "STAGE",
+            "associatedLandingZone":"687373481",
+            "associatedProductEnclave":"687373481-VPC1",
+            "associatedCluster":"687373481-VPC1-Cluster2",
+            "serviceNature": "Business", 
+            "associatedCommonService":"NA",
+            "associatedBusinessService":"Inventory",  
+            "serviceType": "Data", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"PROCUREMENT-STAGE",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"687373481-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "services" : [
+        {
+            "id" : 39,
+            "name": "scriptcentral-app1",
+            "description":"Common scriptcentral Service GO API",
+            "associatedOU":"Synectiks",
+            "associatedDept":"LOGISTICS",
+            "associatedProduct":"PROCUREMENT",
+            "associatedEnv": "STAGE",
+            "associatedLandingZone":"687373481",
+            "associatedProductEnclave":"687373481-VPC1",
+            "associatedCluster":"687373481-VPC1-Cluster2",
+            "serviceNature": "Common", 
+            "associatedCommonService":"scriptcentral",
+            "associatedBusinessService":"NA",  
+            "serviceType": "App", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"PROCUREMENT-STAGE",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"687373481-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        },
+        {
+            "id" : 40,
+            "name": "scriptcentral-data1",
+            "description":"Common scriptcentral Service Postgresql Database",
+            "associatedOU":"Synectiks",
+            "associatedDept":"LOGISTICS",
+            "associatedProduct":"PROCUREMENT",
+            "associatedEnv": "STAGE",
+            "associatedLandingZone":"687373481",
+            "associatedProductEnclave":"687373481-VPC1",
+            "associatedCluster":"687373481-VPC1-Cluster2",
+            "serviceNature": "Common", 
+            "associatedCommonService":"scriptcentral",
+            "associatedBusinessService":"NA",  
+            "serviceType": "Data", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"PROCUREMENT-STAGE",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"687373481-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        },
+        {
+            "id" : 41,
+            "name": "scriptcentral-data2",
+            "description":"Common scriptcentral Service S3 ObjectStore",
+            "associatedOU":"Synectiks",
+            "associatedDept":"LOGISTICS",
+            "associatedProduct":"PROCUREMENT",
+            "associatedEnv": "STAGE",
+            "associatedLandingZone":"687373481",
+            "associatedProductEnclave":"NA",
+            "associatedCluster":"NA",
+            "serviceNature": "Common", 
+            "associatedCommonService":"scriptcentral",
+            "associatedBusinessService":"NA",  
+            "serviceType": "Data", 
+            "serviceHostingType": "GLOBAL",                   
+            "associatedClusterNamespace":"NA",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"687373481-S3-112",    
+            "associatedGlobalServiceLocation":"S3",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        }
+    ]
+}

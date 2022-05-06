@@ -1,0 +1,58 @@
+{
+    "services" : [
+        {
+            "id" : 6,
+            "name": "PreferenceConfig-app1",
+            "description":"Common PreferenceConfig Service Java API",
+            "associatedOU":"Synectiks",
+            "associatedDept":"LOGISTICS",
+            "associatedProduct":"PROCUREMENT",
+            "associatedEnv": "TEST",
+            "associatedLandingZone":"687373481",
+            "associatedProductEnclave":"687373481-VPC1",
+            "associatedCluster":"687373481-VPC1-Cluster2",
+            "serviceNature": "Common", 
+            "associatedCommonService":"PreferenceConfig",
+            "associatedBusinessService":"NA",  
+            "serviceType": "App", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"PROCUREMENT-TEST",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"687373481-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        },
+        {
+            "id" : 7,
+            "name": "PreferenceConfig-data1",
+            "description":"Common PreferenceConfig Postgresql Database",
+            "associatedOU":"Synectiks",
+            "associatedDept":"LOGISTICS",
+            "associatedProduct":"PROCUREMENT",
+            "associatedEnv": "TEST",
+            "associatedLandingZone":"687373481",
+            "associatedProductEnclave":"687373481-VPC1",
+            "associatedCluster":"687373481-VPC1-Cluster2",
+            "serviceNature": "Common", 
+            "associatedCommonService":"PreferenceConfig",
+            "associatedBusinessService":"NA",  
+            "serviceType": "Data", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"PROCUREMENT-TEST",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"687373481-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        }
+    ]
+}

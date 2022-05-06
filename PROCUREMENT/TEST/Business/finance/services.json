@@ -1,0 +1,58 @@
+{
+    "services" : [
+        {
+            "id" : 57,
+            "name": "Finance-app1",
+            "description":"Finance Business Service Java API",
+            "associatedOU":"Synectiks",
+            "associatedDept":"LOGISTICS",
+            "associatedProduct":"PROCUREMENT",
+            "associatedEnv": "TEST",
+            "associatedLandingZone":"687373481",
+            "associatedProductEnclave":"687373481-VPC1",
+            "associatedCluster":"687373481-VPC1-Cluster2",
+            "serviceNature": "Business", 
+            "associatedCommonService":"NA",
+            "associatedBusinessService":"Finance",
+            "serviceType": "App", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"PROCUREMENT-TEST",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"687373481-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        },
+        {
+            "id" : 58,
+            "name": "Finance-data1",
+            "description":"Finance Busines Service Postgresql Database",
+            "associatedOU":"Synectiks",
+            "associatedDept":"LOGISTICS",
+            "associatedProduct":"PROCUREMENT",
+            "associatedEnv": "TEST",
+            "associatedLandingZone":"687373481",
+            "associatedProductEnclave":"687373481-VPC1",
+            "associatedCluster":"687373481-VPC1-Cluster2",
+            "serviceNature": "Business", 
+            "associatedCommonService":"NA",
+            "associatedBusinessService":"Finance",  
+            "serviceType": "Data", 
+            "serviceHostingType": "Cluster",                   
+            "associatedClusterNamespace":"PROCUREMENT-TEST",  
+            "associatedManagedCloudServiceLocation":"NA",
+            "associatedCloudElementId":"687373481-VPC1-Cluster2",    
+            "associatedGlobalServiceLocation":"NA",             
+            "stats": {
+                "totalCostSoFar": "76",
+                "lastDayCost": "6",
+                "lastWeekCost": "15",
+                "lastMonthCost": "15"
+            }        
+        }
+    ]
+}
