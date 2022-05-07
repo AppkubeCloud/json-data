@@ -1,5 +1,5 @@
 {
-    "prod-services": [
+    "services": [
         {
             "id": 1,
             "name": "Search-app1",
@@ -1727,9 +1727,8 @@
                 "lastWeekCost": "15",
                 "lastMonthCost": "15"
             }
-        }
-    ],
-    "dev-services": [
+        },
+
         {
             "id": 1,
             "name": "Search-app1",
@@ -3457,9 +3456,8 @@
                 "lastWeekCost": "15",
                 "lastMonthCost": "15"
             }
-        }
-    ],
-    "stage-services": [
+        },
+
         {
             "id": 1,
             "name": "Search-app1",
@@ -5187,9 +5185,8 @@
                 "lastWeekCost": "15",
                 "lastMonthCost": "15"
             }
-        }
-    ],
-    "test-services": [
+        },
+
         {
             "id": 1,
             "name": "Search-app1",
