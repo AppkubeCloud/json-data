@@ -1248,9 +1248,109 @@
 
 
         ],
-        "ProvisioningTemplates":{
-            
-        },
+        "ProvisioningTemplates":[
+            {
+                "id" : 1,
+                "name": "AWS-Landing-Zone",
+                "description":"Create AWS Accounts with Best Practices",
+                "Type":"LandingZone",
+                "actOn":"MainProduct",
+                "associatedSpecsTemplate":"s3://...",
+                "associatedCloud":"AWS",
+                "associatedCreds":"Vault"
+            },
+            {
+                "id" : 2,
+                "name": "Azure-Landing-Zone",
+                "description":"Create Azure Account and Subscription with Best Practices",
+                "Type":"LandingZone",
+                "actOn":"MainProduct",
+                "associatedSpecsTemplate":"s3://...",
+                "associatedCloud":"Azure",
+                "associatedCreds":"Vault"               
+            },
+            {
+                "id" : 3,
+                "name": "Google-Landing-Zone",
+                "description":"Create Google Project with Best Practices",
+                "Type":"LandingZone",
+                "actOn":"MainProduct",
+                "associatedSpecsTemplate":"s3://...",
+                "associatedCloud":"Google",
+                "associatedCreds":"Vault"               
+            },
+            {
+                "id" : 4,
+                "name": "AWS-Product-Enclave",
+                "description":"Create AWS VPC/Gateway/Firewall Services",
+                "Type":"ProductEnclave",
+                "actOn":"LandingZone",
+                "associatedSpecsTemplate":"s3://...",
+                "associatedCloud":"AWS",
+                "associatedCreds":"Vault"
+            },
+            {
+                "id" : 5,
+                "name": "Azure-Product-Enclave",
+                "description":"Create Azure VPC/Gateway/Firewall Services",
+                "Type":"ProductEnclave",
+                "actOn":"LandingZone",
+                "associatedSpecsTemplate":"s3://...",
+                "associatedCloud":"Azure",
+                "associatedCreds":"Vault"              
+            },
+            {
+                "id" : 6,
+                "name": "Google-Product-Enclave",
+                "description":"Create Google VPC/Gateway/Firewall Services",
+                "Type":"ProductEnclave",
+                "actOn":"LandingZone",
+                "associatedSpecsTemplate":"s3://...",
+                "associatedCloud":"Google",
+                "associatedCreds":"Vault"               
+            },
+            {
+                "id" : 7,
+                "name": "AWS-Product-Cluster",
+                "description":"Create EKS k8 cluster with best practices",
+                "Type":"ProductCluster",
+                "actOn":"ProductEnclave",
+                "associatedSpecsTemplate":"s3://...",
+                "associatedCloud":"AWS",
+                "associatedCreds":"Vault"
+            },
+            {
+                "id" : 8,
+                "name": "Azure-Product-Cluster",
+                "description":"Create Azure AKS k8 cluster with best practices",
+                "Type":"ProductCluster",
+                "actOn":"ProductEnclave",
+                "associatedSpecsTemplate":"s3://...",
+                "associatedCloud":"Azure",
+                "associatedCreds":"Vault"              
+            },
+            {
+                "id" : 9,
+                "name": "Google-Product-Cluster",
+                "description":"Create Google k8 cluster with best practices",
+                "Type":"ProductCluster",
+                "actOn":"ProductEnclave",
+                "associatedSpecsTemplate":"s3://...",
+                "associatedCloud":"Google",
+                "associatedCreds":"Vault"               
+            },
+            {
+                "id" : 10,
+                "name": "Common-Service-File-Repo",
+                "description":"Provision Filerepo Common Services",
+                "Type":"CommonService",
+                "actOn":"ProductEnclave",
+                "associatedSpecsTemplate":"s3://...",
+                "associatedCloud":"Google",
+                "associatedCreds":"Vault"               
+            }
+
+        ],
         "AlertRules":{
             
         },
