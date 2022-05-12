@@ -1,0 +1,46 @@
+    {
+      "id": 47,
+      "name": "Bidding-app1",
+      "description": "Bidding Business Service Java API",
+      "associatedOU": "Synectiks",
+      "associatedDept": "LOGISTICS",
+      "associatedProduct": "AUCTION",
+      "associatedEnv": "PROD",
+      "associatedLandingZone": "897373451",
+      "associatedProductEnclave": "897373451-VPC1",
+      "associatedCluster": "897373451-VPC1-Cluster1",
+      "serviceNature": "Business",
+      "associatedCommonService": "NA",
+      "associatedBusinessService": "Bidding",
+      "serviceType": "App",
+      "serviceHostingType": "Cluster",
+      "associatedClusterNamespace": "AUCTION",
+      "associatedManagedCloudServiceLocation": "NA",
+      "associatedCloudElementId": "897373451-VPC1-Cluster1",
+      "associatedGlobalServiceLocation": "NA",
+      "Cost": {
+        "totalCostSoFar": "76",
+        "lastDayCost": "6",
+        "lastWeekCost": "15",
+        "lastMonthCost": "15"
+      },
+      "SLA": {
+          "PerformanceScore":"98",
+          "AppPerformance":{
+            "totalCost": "76",
+            "lastDayCost": "6",
+            "lastWeekCost": "15",
+            "lastMonthCost": "15"    
+          },
+          "DataPerformance":{
+            "Read": "76",
+            "Write": "6",
+            "Latency": "15",
+            "lastMonthCost": "15"    
+          },
+          "images":[
+              "location1",
+              "location2"
+          ]
+      }
+    }

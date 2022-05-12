@@ -1,0 +1,2 @@
+id,name,description,associatedOU,associatedDept,associatedProduct,associatedEnv,associatedLandingZone,associatedProductEnclave,associatedCluster,serviceNature,associatedCommonService,associatedBusinessService,serviceType,serviceHostingType,associatedClusterNamespace,associatedManagedCloudServiceLocation,associatedCloudElementId,associatedGlobalServiceLocation
+47,Bidding-app1,Bidding Business Service Java API,Synectiks,LOGISTICS,AUCTION,PROD,897373451,897373451-VPC1,897373451-VPC1-Cluster1,Business,NA,Bidding,App,Cluster,AUCTION,NA,897373451-VPC1-Cluster1,NA
