@@ -1495,6 +1495,49 @@
                 
             },
             {
+                "id":98,
+                "name":"Cloudfront-Metrics",
+                "description":"Cloudfront Metrics Overview",
+                "associatedDataSourceType":"AWS-PullMetric-Api",
+                "associatedDataType":"METRIC",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"AWS",
+                "associatedCloudElementType":"Cloudfront",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/AWS Dashboards/Cloudfront/Cloud Front Metrics.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/CloudFront/metrics.png",
+                   "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/CloudFront/metrics1.png"
+                ]
+            },
+            {
+                "id":99,
+                "name":"Cloudfront-overview-visitor-statistics",
+                "description":"Cloudfront overview of visitor statistics",
+                "associatedDataSourceType":"AWS-PullLog-Api",
+                "associatedDataType":"LOG",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"AWS",
+                "associatedCloudElementType":"Cloudfront",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/AWS Dashboards/Cloudfront/cloud front - overview, visitor statistics.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/CloudFront/overview-visitor-statistics.png"
+                ]
+            },
+            {
+                "id":100,
+                "name":"Cloudfront-Web-Operations",
+                "description":"Cloudfront Web Operations Overview",
+                "associatedDataSourceType":"AWS-PullLog-Api",
+                "associatedDataType":"LOG",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"AWS",
+                "associatedCloudElementType":"Cloudfront",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/AWS Dashboards/Cloudfront/Cloud Front Web Operations.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/CloudFront/web-operations.png"
+                ]
+            },
+            {
                 "id" : 1,
                 "name": "Azure Active Directory - Overview",
                 "description":"Azure Active Directory Operations",
