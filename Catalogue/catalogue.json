@@ -74,7 +74,7 @@
                 "description": "AWS CloudTrail Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
                 "associatedDataType": "LOG",
-                "associatedSLAType": "AVAILABILITY",
+                "associatedSLAType": "Availability",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "CloudTrail-Network-Security",
                 "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/CloudTrail/AWS Cloudtrail Network & Security.json",
@@ -85,12 +85,12 @@
                 ]
             },
             {
-                "id": 5,
+                "id": 4,
                 "name": "AWS-CloudTrail-Operations",
                 "description": "AWS CloudTrail Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
                 "associatedDataType": "LOG",
-                "associatedSLAType": "AVAILABILITY",
+                "associatedSLAType": "Availability",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "CloudTrail",
                 "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/CloudTrail/AWS CloudTrail - Operations.json",
@@ -99,12 +99,12 @@
                 ]
             },
             {
-                "id": 6,
+                "id": 5,
                 "name": "AWS-CloudTrail-Console-Logins",
                 "description": "AWS CloudTrail Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
                 "associatedDataType": "LOG",
-                "associatedSLAType": "RELIABILITY",
+                "associatedSLAType": "Reliability",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "CloudTrail",
                 "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/CloudTrail/Console Logins.json",
@@ -114,12 +114,12 @@
                 ]
             },
             {
-                "id": 8,
+                "id": 6,
                 "name": "AWS-Config-Overview",
                 "description": "AWS Config Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
                 "associatedDataType": "LOG",
-                "associatedSLAType": "AVAILABILITY",
+                "associatedSLAType": "Availability",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "Config",
                 "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/Config/AWS Config Overview.json",
@@ -128,7 +128,7 @@
                 ]
             },
             {
-                "id": 10,
+                "id": 7,
                 "name": "AWS-ELB-Application-Overview",
                 "description": "AWS ELB Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -142,7 +142,7 @@
                 ]
             },
             {
-                "id": 12,
+                "id": 8,
                 "name": "AWS-ELB-Status-Code-Analysis",
                 "description": "AWS ELB Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -150,13 +150,13 @@
                 "associatedSLAType": "PERFORMANCE",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "ELB",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/AWS ELB/ALB/AWS ELB Application Status Code Analysis.json",
+               "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/AWS ELB/ALB/AWS ELB Application Status Code Analysis.json",
                 "images": [
                     "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/ELB/STATUS-CODE-ANALYSIS.png"
                 ]
             },
             {
-                "id": 13,
+                "id": 9,
                 "name": "AWS-ELB-Request-Analysis",
                 "description": "AWS ELB Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -170,7 +170,7 @@
                 ]
             },
             {
-                "id": 43,
+                "id": 10,
                 "name": "AWS-LAMBDA-OVERVIEW",
                 "description": "AWS LAMBDA Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -185,12 +185,12 @@
                 ]
             },
             {
-                "id": 45,
+                "id": 11,
                 "name": "AWS-LAMBDA-CLOUDTRAIL-EVENT-OVERVIEW",
                 "description": "AWS LAMBDA Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
                 "associatedDataType": "LOG",
-                "associatedSLAType": "END-USER-STATS",
+                "associatedSLAType": "END USER STATS",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "Lambda",
                 "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/AWS Lambda/LAMBDA-CLOUDTRAIL-EVENTS-OVERVIEW.json",
@@ -200,7 +200,7 @@
                 ]
             },
             {
-                "id": 46,
+                "id": 12,
                 "name": "AWS-LAMBDA-Cloudwatch-Duration-And-Memory",
                 "description": "AWS LAMBDA Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -214,7 +214,7 @@
                 ]
             },
             {
-                "id": 47,
+                "id": 13,
                 "name": "AWS-LAMBDA-Cloudwatch-Duration-And-Memory",
                 "description": "AWS LAMBDA Operations",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
@@ -228,7 +228,7 @@
                 ]
             },
             {
-                "id": 48,
+                "id": 14,
                 "name": "AWS-LAMBDA-Cloudwatch-Usage",
                 "description": "AWS LAMBDA Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -243,7 +243,7 @@
                 ]
             },
             {
-                "id": 49,
+                "id": 15,
                 "name": "AWS-LAMBDA-ULM-Overview",
                 "description": "AWS LAMBDA Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -259,7 +259,7 @@
                 ]
             },
             {
-                "id": 50,
+                "id": 16,
                 "name": "AWS-LAMBDA-ULM-Overview",
                 "description": "AWS LAMBDA Operations",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
@@ -275,7 +275,7 @@
                 ]
             },
             {
-                "id": 51,
+                "id": 17,
                 "name": "AWS-LAMBDA-ULM-Error-Analysis",
                 "description": "AWS LAMBDA Operations",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
@@ -290,7 +290,7 @@
                 ]
             },
             {
-                "id": 52,
+                "id": 18,
                 "name": "AWS-LAMBDA-ULM-Error-Aanlysis",
                 "description": "AWS LAMBDA Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -305,7 +305,7 @@
                 ]
             },
             {
-                "id": 53,
+                "id": 19,
                 "name": "AWS-LAMBDA-ULM-Performance-Analysis",
                 "description": "AWS LAMBDA Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -320,7 +320,7 @@
                 ]
             },
             {
-                "id": 54,
+                "id": 20,
                 "name": "AWS-LAMBDA-ULM-Performance-Analysis",
                 "description": "AWS LAMBDA Operations",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
@@ -335,7 +335,7 @@
                 ]
             },
             {
-                "id": 57,
+                "id": 21,
                 "name": "AWS-LAMBDA-ULM-Request-Analysis",
                 "description": "AWS LAMBDA Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -351,7 +351,7 @@
                 ]
             },
             {
-                "id": 61,
+                "id": 22,
                 "name": "AWS-LAMBDA-ULM-Usage-Analysis",
                 "description": "AWS LAMBDA Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -366,7 +366,7 @@
                 ]
             },
             {
-                "id": 62,
+                "id": 23,
                 "name": "AWS-Secutity-Hub-Overview",
                 "description": "AWS SECURITY Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -381,7 +381,7 @@
                 ]
             },
             {
-                "id": 66,
+                "id": 24,
                 "name": "AWS-Secutity-Hub-Resource-Effected",
                 "description": "AWS SECURITY Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -395,7 +395,7 @@
                 ]
             },
             {
-                "id": 71,
+                "id": 25,
                 "name": "AWS-WAF-TRAFFIC",
                 "description": "AWS WAF Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -410,7 +410,7 @@
                 ]
             },
             {
-                "id": 76,
+                "id": 26,
                 "name": "AWS-DYNAMODB-CAPACITY-PLANNING",
                 "description": "AWS DYNAMODB Operations",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
@@ -424,7 +424,7 @@
                 ]
             },
             {
-                "id": 78,
+                "id": 27,
                 "name": "AWS-DYNAMODB-EVENTS",
                 "description": "AWS DYNAMODB Event Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -439,7 +439,7 @@
                 ]
             },
             {
-                "id": 80,
+                "id": 28,
                 "name": "AWS-DYNAMODB-LATENCY-&-ERRORS",
                 "description": "AWS DYNAMODB Latency and Errors Operations",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
@@ -453,7 +453,7 @@
                 ]
             },
             {
-                "id": 81,
+                "id": 29,
                 "name": "AWS-DYNAMODB-CAPACITY-PLANNING",
                 "description": "AWS DYNAMODB Operations",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
@@ -467,7 +467,7 @@
                 ]
             },
             {
-                "id": 82,
+                "id": 30,
                 "name": "AWS-ECS-Overview",
                 "description": "AWS ECS Monitoring Overview",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
@@ -482,10 +482,10 @@
                 ]
             },
             {
-                "id": 83,
+                "id": 31,
                 "name": "AWS-ECS-Overview",
                 "description": "AWS ECS Monitoring Overview",
-                "associatedDataSourceType": "AWS-PullLog-Api",
+                "associatedDataSourceType": "AWS-PullLg-Api",
                 "associatedDataType": "LOG",
                 "associatedSLAType": "PERFORMANCE",
                 "associatedCloud": "AWS",
@@ -497,7 +497,7 @@
                 ]
             },
             {
-                "id": 84,
+                "id": 32,
                 "name": "AWS-ECS-CPU-Utilization-Cluster-And-Service",
                 "description": "AWS ECS Operations",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
@@ -511,12 +511,12 @@
                 ]
             },
             {
-                "id": 85,
+                "id": 33,
                 "name": "AWS-ECS-CPU-&-MEMORY-RESERVATION-CLUSTER",
                 "description": "AWS ECS Operations",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
                 "associatedDataType": "METRIC",
-                "associatedSLAType": "PERFORMANCE",
+               "associatedSLAType": "PERFORMANCE",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "ECS",
                 "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/Amazon ECS/AWS ECS Metrics/AWS ECS - CPU & Memory Reservation - Cluster.json",
@@ -525,11 +525,11 @@
                 ]
             },
             {
-                "id": 86,
+                "id": 34,
                 "name": "AWS-ECS-EVENTS",
                 "description": "AWS ECS Events",
                 "associatedDataSourceType": "AWS-PullLog-Api",
-                "associatedDataType": "LOG",
+                "associatedDataType": "Log",
                 "associatedSLAType": "PERFORMANCE",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "ECS",
@@ -541,11 +541,11 @@
                 ]
             },
             {
-                "id": 93,
+                "id": 35,
                 "name": "Amazon-ElastiCache-REDIS-ULM-EVENT-OVERVIEW",
                 "description": "AWS ELASTICACHE Events Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
-                "associatedDataType": "LOG",
+                "associatedDataType": "Log",
                 "associatedSLAType": "PERFORMANCE",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "ElastiCache",
@@ -558,7 +558,7 @@
                 ]
             },
             {
-                "id": 97,
+                "id": 36,
                 "name": "Amazon-ElastiCache-Redis-ULM-Performance-Overview",
                 "description": "AWS ElastiCache Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -574,7 +574,7 @@
                 ]
             },
             {
-                "id": 98,
+                "id": 37,
                 "name": "Amazon ElastiCache Redis ULM-Performance Overview",
                 "description": "AWS ElastiCache Redis ULM Monitoring Performance Overview",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
@@ -590,7 +590,7 @@
                 ]
             },
             {
-                "id": 99,
+                "id": 38,
                 "name": "Amazon ElastiCache Redis ULM–Performance by Cluster",
                 "description": "AWS ElastiCache Redis ULM Performance Monitoring by Cluster",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
@@ -606,7 +606,7 @@
                 ]
             },
             {
-                "id": 101,
+                "id": 39,
                 "name": "Amazon ElastiCache Redis ULM–Performance by Host",
                 "description": "AWS ElastiCache Redis ULM Monitoring Performance by Host",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
@@ -621,7 +621,7 @@
                 ]
             },
             {
-                "id": 104,
+                "id": 40,
                 "name": "Amazon ElastiCache Redis ULM – Notifications",
                 "description": "AWS ElastiCache Redis ULM Monitoring Notifications",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -636,7 +636,7 @@
                 ]
             },
             {
-                "id": 105,
+                "id": 41,
                 "name": "Amazon GuardDuty - Overview",
                 "description": "Amazon GuardDuty Monitoring Performance Overview",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -652,7 +652,7 @@
                 ]
             },
             {
-                "id": 106,
+                "id": 42,
                 "name": "Amazon GuardDuty – CloudTrail Details",
                 "description": "Amazon GuardDuty Monitoring CloudTrail Details",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -667,7 +667,7 @@
                 ]
             },
             {
-                "id": 108,
+                "id": 43,
                 "name": "Amazon GuardDuty - Details(VPC,Subnet,Security Group)",
                 "description": "Amazon GuardDuty Monitoring VPC,Subnet,Security Group Details",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -681,7 +681,7 @@
                 ]
             },
             {
-                "id": 111,
+                "id": 44,
                 "name": "Amazon Kinesis – Streams - Events",
                 "description": "Amazon Kinesis Streams Monitoring Events",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -695,7 +695,7 @@
                 ]
             },
             {
-                "id": 118,
+                "id": 45,
                 "name": "Amazon Redshift - Overview",
                 "description": "Amazon Redshift Monitoring Performance Overview ",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -709,7 +709,7 @@
                 ]
             },
             {
-                "id": 119,
+                "id": 46,
                 "name": "Amazon Redshift - Overview",
                 "description": "Amazon Redshift Monitoring Performance Overview ",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
@@ -723,7 +723,7 @@
                 ]
             },
             {
-                "id": 120,
+                "id": 47,
                 "name": "Amazon Redshift – Audit - Connection Log",
                 "description": "Amazon Redshift Monitoring and Audit connection Log",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -738,7 +738,7 @@
                 ]
             },
             {
-                "id": 125,
+                "id": 48,
                 "name": "Amazon Redshift – CloudTrail Events Overview",
                 "description": "Amazon Redshift Monitoring and Overview of CloudTrail Events",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -754,7 +754,7 @@
                 ]
             },
             {
-                "id": 127,
+                "id": 49,
                 "name": "Amazon Redshift – Resource Utilization by ClusterIdentifier",
                 "description": "Amazon Redshift Monitoring Resource Utilization by ClusterIdentifier ",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
@@ -770,7 +770,7 @@
                 ]
             },
             {
-                "id": 128,
+                "id": 50,
                 "name": "Amazon Redshift – Resource Utilization by NodeID",
                 "description": "Amazon Redshift Monitoring Resource Utilization by NodeID ",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
@@ -787,7 +787,7 @@
                 ]
             },
             {
-                "id": 132,
+                "id": 51,
                 "name": "Amazon SES – CloudTrail Events Overview",
                 "description": "Amazon SES Monitoring and Overview of CloudTrail Events",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -803,7 +803,7 @@
                 ]
             },
             {
-                "id": 134,
+                "id": 52,
                 "name": "Amazon SES –CloudTrail Events by Event Name",
                 "description": "Amazon SES Monitoring of CloudTrail Events by Event name",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -818,7 +818,7 @@
                 ]
             },
             {
-                "id": 141,
+                "id": 53,
                 "name": "Amazon SNS - Overview",
                 "description": "Amazon SNS Performance Monitoring and OverView",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
@@ -833,7 +833,7 @@
                 ]
             },
             {
-                "id": 142,
+                "id": 54,
                 "name": "Amazon SNS - Overview",
                 "description": "Amazon SNS Performance Monitoring and OverView",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -848,7 +848,7 @@
                 ]
             },
             {
-                "id": 145,
+                "id": 55,
                 "name": "Amazon SNS – Metric by Region",
                 "description": "Amazon SNS Region Monitoring by metrics",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
@@ -862,7 +862,7 @@
                 ]
             },
             {
-                "id": 146,
+                "id": 56,
                 "name": "Amazon SNS – Metric by TopicName",
                 "description": "Amazon SNS TopicName Monitoring by metrics",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
@@ -876,7 +876,7 @@
                 ]
             },
             {
-                "id": 147,
+                "id": 57,
                 "name": "Amazon SNS – CloudTrail Events",
                 "description": "Amazon SNS Monitoring by CloudTrail Events",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -892,7 +892,7 @@
                 ]
             },
             {
-                "id": 149,
+                "id": 58,
                 "name": "Amazon SNS – CloudTrail Events",
                 "description": "Amazon SQS Monitoring  by CloudTrail Events",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -908,7 +908,7 @@
                 ]
             },
             {
-                "id": 151,
+                "id": 59,
                 "name": "Amazon SQS – Overview",
                 "description": "Amazon SQS Monitoring and Overview",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -923,7 +923,7 @@
                 ]
             },
             {
-                "id": 152,
+                "id": 60,
                 "name": "Amazon SQS – Overview",
                 "description": "Amazon SQS Monitoring and Overview",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
@@ -938,7 +938,7 @@
                 ]
             },
             {
-                "id": 153,
+                "id": 61,
                 "name": "Amazon SQS by QueueName",
                 "description": "Amazon SQS Monitoring by QueueName",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
@@ -953,7 +953,7 @@
                 ]
             },
             {
-                "id": 155,
+                "id": 62,
                 "name": "Amazon SQS by Region",
                 "description": "Amazon SQS Monitoring by Region",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
@@ -968,7 +968,7 @@
                 ]
             },
             {
-                "id": 157,
+                "id": 63,
                 "name": "Amazon VPC Flow Logs - Overview",
                 "description": "Amazon VPC Flow Logs Monitoring and OverView",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -984,7 +984,7 @@
                 ]
             },
             {
-                "id": 159,
+                "id": 64,
                 "name": "Amazon VPC Flow Logs - Traffic",
                 "description": "Amazon VPC Flow Logs Monitoring Traffic",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -992,7 +992,7 @@
                 "associatedSLAType": "PERFORMANCE",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "VPC",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/vpc/Amazon VPC Flow Logs - Traffic.json",
+               "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/vpc/Amazon VPC Flow Logs - Traffic.json",
                 "images": [
                     "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/VPC/flowLogs-Traffic.png",
                     "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/VPC/flowLogs-Traffic1.png",
@@ -1000,7 +1000,7 @@
                 ]
             },
             {
-                "id": 161,
+                "id": 65,
                 "name": "Amazon VPC Flow Logs - Accepts",
                 "description": "Amazon VPC Flow Logs Monitoring by Accepts",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -1016,7 +1016,7 @@
                 ]
             },
             {
-                "id": 163,
+                "id": 66,
                 "name": "Amazon VPC Flow Logs - Rejects",
                 "description": "Amazon VPC Flow Logs Monitoring by Rejects",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -1032,7 +1032,7 @@
                 ]
             },
             {
-                "id": 167,
+                "id": 67,
                 "name": "CIS AWS Monitoring – Access & Authentication",
                 "description": "CIS AWS Monitoring Access & Authentication",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -1047,7 +1047,7 @@
                 ]
             },
             {
-                "id": 168,
+                "id": 68,
                 "name": "CIS AWS Monitoring – Change Control",
                 "description": "CIS AWS Monitoring Change Control",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -1061,7 +1061,7 @@
                 ]
             },
             {
-                "id": 169,
+                "id": 69,
                 "name": "GI GuardDuty – Global Baseline",
                 "description": "GI GuardDuty Monitoring Global Baseline",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -1076,7 +1076,7 @@
                 ]
             },
             {
-                "id": 173,
+                "id": 70,
                 "name": "GI GuardDuty – Findings Analysis",
                 "description": "GI GuardDuty Monitoring and Findings Analysis",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -1090,8 +1090,8 @@
                     "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/GI/GuardDuty-Finding-Analysis1.png"
                 ]
             },
-            {
-                "id": 174,
+           {
+                "id": 71,
                 "name": "GI GuardDuty – Findings Analysis(1)",
                 "description": "GI GuardDuty Monitoring and Findings Analysis",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -1106,7 +1106,7 @@
                 ]
             },
             {
-                "id": 180,
+                "id": 72,
                 "name": "GI CloudTrail – Tactics & Techniques",
                 "description": "GI CloudTrail Monitoring Tactics & Techniques",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -1120,7 +1120,7 @@
                 ]
             },
             {
-                "id": 184,
+                "id": 73,
                 "name": "GI CloudTrail – Action Plan",
                 "description": "GI CloudTrail Monitoring by Action Plan",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -1136,7 +1136,7 @@
                 ]
             },
             {
-                "id": 185,
+                "id": 74,
                 "name": "GI CloudTrail – Action Plan(1)",
                 "description": "GI CloudTrail Monitoring by Action Plan",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -1152,7 +1152,7 @@
                 ]
             },
             {
-                "id": 187,
+                "id": 75,
                 "name": "AWS CloudTrail - Access Monitoring",
                 "description": "CloudTrail - Access Monitoring Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -1167,7 +1167,7 @@
                 ]
             },
             {
-                "id": 188,
+                "id": 76,
                 "name": "AWS CloudTrail - Account, System Monitoring",
                 "description": "CloudTrail - Account & System Monitoring Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -1181,7 +1181,7 @@
                 ]
             },
             {
-                "id": 189,
+                "id": 77,
                 "name": "AWS CloudTrail -Privileged Activity",
                 "description": "CloudTrail -Privileged Activity Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -1196,7 +1196,7 @@
                 ]
             },
             {
-                "id": 190,
+                "id": 78,
                 "name": "AWS CloudTrail -Login Activity",
                 "description": "CloudTrail -Login Activity Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -1211,9 +1211,9 @@
                 ]
             },
             {
-                "id": 195,
+                "id": 79,
                 "name": "AWS WAF - Overview",
-                "description": "WAF Monitering Overview",
+                "description": "WAF MonitOring Overview",
                 "associatedDataSourceType": "AWS-PullLog-Api",
                 "associatedDataType": "LOG",
                 "associatedSLAType": "PERFORMANCE",
@@ -1226,7 +1226,7 @@
                 ]
             },
             {
-                "id": 196,
+                "id": 80,
                 "name": "AWS WAF - Overview",
                 "description": "WAF Monitering Overview",
                 "associatedDataSourceType": "AWS-PullMetric-Api",
@@ -1241,7 +1241,7 @@
                 ]
             },
             {
-                "id": 197,
+                "id": 81,
                 "name": "AWS WAF - Security Analytics Traffic",
                 "description": "WAF - Security Analytics Traffic Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
@@ -1256,13 +1256,13 @@
                 ]
             },
             {
-                "id": 199,
+                "id": 82,
                 "name": "AWS WAF - Security Monitoring Overview",
                 "description": "WAF - Security Monitoring Overview Operations",
                 "associatedDataSourceType": "AWS-PullLog-Api",
                 "associatedDataType": "LOG",
                 "associatedSLAType": "PERFORMANCE",
-                "associatedCloud": "AWS",
+               "associatedCloud": "AWS",
                 "associatedCloudElementType": "WAF",
                 "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/AWS WAF/waf-security-monitoring.json",
                 "images": [
@@ -1271,228 +1271,459 @@
                 ]
             },
             {
-                "id": 1,
+                 "id" :83,
+                "name": "EC2-Overview",
+                "description":"EC2 Monitoring Overview",
+                "associatedDataSourceType":"Aws-PullLog-Api",
+                "associatedDataType":"Log",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"AWS",
+                "associatedCloudElementType":"Ec2",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/AWS Dashboards/EC2/EC2 Instance Overview.json",
+                "images":[
+                  "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/EC2/EC2-Overview.png"
+               ]
+            },
+            {
+                "id" :84,
+                "name": "EC2-AMI-And-Ip's",
+                "description":"EC2 Monitoring AMI And Ip's",
+                "associatedDataSourceType":"Aws-PullLog-Api",
+                "associatedDataType":"Log",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"AWS",
+                "associatedCloudElementType":"Ec2",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/AWS Dashboards/EC2/EC2-AMI-And-Ip's.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/EC2/EC2-AMI-And-Ip's.png"
+                ]
+           },
+           {
+                "id" :85,
+                "name": "EC2-Target And Security Group",
+                "description":"EC2 Monitoring Target And Security Group",
+                "associatedDataSourceType":"Aws-PullLog-Api",
+                "associatedDataType":"Log",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"AWS",
+                "associatedCloudElementType":"Ec2",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/AWS Dashboards/EC2/EC2-Target-Security Group.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/EC2/Target-And-Security-Group.png"
+                ]
+            },
+            {
+                "id" :86,
+                "name": "EC2-CPU-utilization-by-instance-and-Auto-scaling",
+                "description":"EC2 Monitoring CPU utilization by instance and Auto scaling",
+                "associatedDataSourceType":"Aws-MetricLog-Api",
+                "associatedDataType":"METRIC",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"AWS",
+                "associatedCloudElementType":"Ec2",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/AWS Dashboards/EC2/CPU-utilization-by-instance-and-Auto-scaling.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/EC2/CPU-Utilization-Instance-Auto-scaling-group-name.png",
+                   "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/EC2/CPU-Utilization-Instance-Auto-scaling-group-name1.png"
+                ]
+            },
+            {
+                "id" :87,
+                "name": "EC2-Disk-read-writes",
+                "description":"EC2 Monitoring Disk read writes",
+                "associatedDataSourceType":"Aws-MetricLog-Api",
+                "associatedDataType":"METRIC",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"AWS",
+                "associatedCloudElementType":"Ec2",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/AWS Dashboards/EC2/Disk-read-writes.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/EC2/Disk-read-writes-by-instanceID.png"
+                ]
+            },
+            {
+                "id" :88,
+                "name": "EC2-network-packets-in-out",
+                "description":"EC2 network packets in and out",
+                "associatedDataSourceType":"Aws-MetricLog-Api",
+                "associatedDataType":"METRIC",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"AWS",
+                "associatedCloudElementType":"Ec2",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/AWS Dashboards/EC2/network-packets-in-out.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/EC2/Network-packets-in-and-out.png"
+                ]
+            },
+            {
+                "id" :89,
+                "name": "API-Gateway-Overview",
+                "description":"API Gateway Overview",
+                "associatedDataSourceType":"Aws-PullMetric-Api",
+                "associatedDataType":"Metric",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"AWS",
+                "associatedCloudElementType":"API",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/AWS Dashboards/API Gateway/overiew.json",
+                "images":[
+                "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/API-Gateway/Overview.png"
+                 ]
+            },
+            {
+                "id" :90,
+                "name": "API-Audit-Events",
+                "description":"API Audit Events",
+                "associatedDataSourceType":"Aws-PullLog-Api",
+                "associatedDataType":"LOG",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"AWS",
+                "associatedCloudElementType":"API",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/AWS Dashboards/API Gateway/Audit-events.json",
+                "images":[
+                    "https://synectiks-monitoring-dashboards.s3.amazonaws.com/AWS+Dashboards/API+Gateway/Audit-events.json"
+                     ]
+            },
+            {
+                "id" :91,
+                "name": "API-Gateway-4xx-5xx-Errors",
+                "description":"API Gateway 4xx and 5xx Errors",
+                "associatedDataSourceType":"Aws-PullMetric-Api",
+                "associatedDataType":"Metric",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"AWS",
+                "associatedCloudElementType":"API",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/AWS Dashboards/API Gateway/4xx-5xx-errors.json",
+                "images":[
+                    "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/API-Gateway/4xx-5xx-Errors.png"
+                    ]
+            },
+            {
+                "id" :92,
+                "name": "API-Gateway-Enhanced-Monitoring",
+                "description":"API Gateway Enhanced Monitoring",
+                "associatedDataSourceType":"Aws-PullMetric-Api",
+                "associatedDataType":"Metric",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"AWS",
+                "associatedCloudElementType":"API",
+                "jsonLocation":"s3://syn-monitoring-images/AWS-Images/API-Gateway/Enhanced-Monitoring.png",
+                "images":[
+                    "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/API-Gateway/Enhanced-Monitoring.png"
+                    ]
+            },
+            {
+                "id" :93,
+                "name": "RDS-Aurora-Generic",
+                "description":"RDS Aurora Generic",
+                "associatedDataSourceType":"Aws-PullMetric-Api",
+                "associatedDataType":"Metric",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"AWS",
+                "associatedCloudElementType":"RDS",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/AWS Dashboards/RDS/aurora-generic.json",
+                "images":[
+                    "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/RDS/Aurora-Generic.png",
+                    "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/RDS/Aurora-Generic1.png",
+                    "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/RDS/Aurora-Generic+2.png",
+                    "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/RDS/Aurora-Generic3.png"
+                    ]
+            },
+            {
+                "id" :94,
+                "name": "RDS-CloudTrail-Audit-Events",
+                "description":"RDS-CloudTrail-Audit-Events",
+                "associatedDataSourceType":"Aws-PullLog-Api",
+                "associatedDataType":"Log",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"AWS",
+                "associatedCloudElementType":"RDS",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/AWS Dashboards/RDS/Cloudtrail-Audit-events.json",
+                "images":[
+                    "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/RDS/Cloudtrail-audit-events.png",
+                    "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/RDS/Cloudtrail-audit-events1.png"
+                   ]
+                
+            },
+            {
+                "id" :95,
+                "name": "RDS Overview by DataBase Instance",
+                "description":"RDS-Overview-By-DataBase-Instance",
+                "associatedDataSourceType":"Aws-PullMetric-Api",
+                "associatedDataType":"Metric",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"AWS",
+                "associatedCloudElementType":"RDS",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/AWS Dashboards/RDS/overview-database-instance.json",
+                "images":[
+                    "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/RDS/overview-by-DB-instance.png",
+                    "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/RDS/overview-by-DB-instance1.png",
+                    "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/RDS/overview-by-DB-instance2.png"
+                   ]
+                
+            },
+            {
+                "id" :96,
+                "name": "RDS Overview",
+                "description":"RDS-Overview",
+                "associatedDataSourceType":"Aws-PullMetric-Api",
+                "associatedDataType":"Metric",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"AWS",
+                "associatedCloudElementType":"RDS",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/AWS Dashboards/RDS/overview-database-instance.json",
+                "images":[
+                    "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/RDS/Overview.png",
+                    "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/RDS/overview1.png",
+                    "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/RDS/overview2.png"
+                   ]
+                
+            },
+            {
+                "id" :97,
+                "name": "RDS-CloudTrail-Non-Describe-Audit-Events",
+                "description":"RDS-CloudTrail-Non-Describe-Audit-Events",
+                "associatedDataSourceType":"Aws-PullLog-Api",
+                "associatedDataType":"Log",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"AWS",
+                "associatedCloudElementType":"RDS",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/AWS Dashboards/RDS/NonDescribe-CloudTrail-Audit.json",
+                "images":[
+                    "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/RDS/Describe-CloudTrail-Audit-Events.png",
+                    "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/RDS/Describe-CloudTrail-Audit-Events1.png"
+                   ]
+                
+            },
+            {
+                "id" : 1,
                 "name": "Azure Active Directory - Overview",
-                "description": "Azure Active Directory Operations",
-                "associatedDataSourceType": "Azure-PullLog-Api",
-                "associatedDataType": "LOG",
-                "associatedSLAType": "PERFORMANCE",
-                "associatedCloud": "Azure",
-                "associatedCloudElementType": "Active Directory-Operations",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Active Directory/Azure Active Directory - Overview.json"
+                "description":"Azure Active Directory Operations",
+                "associatedDataSourceType":"Azure-PullLog-Api",
+                "associatedDataType":"Log",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"Azure",
+                "associatedCloudElementType":"Active Directory-Operations",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Active Directory/Azure Active Directory - Overview.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/Active-Directory/Overview.png",
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/Active-Directory/Overview1.png"
+                ]
             },
             {
-                "id": 2,
+                "id" : 2,
                 "name": "Azure Active Directory - Application Management",
-                "description": "Azure Active Directory Applicaion Management Operations",
-                "associatedDataSourceType": "Azure-PullLog-Api",
-                "associatedDataType": "LOG",
-                "associatedSLAType": "PERFORMANCE",
-                "associatedCloud": "Azure",
-                "associatedCloudElementType": "Active Directory-Application Management Operations",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Active Directory/Azure Active Directory - Application Management.json"
+                "description":"Azure Active Directory Applicaion Management Operations",
+                "associatedDataSourceType":"Azure-PullLog-Api",
+                "associatedDataType":"Log",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"Azure",
+                "associatedCloudElementType":"Active Directory-Application Management Operations",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Active Directory/Azure Active Directory - Application Management.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/Active-Directory/Application-management.png",
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/Active-Directory/Application-management1.png",
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/Active-Directory/Application-management2.png"
+                ]
             },
             {
-                "id": 3,
+                "id" : 3,
                 "name": "Azure Active Directory -  Authorization/Authentication",
-                "description": "Azure Active Directory Applicaion Management Operations",
-                "associatedDataSourceType": "Azure-PullLog-Api",
-                "associatedDataType": "LOG",
-                "associatedSLAType": "PERFORMANCE",
-                "associatedCloud": "Azure",
-                "associatedCloudElementType": "Active Directory-Application Management Operations",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Active Directory/Azure Active Directory - Authorization, Authentication.json"
+                "description":"Azure Active Directory Applicaion Management Operations",
+               "associatedDataSourceType":"Azure-PullLog-Api",
+                "associatedDataType":"Log",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"Azure",
+                "associatedCloudElementType":"Active Directory-Application Management Operations",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Active Directory/Azure Active Directory - Authorization, Authentication.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/Active-Directory/Authorization-Authentication.png",
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/Active-Directory/Authorization-Authentication1.png"
+                ]
             },
             {
-                "id": 4,
+                "id" : 4,
                 "name": "Azure Active Directiory - Directory Management",
-                "description": "Azure Active Directory management Operations",
-                "associatedDataSourceType": "Azure-PullLog-Api",
-                "associatedDataType": "LOG",
-                "associatedSLAType": "PERFORMANCE",
-                "associatedCloud": "Azure",
-                "associatedCloudElementType": "Active Directory Management Operations",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Active Directory/Azure Active Directory - Directory Management.json"
+                "description":"Azure Active Directory management Operations",
+                "associatedDataSourceType":"Azure-PullLog-Api",
+                "associatedDataType":"Log",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"Azure",
+                "associatedCloudElementType":"Active Directory Management Operations",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Active Directory/Azure Active Directory - Directory Management.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/Active-Directory/Directory-Management.png",
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/Active-Directory/Directory-Management1.png"
+                ]
             },
             {
-                "id": 5,
+                "id" : 5,
                 "name": "Azure Active Directory - Failure Sign-in Events ",
-                "description": "Azure Active Directory Failed Sign-in Operations",
-                "associatedDataSourceType": "Azure-PullLog-Api",
-                "associatedDataType": "LOG",
-                "associatedSLAType": "PERFORMANCE",
-                "associatedCloud": "Azure",
-                "associatedCloudElementType": "Active Directory Failed Sign-in Operations",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Active Directory/Azure Active Directory -- Failure Sign_In Events.json"
+                "description":"Azure Active Directory Failed Sign-in Operations",
+                "associatedDataSourceType":"Azure-PullLog-Api",
+                "associatedDataType":"Log",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"Azure",
+                "associatedCloudElementType":"Active Directory Failed Sign-in Operations",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Active Directory/Azure Active Directory -- Failure Sign_In Events.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/Active-Directory/Failure-SignIns.png",
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/Active-Directory/Failure-SignIns1.png"   
+                ]
             },
             {
-                "id": 6,
+                "id" : 6,
                 "name": "Azure Active Directory - Successful  Sign-in Events ",
-                "description": "Azure Active Directory Success Sign-in Operations",
-                "associatedDataSourceType": "Azure-PullLog-Api",
-                "associatedDataType": "LOG",
-                "associatedSLAType": "PERFORMANCE",
-                "associatedCloud": "Azure",
-                "associatedCloudElementType": "Active Directory Success Sign-in Operations",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Active Directory/Azure Active Directory - Success Sign-Ins.json"
+                "description":"Azure Active Directory Success Sign-in Operations",
+                "associatedDataSourceType":"Azure-PullLog-Api",
+                "associatedDataType":"Log",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"Azure",
+                "associatedCloudElementType":"Active Directory Success Sign-in Operations",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Active Directory/Azure Active Directory - Success Sign-Ins.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/Active-Directory/Successful-SignIns.png",
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/Active-Directory/Successful-SignIns1.png",
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/Active-Directory/Successful-SignIns2.png"
+                ]
             },
             {
-                "id": 7,
+                "id" : 7,
                 "name": "Azure Audit - Overview",
-                "description": "Azure Audit - Overview- Operations",
-                "associatedDataSourceType": "Azure-PullLog-Api",
-                "associatedDataType": "LOG",
-                "associatedSLAType": "PERFORMANCE",
-                "associatedCloud": "Azure",
-                "associatedCloudElementType": "Azure Audit - Overview",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Audit/Azure Audit - OverView.json"
+                "description":"Azure Audit - Overview- Operations",
+                "associatedDataSourceType":"Azure-PullLog-Api",
+                "associatedDataType":"Log",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"Azure",
+                "associatedCloudElementType":"Azure Audit - Overview",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Audit/Azure Audit - OverView.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/Audit/overview.png",
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/Audit/overview1.png"
+                ]
             },
             {
-                "id": 8,
+                "id" : 8,
                 "name": "Azure Audit Resource usage",
-                "description": "Azure Audit Resource usage - Operations",
-                "associatedDataSourceType": "Azure-PullLog-Api",
-                "associatedDataType": "LOG",
-                "associatedSLAType": "PERFORMANCE",
-                "associatedCloud": "Azure",
-                "associatedCloudElementType": "Azure Audit - Resource Usasge",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Audit/Azure Audit - Resource Usage.json"
+                "description":"Azure Audit Resource usage - Operations",
+                "associatedDataSourceType":"Azure-PullLog-Api",
+                "associatedDataType":"Log",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"Azure",
+                "associatedCloudElementType":"Azure Audit - Resource Usasge",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Audit/Azure Audit - Resource Usage.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/Audit/resource-usage.png",
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/Audit/resource-usage1.png"
+                ]
             },
             {
-                "id": 9,
+                "id" :9,
                 "name": "Azure SQL – Blocking Stats",
-                "description": " SQL – Blocking Stats - Operations",
-                "associatedDataSourceType": "Azure-PullLog-Api",
-                "associatedDataType": "LOG",
-                "associatedSLAType": "PERFORMANCE",
-                "associatedCloud": "Azure",
-                "associatedCloudElementType": "Azure SQL – Blocking Stats",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure SQL/Azure SQL-Blocking Stats.json"
+                "description":" SQL – Blocking Stats - Operations",
+                "associatedDataSourceType":"Azure-PullLog-Api",
+                "associatedDataType":"Log",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"Azure",
+                "associatedCloudElementType":"Azure SQL – Blocking Stats",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure SQL/Azure SQL-Blocking Stats.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/SQL/Blocking-Stats.png",
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/SQL/Blocking-Stats1.png"
+                ]
             },
             {
-                "id": 10,
+                "id" :10,
                 "name": "Azure SQL –Errors",
-                "description": " SQL – Errors - Operations",
-                "associatedDataSourceType": "Azure-PullLog-Api",
-                "associatedDataType": "LOG",
-                "associatedSLAType": "PERFORMANCE",
-                "associatedCloud": "Azure",
-                "associatedCloudElementType": "Azure SQL – Errors",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure SQL/Azure SQL Errors.json"
+                "description":" SQL – Errors - Operations",
+                "associatedDataSourceType":"Azure-PullLog-Api",
+                "associatedDataType":"Log",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"Azure",
+                "associatedCloudElementType":"Azure SQL – Errors",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure SQL/Azure SQL Errors.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/SQL/Errors.png",
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/SQL/Errors1.png"
+                ]
             },
             {
-                "id": 11,
+                "id" :11,
                 "name": "Azure SQL – QueryStoreRuntime Stats",
-                "description": "SQL – QueryStoreRuntime Stats  Operations",
-                "associatedDataSourceType": "Azure-PullLog-Api",
-                "associatedDataType": "LOG",
-                "associatedSLAType": "PERFORMANCE",
-                "associatedCloud": "Azure",
-                "associatedCloudElementType": "Azure SQL – QueryStoreRuntime Stats",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure SQL/Azure SQL - Query StoreRuntime Stats.json"
+                "description":"SQL – QueryStoreRuntime Stats  Operations",
+                "associatedDataSourceType":"Azure-PullLog-Api",
+                "associatedDataType":"Log",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"Azure",
+                "associatedCloudElementType":"Azure SQL – QueryStoreRuntime Stats",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure SQL/Azure SQL - Query StoreRuntime Stats.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/SQL/Query-RunTime-stats.png",
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/SQL/Query-RunTime-stats1.png",
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/SQL/Query-RunTime-stats2.png",
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/SQL/Query-RunTime-stats3.png"
+                ]
             },
             {
-                "id": 12,
+                "id" :12,
                 "name": "Azure SQL – QueryStoreWait Stats",
-                "description": "Azure SQL – QueryStoreWait Stats  Operations",
-                "associatedDataSourceType": "Azure-PullLog-Api",
-                "associatedDataType": "LOG",
-                "associatedSLAType": "PERFORMANCE",
-                "associatedCloud": "Azure",
-                "associatedCloudElementType": "Azure SQL – QueryStoreRuntime",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure SQL/Azure SQL-Query Store Wait Stats.json"
+                "description":"Azure SQL – QueryStoreWait Stats  Operations",
+                "associatedDataSourceType":"Azure-PullLog-Api",
+                "associatedDataType":"Log",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"Azure",
+                "associatedCloudElementType":"Azure SQL – QueryStoreRuntime",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure SQL/Azure SQL-Query Store Wait Stats.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/SQL/QueryWait-Stats.png",
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/SQL/QueryWait-Stats1.png"
+                ]
             },
             {
-                "id": 13,
+                "id" :13,
                 "name": "Azure SQL – Timeouts",
-                "description": "Azure SQL – Timeouts  Operations",
-                "associatedDataSourceType": "Azure-PullLog-Api",
-                "associatedDataType": "LOG",
-                "associatedSLAType": "PERFORMANCE",
-                "associatedCloud": "Azure",
-                "associatedCloudElementType": "Azure SQL – Timeouts",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure SQL/Azure SQL TimeOuts.json"
+                "description":"Azure SQL – Timeouts  Operations",
+                "associatedDataSourceType":"Azure-PullLog-Api",
+                "associatedDataType":"Log",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"Azure",
+                "associatedCloudElementType":"Azure SQL – Timeouts",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure SQL/Azure SQL TimeOuts.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/SQL/Timeouts.png"
+                ]
+    
             },
             {
-                "id": 14,
-                "name": "Azure Web Apps Overview",
-                "description": "Azure Web Apps – Operations",
-                "associatedDataSourceType": "Azure-PullLog-Api",
-                "associatedDataType": "LOG",
-                "associatedSLAType": "PERFORMANCE",
-                "associatedCloud": "Azure",
-                "associatedCloudElementType": "Azure Web Apps",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Web Apps/Azure Web Apps-Overview.json"
-            },
+                "id" :14,
+                "name": "Office 365 – SharePoint – Content Insight",
+                "description":"Office 365 – SharePoint – Content Insight Operations",
+                "associatedDataSourceType":"Azure-PullLog-Api",
+                "associatedDataType":"Log",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"Azure",
+                "associatedCloudElementType":"Office 365",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/Azure Dashboards/Office 365/Office 365 – SharePoint – Shared Content Non – Domain Activities.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/Office-365/Content-insight.png",
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/Office-365/Content-insight1.png"
+             ]
+            }, 
             {
-                "id": 15,
-                "name": "Azure Web Apps – Server Operation – Errors and Response Codes",
-                "description": "Azure Web Server Operation – Errors and Response Codes",
-                "associatedDataSourceType": "Azure-PullLog-Api",
-                "associatedDataType": "LOG",
-                "associatedSLAType": "PERFORMANCE",
-                "associatedCloud": "Azure",
-                "associatedCloudElementType": "Azure Web Apps",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Web Apps/Azure Web Apps-Server Operation-Errors and Response Codes.json"
-            },
-            {
-                "id": 16,
-                "name": "Azure Web Apps – Traffic Insights – Apps and Requests",
-                "description": "Azure Web Apps – Traffic Insights – Apps and Requests",
-                "associatedDataSourceType": "Azure-PullLog-Api",
-                "associatedDataType": "LOG",
-                "associatedSLAType": "PERFORMANCE",
-                "associatedCloud": "Azure",
-                "associatedCloudElementType": "Azure Web Apps",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Web Apps/Azure Web Apps - Traffic insights - Apps and requests.json"
-            },
-            {
-                "id": 17,
+                "id" :15,
                 "name": "Office 365 – SharePoint – Shared Content Non-Domain Activities",
-                "description": "Office 365 – SharePoint – Shared Content Non-Domain Activities Operations",
-                "associatedDataSourceType": "Azure-PullLog-Api",
-                "associatedDataType": "LOG",
-                "associatedSLAType": "PERFORMANCE",
-                "associatedCloud": "Azure",
-                "associatedCloudElementType": "Office 365",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/Azure Dashboards/Office 365/Office 365 – SharePoint – Shared Content Non – Domain Activities.json"
-            },
-            {
-                "id": 8,
-                "name": "Azure-Active-Directory-Data",
-                "description": "Azure Active Directory Operations",
-                "associatedDataSourceType": "Azure-PullLog-Api",
-                "associatedDataType": "LOG",
-                "associatedSLAType": "PERFORMANCE",
-                "associatedCloud": "Azure",
-                "associatedCloudElementType": "Active Directory-Operations",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Active Directory/Azure Active Directory - Overview.json"
-            },
-            {
-                "id": 8,
-                "name": "Java-Spring-Boot-Trace",
-                "description": "Java Spring Boot App Tracer",
-                "associatedDataSourceType": "App-Trace",
-                "associatedDataType": "TRACE",
-                "associatedSLAType": "RELIABILITY",
-                "associatedCloud": "OTHER",
-                "associatedCloudElementType": "JAVA-APP",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Active Directory/Azure Active Directory - Overview.json"
-            },
-            {
-                "id": 8,
-                "name": "NodeJs-UI-Trace",
-                "description": "NODEJS App Tracer",
-                "associatedDataSourceType": "App-Trace",
-                "associatedDataType": "TRACE",
-                "associatedSLAType": "END-USER-STATS",
-                "associatedCloud": "OTHER",
-                "associatedCloudElementType": "NODE-APP",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Active Directory/Azure Active Directory - Overview.json"
-            }
-        
-        ]
-        ,
+                "description":"Office 365 – SharePoint – Shared Content Non-Domain Activities Operations",
+                "associatedDataSourceType":"Azure-PullLog-Api",
+                "associatedDataType":"Log",
+                "associatedSLAType":"PERFORMANCE",
+                "associatedCloud":"Azure",
+                "associatedCloudElementType":"Office 365",
+                "jsonLocation":"s3://synectiks-monitoring-dashboards/Azure Dashboards/Office 365/Office 365 – SharePoint – Shared Content Non – Domain Activities.json",
+                "images":[
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/Office-365/Domain-Activities.png",
+                   "https://syn-monitoring-images.s3.amazonaws.com/Azure-Images/Office-365/Domain-Activities1.png"
+             ]
+            } 
+        ],
         "dataSources": [
             {
                 "id": 1,
@@ -1589,13 +1820,24 @@
                 "associatedCreds": "Vault",
                 "associatedApplicationLocation": "TraceManager",
                 "associatedTargetDsType": "Zipkin"
+            },
+            {
+                "id": 8,
+                "name": "Azure Active Directory - Overview",
+                "description": "Azure Active Directory Operations",
+                "associatedDataSourceType": "Azure-PullLog-Api",
+                "associatedDataType": "Log",
+                "associatedSLAType": "PERFORMANCE",
+                "associatedCloud": "Azure",
+                "associatedCloudElementType": "Active Directory-Operations",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/Azure Dashboards/Azure Active Directory/Azure Active Directory - Overview.json"
             }
         ],
         "provisioningTemplates": [
             {
                 "id": 1,
                 "name": "AWS-Landing-Zone",
-                "description": "Create AWS Accounts with Best Practices",
+               "description": "Create AWS Accounts with Best Practices",
                 "Type": "LandingZone",
                 "actOn": "MainProduct",
                 "associatedSpecsTemplate": "s3://...",
