@@ -1538,6 +1538,233 @@
                 ]
             },
             {
+                "id": 101,
+                "name": "DynamoDB Performance",
+                "description": "Performance Analytics for DynamoDB",
+                "associatedDataSourceType": "AWS-PullMetric-Api",
+                "associatedDataType": "Metric",
+                "associatedSLAType": "PERFORMANCE",
+                "associatedCloud": "AWS",
+                "associatedCloudElementType": "CloudTrail",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/dynamodb/Performance.json",
+                "images": [
+                "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/dynamodb/Performance.png",
+                "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/dynamodb/Performance2.png"
+                ]
+            },
+            {
+                "id": 102,
+                "name": "DynamoDB Reliability",
+                "description": "Reliability Analytics for DynamoDB",
+                "associatedDataSourceType": "AWS-PullMetric-Api",
+                "associatedDataType": "Metric",
+                "associatedSLAType": "RELIABILITY",
+                "associatedCloud": "AWS",
+                "associatedCloudElementType": "CloudTrail",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/dynamodb/Reliability.json",
+                "images": [
+                "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/dynamodb/Reliability.png"
+                ]
+            },
+            {
+                "id": 103,
+                "name": "DynamoDB End User Stats",
+                "description": "End User Analytics for DynamoDB",
+                "associatedDataSourceType": "AWS-PullMetric-Api",
+                "associatedDataType": "Metric",
+                "associatedSLAType": "END USER STATS",
+                "associatedCloud": "AWS",
+                "associatedCloudElementType": "CloudTrail",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/dynamodb/End-User-Stats.json",
+                "images": [
+                "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/dynamodb/End-User-Stats.png"
+                ]
+            },
+            {
+                "id": 104,
+                "name": "API Gateway Performance",
+                "description": "Performance Analytics for API Gateway",
+                "associatedDataSourceType": "AWS-PullMetric-Api",
+                "associatedDataType": "Metric",
+                "associatedSLAType": "PERFORMANCE",
+                "associatedCloud": "AWS",
+                "associatedCloudElementType": "CloudTrail",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/api-gateway/Performance.json",
+                "images": [
+                "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/api-gateway/Performance.png"
+                ]
+            },
+            {
+                "id": 105,
+                "name": "API Gateway End User Stats",
+                "description": "End User Analytics for API Gateway",
+                "associatedDataSourceType": "AWS-PullMetric-Api",
+                "associatedDataType": "Metric",
+                "associatedSLAType": "END-USER-STATS",
+                "associatedCloud": "AWS",
+                "associatedCloudElementType": "CloudTrail",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/api-gateway/End-User-Stats.json",
+                "images": [
+                "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/api-gateway/End-User-Stats.png"
+                ]
+            },
+            {
+                "id": 106,
+                "name": "API Gateway Reliability",
+                "description": "Reliability Analytics for API Gateway",
+                "associatedDataSourceType": "AWS-PullMetric-Api",
+                "associatedDataType": "Metric",
+                "associatedSLAType": "Reliability",
+                "associatedCloud": "AWS",
+                "associatedCloudElementType": "CloudTrail",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/api-gateway/Reliability.json",
+                "images": [
+                "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/api-gateway/Reliability.png"
+                ]
+            },
+            {
+                "id": 107,
+                "name": "CloudFront Reliability",
+                "description": "Reliability Analytics for CloudFront",
+                "associatedDataSourceType": "AWS-PullLog-Api",
+                "associatedDataType": "Log",
+                "associatedSLAType": "Reliability",
+                "associatedCloud": "AWS",
+                "associatedCloudElementType": "CloudTrail",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/cloudfront/Reliability.json",
+                "images": [
+                "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/cloudfront/Reliability.png"
+                ]
+            },
+            {
+                "id": 108,
+                "name": "CloudFront End User Stats",
+                "description": "End User Analytics for CloudFront",
+                "associatedDataSourceType": "AWS-PullLog-Api",
+                "associatedDataType": "Log",
+                "associatedSLAType": "END-USER",
+                "associatedCloud": "AWS",
+                "associatedCloudElementType": "CloudTrail",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/cloudfront/End-User-Stats.json",
+                "images": [
+                "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/cloudfront/End-User-Stats.png"
+                ]
+            },
+            {
+                "id": 109,
+                "name": "CloudFront Performance",
+                "description": "Performance Analytics for CloudFront",
+                "associatedDataSourceType": "AWS-PullLog-Api",
+                "associatedDataType": "Log",
+                "associatedSLAType": "PERFORMANCE",
+                "associatedCloud": "AWS",
+                "associatedCloudElementType": "CloudTrail",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/cloudfront/Performance.json",
+                "images": [
+                "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/cloudfront/Performance.png"
+                ]
+            },
+            {
+                "id": 110,
+                "name": "S3 Performance",
+                "description": "Performance for s3",
+                "associatedDataSourceType": "AWS-PullLog-Api",
+                "associatedDataType": "Log",
+                "associatedSLAType": "PERFORMANCE",
+                "associatedCloud": "AWS",
+                "associatedCloudElementType": "CloudTrail",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/s3/Performance.json",
+                "images": [
+                "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/s3/Performance.png"
+                ]
+            },
+            {
+                "id": 111,
+                "name": "S3 Reliability",
+                "description": "Reliability Analytics for s3",
+                "associatedDataSourceType": "AWS-PullLog-Api",
+                "associatedDataType": "Log",
+                "associatedSLAType": "Reliability",
+                "associatedCloud": "AWS",
+                "associatedCloudElementType": "CloudTrail",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/s3/Reliability.json",
+                "images": [
+                "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/s3/Reliability.png"
+                ]
+            },
+            {
+                "id": 112,
+                "name": "S3 Availability",
+                "description": "Availability Analytics for s3",
+                "associatedDataSourceType": "AWS-PullLog-Api",
+                "associatedDataType": "Log",
+                "associatedSLAType": "Availability",
+                "associatedCloud": "AWS",
+                "associatedCloudElementType": "CloudTrail",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/s3/Availability.json",
+                "images": [
+                "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/s3/Availability.png"
+                ]
+            },
+            {
+                "id": 113,
+                "name": "Lambda Availability",
+                "description": "Availability Analytics for Lambda",
+                "associatedDataSourceType": "AWS-PullLog-Api",
+                "associatedDataType": "Log",
+                "associatedSLAType": "Availability",
+                "associatedCloud": "AWS",
+                "associatedCloudElementType": "CloudTrail",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/s3/Availability.json",
+                "images": [
+                "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/lambda/Availability.png"
+                ]
+            },
+            {
+                "id": 114,
+                "name": "Lambda Performance",
+                "description": "Performance Analytics for Lambda",
+                "associatedDataSourceType": "AWS-PullLog-Api",
+                "associatedDataType": "Log",
+                "associatedSLAType": "PERFORMANCE",
+                "associatedCloud": "AWS",
+                "associatedCloudElementType": "CloudTrail",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/s3/Performance.json",
+                "images": [
+                "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/lambda/Performance.png",
+                "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/lambda/Performance.png"
+                ]
+            },
+            {
+                "id": 115,
+                "name": "Lambda End User Stats",
+                "description": "End User Analytics for Lambda",
+                "associatedDataSourceType": "AWS-PullLog-Api",
+                "associatedDataType": "Log",
+                "associatedSLAType": "END-USER",
+                "associatedCloud": "AWS",
+                "associatedCloudElementType": "CloudTrail",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/lambda/End-Used-Stats.json",
+                "images": [
+                "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/lambda/End-User-Stats.png"
+                ]
+            },
+            {
+                "id": 116,
+                "name": "Lambda Reliability",
+                "description": "Reliability Analytics for Lambda",
+                "associatedDataSourceType": "AWS-PullLog-Api",
+                "associatedDataType": "Log",
+                "associatedSLAType": "Reliability",
+                "associatedCloud": "AWS",
+                "associatedCloudElementType": "CloudTrail",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/s3/Reliability.json",
+                "images": [
+                "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/lambda/Reliability.png",
+                "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/lambda/Reliability2.png"
+                ]
+            },       
+            {
                 "id" : 1,
                 "name": "Azure Active Directory - Overview",
                 "description":"Azure Active Directory Operations",
