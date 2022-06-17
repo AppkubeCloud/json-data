@@ -1546,7 +1546,7 @@
                 "associatedSLAType": "PERFORMANCE",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "CloudTrail",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/dynamodb/Performance.json",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS/DynamoDB/Performance.json",
                 "images": [
                 "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/dynamodb/Performance.png",
                 "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/dynamodb/Performance2.png"
@@ -1561,7 +1561,7 @@
                 "associatedSLAType": "RELIABILITY",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "CloudTrail",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/dynamodb/Reliability.json",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS/DynamoDB/Reliability.json",
                 "images": [
                 "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/dynamodb/Reliability.png"
                 ]
@@ -1575,7 +1575,7 @@
                 "associatedSLAType": "END USER STATS",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "CloudTrail",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/dynamodb/End-User-Stats.json",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS/DynamoDB/End User Stats.JSON",
                 "images": [
                 "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/dynamodb/End-User-Stats.png"
                 ]
@@ -1589,7 +1589,7 @@
                 "associatedSLAType": "PERFORMANCE",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "CloudTrail",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/api-gateway/Performance.json",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS/API Gateway/Performance.json",
                 "images": [
                 "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/api-gateway/Performance.png"
                 ]
@@ -1603,7 +1603,7 @@
                 "associatedSLAType": "END-USER-STATS",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "CloudTrail",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/api-gateway/End-User-Stats.json",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS/API Gateway/End-user Stats.json",
                 "images": [
                 "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/api-gateway/End-User-Stats.png"
                 ]
@@ -1631,7 +1631,7 @@
                 "associatedSLAType": "Reliability",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "CloudTrail",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/cloudfront/Reliability.json",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS/CloudFront/Reliability.json",
                 "images": [
                 "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/cloudfront/Reliability.png"
                 ]
@@ -1645,7 +1645,7 @@
                 "associatedSLAType": "END-USER",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "CloudTrail",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/cloudfront/End-User-Stats.json",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS/CloudFront/End User.json",
                 "images": [
                 "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/cloudfront/End-User-Stats.png"
                 ]
@@ -1659,7 +1659,7 @@
                 "associatedSLAType": "PERFORMANCE",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "CloudTrail",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/cloudfront/Performance.json",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS/CloudFront/Performance.json",
                 "images": [
                 "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/cloudfront/Performance.png"
                 ]
@@ -1673,7 +1673,7 @@
                 "associatedSLAType": "PERFORMANCE",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "CloudTrail",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/s3/Performance.json",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS/S3/Performance.json",
                 "images": [
                 "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/s3/Performance.png"
                 ]
@@ -1687,7 +1687,7 @@
                 "associatedSLAType": "Reliability",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "CloudTrail",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/s3/Reliability.json",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS/S3/Reliability.json",
                 "images": [
                 "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/s3/Reliability.png"
                 ]
@@ -1701,7 +1701,7 @@
                 "associatedSLAType": "Availability",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "CloudTrail",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/s3/Availability.json",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS/S3/Availability.json",
                 "images": [
                 "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/s3/Availability.png"
                 ]
@@ -1715,7 +1715,7 @@
                 "associatedSLAType": "Availability",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "CloudTrail",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/s3/Availability.json",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS/Lambda/Availability.json",
                 "images": [
                 "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/lambda/Availability.png"
                 ]
@@ -1729,7 +1729,7 @@
                 "associatedSLAType": "PERFORMANCE",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "CloudTrail",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/s3/Performance.json",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS/Lambda/Performance.json",
                 "images": [
                 "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/lambda/Performance.png",
                 "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/lambda/Performance.png"
@@ -1744,7 +1744,7 @@
                 "associatedSLAType": "END-USER",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "CloudTrail",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/lambda/End-Used-Stats.json",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS/Lambda/End User.json",
                 "images": [
                 "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/lambda/End-User-Stats.png"
                 ]
@@ -1758,7 +1758,7 @@
                 "associatedSLAType": "Reliability",
                 "associatedCloud": "AWS",
                 "associatedCloudElementType": "CloudTrail",
-                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS Dashboards/s3/Reliability.json",
+                "jsonLocation": "s3://synectiks-monitoring-dashboards/AWS/Lambda/Reliability.json",
                 "images": [
                 "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/lambda/Reliability.png",
                 "https://syn-monitoring-images.s3.amazonaws.com/AWS-Images/lambda/Reliability2.png"
