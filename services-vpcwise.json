@@ -1,0 +1,101 @@
+[
+    {
+        "account": "897373451",
+        "vpcs": [
+            {
+                "name": "VPC1",
+                "clusters": [
+                    {
+                        "name": "cluster1",
+                        "products": [
+                            {
+                                "name": "AUCTION",
+                                "environments": [
+                                    {
+                                        "name": "PROD",
+                                        "services": {
+                                            "common": [
+                                                {}
+                                            ],
+                                            "business": [
+                                                {
+                                                    "Name" : "Bidding",
+                                                    "description": "Bidding Business Service",
+                                                    "associatedOU": "Synectiks",
+                                                    "associatedDept": "LOGISTICS",
+                                                    "app": [
+                                                        {
+                                                            "id": "PROD_Bidding-app1",
+                                                            "serviceDetailId": 123,
+                                                            "name": "Bidding-app1",
+                                                            "description": "Bidding Business Service Java API",
+                                                            "associatedCloudElement": "Lambda",
+                                                            "associatedClusterNamespace": "NA",
+                                                            "associatedManagedCloudServiceLocation": "LAMDA-ARN",
+                                                            "associatedGlobalServiceLocation": "NA"
+                                                        },
+                                                        {
+                                                            "id": "PROD_Bidding-app2",
+                                                            "serviceDetailId": 123,
+                                                            "name": "Bidding-app2",
+                                                            "description": "Bidding Business Service Java API helper",
+                                                            "associatedCloudElement": "K8",
+                                                            "associatedClusterNamespace": "Prod_Bidding",
+                                                            "associatedManagedCloudServiceLocation": "K8-ARN",
+                                                            "associatedGlobalServiceLocation": "NA"
+                                                        }
+                                                    ],
+                                                    "data": [
+                                                        {
+                                                            "id": "PROD_Bidding-data1",
+                                                            "serviceDetailId": 123,
+                                                            "name": "Bidding-data1",
+                                                            "description": "Bidding Business Postgresql Dbs",
+                                                            "associatedCloudElement": "RDS",
+                                                            "associatedClusterNamespace": "NA",
+                                                            "associatedManagedCloudServiceLocation": "RDS-ARN",
+                                                            "associatedGlobalServiceLocation": "NA"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Procurement",
+                                "environments": [
+                                    {
+                                        "name": "dev",
+                                        "services": {
+                                            "common": [
+                                                {
+                                                    "name": "search",
+                                                    "app": [
+                                                        {
+                                                            "id": "dev_",
+                                                            "name": "Search-app1"
+                                                        }
+                                                    ],
+                                                    "data": []
+                                                }
+                                            ],
+                                            "business": [
+                                                {
+                                                    "name": "search",
+                                                    "app": [],
+                                                    "data": []
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
