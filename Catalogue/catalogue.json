@@ -2045,6 +2045,18 @@
             },
             {
                 "id": 4,
+                "name": "AWS-StoreTrace-Local",
+                "description": "Receive Traces and Store in Local Zipkin DB",
+                "Type": "ReceiveAndStoreTrace",
+                "DataType": "Trace",
+                "associatedWorkflowTemplate": "s3://...",
+                "associatedCloud": "AWS",
+                "associatedCreds": "Vault",
+                "associatedApplicationLocation": "TraceManager",
+                "associatedTargetDsType": "Zipkin"
+            },
+            {
+                "id": 4,
                 "name": "Azure-PullMetric-Api",
                 "description": "Pull Azure metrics with Cloud API",
                 "Type": "PullApi",
