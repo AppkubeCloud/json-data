@@ -1,0 +1,43 @@
+{
+    "metadata_json": {
+                "name": "Search-data2",
+                "description": "Common Search Service ES Database",
+                "associatedOU": "Synectiks",
+                "associatedDept": "HR",
+                "associatedProduct": "HRMS",
+                "associatedEnv": "PROD",
+                "associatedLandingZone": "567373484",
+                "associatedProductEnclave": "567373484-VPC1",
+                "associatedCluster": "567373484-VPC1-Cluster1",
+                "serviceNature": "Common",
+                "associatedCommonService": "Search",
+                "associatedBusinessService": "",
+                "serviceType": "Data",
+                "serviceHostingType": "Cluster",
+                "associatedClusterNamespace": "HRMS",
+                "associatedManagedCloudServiceLocation": "",
+                "associatedCloudElementId": "567373484-VPC1-Cluster1",
+                "associatedGlobalServiceLocation": "",
+                "stats": {
+                    "totalCostSoFar": "107",
+                    "lastDayCost": "97",
+                    "lastWeekCost": "0",
+                    "lastMonthCost": "10"
+                },
+                "performance": {
+                    "score": 17
+                },
+                "availability": {
+                    "score": 83
+                },
+                "security": {
+                    "score": 9
+                },
+                "dataProtection": {
+                    "score": 24
+                },
+                "userExperiance": {
+                    "score": 44
+                }
+            }
+}
