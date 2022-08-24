@@ -90,6 +90,23 @@ Update Services_Details( Id |  MetadataJson | VeiwJson | SLAJson)  Table --id/Me
 Update Account_Services Table (Id | Account_ID   | Account_Services_Json ) , update in the  Account_Services_Json as specified in format services-vpcwise.json
 
 
+UseCases --
+Service Specifics:
+    1. Deploy a product in any Environment with all its common and business services
+    2. Deploy a product in multiple Environment with all its common and business services
+    3. Add a  business or common services for a product in any specific env
+    4. Delete a  business or common services for a product in any specific env
+    5. Delete a Product ENV
+    6. Delete a complete product and remove all its resources
+
+Account and Cluster
+    1.Add a AWS Account with OU and Department 
+    2.Create NIST compliant product enclaves(Product Enclaves) with all associated infra
+    3.Create  Clusters for APP and Data Services Deployment
+    4.Create a common services stack for any product env
+
+
+
  
 
 
