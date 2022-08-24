@@ -1,0 +1,20 @@
+{
+    "serviceId": 59201,
+    "slaJson": {
+                "performance": {
+                    "score": 56.3
+                },
+                "availability": {
+                    "score": 34.9
+                },
+                "security": {
+                    "score": 90
+                },
+                "dataProtection": {
+                    "score": 29.2
+                },
+                "userExperiance": {
+                    "score": 80
+                }
+            }
+}
