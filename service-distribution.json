@@ -1,0 +1,140 @@
+EMS - PROD
+Business Services
+	List & Act --
+		List-Act-App1 (CL) - Java Spring Boot App in k8
+		List-Act-Data1 (CM) Postgresql
+		List-Act-Data2 (CM) ES
+		List-Act-Data2 (CM) Redis
+	Admission --
+		Admission-App1(CL) -Java Spring Boot App in k8
+		Admission-Data1(CL)Postgresql
+		Admission-Data2(CL)ES
+		Admission-Data3(CL)REDIS
+	LMS ---
+		LMS-App1 (CM) API's written in lambda  
+		List-Act-Data1 (CM) Postgresql Database
+		List-Act-Data2 (CM) ES
+		List-Act-Data2 (CM) Redis
+    Canteen ---
+        Canteen-App1 (CM) API's written in lambda  
+		Canteen-Data1 (CM) Postgresql Database
+		Canteen-Data2 (CM) ES
+		Canteen-Data2 (CM) Redis
+    Attendance --
+        Attendance-App1(CL) -Java Spring Boot App in k8
+		Attendance-Data1(CL)Postgresql
+		Attendance-Data2(CL)ES
+		Attendance-Data3(CL)REDIS
+    Collaboration/Chat --
+        Attendance-App1(CL) -Java Spring Boot App in k8
+		Attendance-Data1(CL)Postgresql
+		Attendance-Data2(CL)Kinesys
+		Attendance-Data3(CL)REDIS
+    CRM --
+        CRM-App1(CL) -Java Spring Boot App in k8
+		CRM-Data1(CL)Postgresql
+		CRM-Data2(CL)ES
+		CRM-Data3(CL)REDIS
+    EXAM --
+        EXAM-App1(CL) -Java Spring Boot App in k8
+		EXAM-Data1(CL)Postgresql
+		EXAM-Data2(CL)ES
+		EXAM-Data3(CL)REDIS
+    Finance --
+        Finance-App1(CL) -Java Spring Boot App in k8
+		Finance-Data1(CL)Postgresql
+		Finance-Data2(CL)ES
+		Finance-Data3(CL)REDIS
+    HRMS --
+        HRMS-App1(CL) -Java Spring Boot App in k8
+		HRMS-Data1(CL)Postgresql
+		HRMS-Data2(CL)ES
+		HRMS-Data3(CL)REDIS
+    Library --
+        Library-App1(CL) -Java Spring Boot App in k8
+		Library-Data1(CL)Postgresql
+		Library-Data2(CL)ES
+		Library-Data3(CL)REDIS
+    Transport --
+        Transport-App1(CL) -Java Spring Boot App in k8
+		Transport-Data1(CL)Postgresql
+		Transport-Data2(CL)ES
+		Transport-Data3(CL)REDIS
+
+Common Services
+        Search --
+            Search-App1 (CL) -Java Spring Boot App(Does NLP) in k8
+            Search-Data1 (CL) ES
+        PolicyManager
+            PolicyManager-App1 (CL) -Java Spring Boot App in k8
+            PolicyManager-App2 (CL) -Golang Bsed Data Collector
+            Search-Data1 (CL) -Postgresql
+        Catalogue
+            Catalogue-App1 (CL) -Java Spring Boot App in k8
+            Catalogue-Data1 (CL) -Postgresql
+            Catalogue-Data2 (GB) -Github Database Storing Pages 
+            Catalogue-Data3 (CM) -S3 service holding objects
+        ChangeCentral
+            ChangeCentral-App1 (CL) -Java Spring Boot App in k8
+            ChangeCentral-Data1 (CL) -Postgresql
+            ChangeCentral-Data2 (GB) -Github Database storing Change Objects
+        Dataflow
+            Dataflow-App1 (CL) -Java Spring Boot (Kylo Type) App in k8
+            Dataflow-App1 (CL) -Java App(NIFI) in k8    
+            Dataflow-Data1 (CL) -Postgresql DB for App1
+            Dataflow-Data2 (CL) -Postgresql DB for Nifi
+        SecurityRbac --
+            SecurityRbac-App1 (CL) -Java Spring Boot App in k8
+            SecurityRbac-Data1 (CL) -Postgresql DB for App1
+        PrefernceConfig --
+            PrefernceConfig-App1 (CL) -Java Spring Boot App in k8
+            PrefernceConfig-Data1 (CL) -Postgresql DB for App1
+        OLAPAnalytics --
+            OLAP-App1 (CL) -Node App in k8 (Turnilo)
+            OLAP-App2 (CL) -Druid Java APP in k8
+            OLAP-Data1 (CM) -Druid s3 database
+        RealtimeAnalytics --
+            RealtimeAnalytics-App1 (CL) -Node App in k8 (Dasboard.js)
+            RealtimeAnalytics-Data1- (CL) -Postgresql DB for App1
+            RealtimeAnalytics-Data2-- (CM) - s3 database
+        Static Reporting 
+			StaticRepo-App1 (CL) -Node App in k8
+			StaticRepo-Data1 (CM) Postgresql
+            StaticRepo-Data2 (GB) Github DB to store templates /Pages
+        FileRepo -- 
+			FileRepo-App1 (CM)(ApiGw)
+			FileRepo-App2 (CM)(Lambda)
+			FileRepo-Data1 (CM)(CDN)
+			FileRepo-Data2 (CM)(Dynamo)
+			FileRepo-Data3 (CM) (S3)
+		SecurityRBAC --
+			SecurityRBAC-App1 (CL) -Java Spring Boot App in k8
+			SecurityRBAC-Data1 (CL) Postgresql
+        Alert Central --
+            AlertCentral-App1 (CL) - Java Spring Boot App in k8
+		    AlertCentral-Data1 (CL) MongoDB
+		    AlertCentral-Data2 (CL) ES
+        LogCentral --
+            LogCentral-App1 (CL) - Java Spring Boot App in k8
+		    LogCentral-Data1 (CL) MongoDB
+		    LogCentral-Data2 (CL) ES
+            LogCentral-Data2 (CL) LOKI Database 
+        MetricCentral --
+            MetricCentral-App1 (CL) - Prometheus Server
+            MetricCentral-Data1 (CL) -Golang Based Metric Manager
+		    MetricCentral-Data1 (CL) Mimir Metric Database
+        TraceCentral
+            TraceCentral-App1 (CL) - Golang Based TraceManagement App
+            TraceCentral-App2 (CL) - Jaeger Server
+            TraceCentral-App3 (CL) - Zipkin Server
+            TraceCentral-Data1 (CL) -Jaeger Database
+            TraceCentral-Data2 (CL) -Zipkin Database
+        ScriptCentral --
+            ScriptCentral-App1 (CL) -Java Spring Boot App in k8
+            ScriptCentral-App2 (CL) -Golang Based Script Runner
+            ScriptCentral-App3 (CL) -NodeJs APi server for UI
+            ScriptCentral-Data1 (CL) -Postgresql DB for App1
+        SitesCentral
+            SitesCentral-App1 (CL) -Node App in k8
+			SitesCentral-Data1 (CM) Postgresql
+            SitesCentral-Data2 (GB) Github DB to store templates /Pages
