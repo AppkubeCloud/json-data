@@ -1,0 +1,25 @@
+{
+	"associatedOU": "Synectiks",
+	"associatedDept":"HR",
+	"associatedProduct":"EMS",
+	"associatedEnv":"PROD",
+	"serviceType":"app",
+	"serviceHostingType":"ClusterManaged",
+	"serviceNature": "Common",
+	"associatedCommonService": "SecurityRbac",
+	"associatedBusinessService": "NA",			
+	"clusterServiceLoaction":{
+		"id":"1",
+		"landingZone":"567373484",
+        "productEnclave":"VPC1",
+        "clusterId":"12345678",
+        "clusterName":"Cluster1",     
+        "clusterNamespace":"EmsCluster",
+        "serviceName":"SecurityRbac-app1",
+        "description": "Common Security/RBAC Service Java API",
+		"managementUrl":""
+	},
+	"cloudManagedServiceLoaction":{},
+	"globalServiceLoaction":{}
+	
+}
