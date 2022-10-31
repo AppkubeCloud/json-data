@@ -4,7 +4,7 @@ Business Services
 		List-Act-App1 (CL) - Java Spring Boot App in k8
 		List-Act-Data1 (CM) Postgresql
 		List-Act-Data2 (CM) ES
-		List-Act-Data2 (CM) Redis
+		List-Act-Data3 (CM) Redis
 	Admission --
 		Admission-App1(CL) -Java Spring Boot App in k8
 		Admission-Data1(CL)Postgresql
@@ -138,3 +138,33 @@ Common Services
             SitesCentral-App1 (CL) -Node App in k8
 			SitesCentral-Data1 (CM) Postgresql
             SitesCentral-Data2 (GB) Github DB to store templates /Pages
+
+        HR
+            EMS 
+              PROD
+                  COMMON
+                      CL
+                          APP
+                           HR-EMS-PROD-COMMON-CL-APP-ListAct-App1.json	
+                           HR-EMS-PROD-COMMON-CL-APP-ListAct-App2.json
+                               HR-EMS-PROD-COMMON-CL-DATA-ListAct-Data1.json
+                          DATA		
+                      GL
+                          APP
+                          DATA		
+                      CM
+                          APP
+                          DATA
+                          HR-EMS-PROD-COMMON-CM-DATA-ListAct-Data2.json		
+                  BUSINESS
+              DEV
+              STAGE
+              TEST
+          
+          Landing-Zone - 67894532
+          Product Enclave - VPC1
+          DEV/TEST/STAGE -- (Non-Prod-Cluster, Cluster1)
+          PROD -- (PROD_CLUSTER, CLUSTER2)
+          Namespace - EMS
+          
+          
