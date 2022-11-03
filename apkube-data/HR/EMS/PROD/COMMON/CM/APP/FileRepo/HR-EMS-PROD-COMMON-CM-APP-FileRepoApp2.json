@@ -1,0 +1,20 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"HR",
+	"associatedProduct":"EMS",
+	"associatedEnv":"PROD",
+	"serviceType":"app",
+	"serviceHostingType":"CloudManaged",
+	"serviceNature": "Common",
+	"associatedCommonService": "FileRepo",
+	"associatedBusinessService": "NA",
+    "serviceName":"FileRepo-App2",
+    "description": "Lambda",		
+    "cloudManagedServiceLoaction":{
+        "landingZone":"67894532",
+        "productEnclave":"VPC1",
+        "cloudElementType":"Lambda",
+        "cloudElementId":{"1234":"321"},
+        "managementUrl":"Url-1"
+    }
+}

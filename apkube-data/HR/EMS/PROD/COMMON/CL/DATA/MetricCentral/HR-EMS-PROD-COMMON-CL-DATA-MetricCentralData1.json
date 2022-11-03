@@ -1,0 +1,21 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"HR",
+	"associatedProduct":"EMS",
+	"associatedEnv":"PROD",
+	"serviceType":"data",
+	"serviceHostingType":"ClusterManaged",
+	"serviceNature": "Common",
+	"associatedCommonService": "MatricCentral",
+	"associatedBusinessService": "NA",
+    "serviceName":"MatricCentral-Data1",
+    "description": "Golang Based Metric Manager",
+    "clusterServiceLoaction":{
+        "landingZone":"67894532",
+        "productEnclave":"VPC1",
+        "clusterId":"CLUSTER2",
+        "clusterName":"PROD_CLUSTER",     
+        "clusterNamespace":"EMS",
+    "managementUrl":"Url-1"
+}
+}

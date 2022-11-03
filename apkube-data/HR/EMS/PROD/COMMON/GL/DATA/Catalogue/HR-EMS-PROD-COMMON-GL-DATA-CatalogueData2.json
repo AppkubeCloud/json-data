@@ -1,0 +1,20 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"HR",
+	"associatedProduct":"EMS",
+	"associatedEnv":"PROD",
+	"serviceType":"data",
+	"serviceHostingType":"GlobalManaged",
+	"serviceNature": "Commmon",
+	"associatedCommonService": "Catalogue",
+	"associatedBusinessService": "NA",
+    "serviceName":"Catalogue-data2",
+    "description": "Github Database Storing Pages",		
+    "globalServiceLoaction":{
+        "landingZone":"67894532",
+        "productEnclave":"VPC1",
+        "cloudElementType":"Github",
+        "cloudElementId":{"1234":"321"},
+        "managementUrl":"Url-1"
+    }
+}

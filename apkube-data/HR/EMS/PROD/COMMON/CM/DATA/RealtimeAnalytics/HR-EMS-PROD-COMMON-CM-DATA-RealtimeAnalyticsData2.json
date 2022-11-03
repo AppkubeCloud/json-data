@@ -1,0 +1,20 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"HR",
+	"associatedProduct":"EMS",
+	"associatedEnv":"PROD",
+	"serviceType":"data",
+	"serviceHostingType":"CloudManaged",
+	"serviceNature": "Common",
+	"associatedCommonService": "RealtimeAnalytics",
+	"associatedBusinessService": "NA",
+    "serviceName":"RealtimeAnalytics-Data1",
+    "description": "s3 database",		
+    "cloudManagedServiceLoaction":{
+        "landingZone":"67894532",
+        "productEnclave":"VPC1",
+        "cloudElementType":"S3",
+        "cloudElementId":{"1234":"321"},
+        "managementUrl":"Url-1"
+    }
+}
