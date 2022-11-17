@@ -658,7 +658,7 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : "",
+    "dbType" : "Kinesys",
     "cloudType" : "AZURE"
   }, {
     "id" : 24,
@@ -2549,7 +2549,7 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : "",
+    "dbType" : "LOKI",
     "cloudType" : "AZURE"
   }, {
     "id" : 90,
@@ -2606,7 +2606,7 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : "",
+    "dbType" : "Golang Metric Manager",
     "cloudType" : "AZURE"
   }, {
     "id" : 92,
@@ -2635,7 +2635,7 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : "",
+    "dbType" : "Mimir Metric Database",
     "cloudType" : "AZURE"
   }, {
     "id" : 93,
@@ -2748,7 +2748,7 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : "",
+    "dbType" : "Jaeger",
     "cloudType" : "AZURE"
   }, {
     "id" : 97,
@@ -2777,7 +2777,7 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : "",
+    "dbType" : "Zipkin",
     "cloudType" : "AZURE"
   }, {
     "id" : 98,
