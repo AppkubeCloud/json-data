@@ -25,7 +25,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "Kinesis"
+    "associatedCloudElement" : "Kinesis",
+    "cloudType" : "AWS"
   }, {
     "id" : 2,
     "name" : "ListAndAct-data1",
@@ -53,7 +54,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "Redshift",
-    "dbType" : "Postgresql"
+    "dbType" : "Postgresql",
+    "cloudType" : "AWS"
   }, {
     "id" : 3,
     "name" : "ListAndAct-data2",
@@ -81,7 +83,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "API",
-    "dbType" : "ElasticSearch"
+    "dbType" : "ElasticSearch",
+    "cloudType" : "AWS"
   }, {
     "id" : 4,
     "name" : "ListAndAct-data3",
@@ -109,7 +112,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "Radis",
-    "dbType" : "Redis"
+    "dbType" : "Redis",
+    "cloudType" : "AWS"
   }, {
     "id" : 5,
     "name" : "Admission-app1",
@@ -136,7 +140,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "CIS"
+    "associatedCloudElement" : "CIS",
+    "cloudType" : "AWS"
   }, {
     "id" : 6,
     "name" : "Admission-data1",
@@ -164,7 +169,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "GI-GuardDuty",
-    "dbType" : "Postgresql"
+    "dbType" : "Postgresql",
+    "cloudType" : "AWS"
   }, {
     "id" : 7,
     "name" : "Admission-data2",
@@ -192,7 +198,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : "ElasticSearch"
+    "dbType" : "ElasticSearch",
+    "cloudType" : "AWS"
   }, {
     "id" : 8,
     "name" : "Admission-data3",
@@ -220,7 +227,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "Radis",
-    "dbType" : "Redis"
+    "dbType" : "Redis",
+    "cloudType" : "AWS"
   }, {
     "id" : 9,
     "name" : "LMS-app1",
@@ -247,7 +255,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "CloudTrail"
+    "associatedCloudElement" : "CloudTrail",
+    "cloudType" : "AWS"
   }, {
     "id" : 10,
     "name" : "LMS-data1",
@@ -275,7 +284,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "Config",
-    "dbType" : "Postgresql"
+    "dbType" : "Postgresql",
+    "cloudType" : "AWS"
   }, {
     "id" : 11,
     "name" : "LMS-data2",
@@ -303,7 +313,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : "ElasticSearch"
+    "dbType" : "ElasticSearch",
+    "cloudType" : "AWS"
   }, {
     "id" : 12,
     "name" : "LMS-data3",
@@ -331,7 +342,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "Radis",
-    "dbType" : "Redis"
+    "dbType" : "Redis",
+    "cloudType" : "AWS"
   }, {
     "id" : 13,
     "name" : "Canteen-app1",
@@ -358,7 +370,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "CloudTrail"
+    "associatedCloudElement" : "CloudTrail",
+    "cloudType" : "AWS"
   }, {
     "id" : 14,
     "name" : "Canteen-data1",
@@ -386,7 +399,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "Config",
-    "dbType" : "Postgresql"
+    "dbType" : "Postgresql",
+    "cloudType" : "AWS"
   }, {
     "id" : 15,
     "name" : "Canteen-data2",
@@ -414,7 +428,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : "ElasticSearch"
+    "dbType" : "ElasticSearch",
+    "cloudType" : "AWS"
   }, {
     "id" : 16,
     "name" : "Canteen-data3",
@@ -442,7 +457,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "Radis",
-    "dbType" : "Redis"
+    "dbType" : "Redis",
+    "cloudType" : "AWS"
   }, {
     "id" : 17,
     "name" : "Attendance-app1",
@@ -469,7 +485,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "Kinesis"
+    "associatedCloudElement" : "Kinesis",
+    "cloudType" : "AWS"
   }, {
     "id" : 18,
     "name" : "Attendance-data1",
@@ -497,7 +514,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "GI-GuardDuty",
-    "dbType" : "Postgresql"
+    "dbType" : "Postgresql",
+    "cloudType" : "AWS"
   }, {
     "id" : 19,
     "name" : "Attendance-data2",
@@ -525,7 +543,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : "ElasticSearch"
+    "dbType" : "ElasticSearch",
+    "cloudType" : "AWS"
   }, {
     "id" : 20,
     "name" : "Attendance-data3",
@@ -553,7 +572,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "Radis",
-    "dbType" : "Redis"
+    "dbType" : "Redis",
+    "cloudType" : "AWS"
   }, {
     "id" : 21,
     "name" : "Collaboration-app1",
@@ -580,7 +600,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "Kinesis"
+    "associatedCloudElement" : "Kinesis",
+    "cloudType" : "AWS"
   }, {
     "id" : 22,
     "name" : "Collaboration-data1",
@@ -608,7 +629,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "GI-GuardDuty",
-    "dbType" : "Postgresql"
+    "dbType" : "Postgresql",
+    "cloudType" : "AWS"
   }, {
     "id" : 23,
     "name" : "Collaboration-data2",
@@ -636,7 +658,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : ""
+    "dbType" : "",
+    "cloudType" : "AWS"
   }, {
     "id" : 24,
     "name" : "Collaboration-data3",
@@ -664,7 +687,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "Radis",
-    "dbType" : "Redis"
+    "dbType" : "Redis",
+    "cloudType" : "AWS"
   }, {
     "id" : 25,
     "name" : "CRM-app1",
@@ -691,7 +715,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "CIS"
+    "associatedCloudElement" : "CIS",
+    "cloudType" : "AWS"
   }, {
     "id" : 26,
     "name" : "CRM-data1",
@@ -719,7 +744,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "GI-GuardDuty",
-    "dbType" : "Postgresql"
+    "dbType" : "Postgresql",
+    "cloudType" : "AWS"
   }, {
     "id" : 27,
     "name" : "CRM-data2",
@@ -747,7 +773,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : "ElasticSearch"
+    "dbType" : "ElasticSearch",
+    "cloudType" : "AWS"
   }, {
     "id" : 28,
     "name" : "CRM-data3",
@@ -775,7 +802,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "Radis",
-    "dbType" : "Redis"
+    "dbType" : "Redis",
+    "cloudType" : "AWS"
   }, {
     "id" : 29,
     "name" : "EXAM-app1",
@@ -802,7 +830,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "CIS"
+    "associatedCloudElement" : "CIS",
+    "cloudType" : "AWS"
   }, {
     "id" : 30,
     "name" : "EXAM-data1",
@@ -830,7 +859,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "GI-GuardDuty",
-    "dbType" : "Postgresql"
+    "dbType" : "Postgresql",
+    "cloudType" : "AWS"
   }, {
     "id" : 31,
     "name" : "EXAM-data2",
@@ -858,7 +888,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : "ElasticSearch"
+    "dbType" : "ElasticSearch",
+    "cloudType" : "AWS"
   }, {
     "id" : 32,
     "name" : "EXAM-data3",
@@ -886,7 +917,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "Radis",
-    "dbType" : "Redis"
+    "dbType" : "Redis",
+    "cloudType" : "AWS"
   }, {
     "id" : 33,
     "name" : "Finance-app1",
@@ -913,7 +945,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "CIS"
+    "associatedCloudElement" : "CIS",
+    "cloudType" : "AWS"
   }, {
     "id" : 34,
     "name" : "Finance-data1",
@@ -941,7 +974,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "GI-GuardDuty",
-    "dbType" : "Postgresql"
+    "dbType" : "Postgresql",
+    "cloudType" : "AWS"
   }, {
     "id" : 35,
     "name" : "Finance-data2",
@@ -969,7 +1003,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : "ElasticSearch"
+    "dbType" : "ElasticSearch",
+    "cloudType" : "AWS"
   }, {
     "id" : 36,
     "name" : "Finance-data3",
@@ -997,7 +1032,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "Radis",
-    "dbType" : "Redis"
+    "dbType" : "Redis",
+    "cloudType" : "AWS"
   }, {
     "id" : 37,
     "name" : "HRMS-app1",
@@ -1024,7 +1060,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "CIS"
+    "associatedCloudElement" : "CIS",
+    "cloudType" : "AWS"
   }, {
     "id" : 38,
     "name" : "HRMS-data1",
@@ -1052,7 +1089,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "GI-GuardDuty",
-    "dbType" : "Postgresql"
+    "dbType" : "Postgresql",
+    "cloudType" : "AWS"
   }, {
     "id" : 39,
     "name" : "HRMS-data2",
@@ -1080,7 +1118,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : "ElasticSearch"
+    "dbType" : "ElasticSearch",
+    "cloudType" : "AWS"
   }, {
     "id" : 40,
     "name" : "HRMS-data3",
@@ -1108,7 +1147,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "Radis",
-    "dbType" : "Redis"
+    "dbType" : "Redis",
+    "cloudType" : "AWS"
   }, {
     "id" : 41,
     "name" : "Library-app1",
@@ -1135,7 +1175,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "CIS"
+    "associatedCloudElement" : "CIS",
+    "cloudType" : "AWS"
   }, {
     "id" : 42,
     "name" : "Library-data1",
@@ -1163,7 +1204,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "GI-GuardDuty",
-    "dbType" : "Postgresql"
+    "dbType" : "Postgresql",
+    "cloudType" : "AWS"
   }, {
     "id" : 43,
     "name" : "Library-data2",
@@ -1191,7 +1233,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : "ElasticSearch"
+    "dbType" : "ElasticSearch",
+    "cloudType" : "AWS"
   }, {
     "id" : 44,
     "name" : "Library-data3",
@@ -1219,7 +1262,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "Radis",
-    "dbType" : "Redis"
+    "dbType" : "Redis",
+    "cloudType" : "AWS"
   }, {
     "id" : 45,
     "name" : "Transport-app1",
@@ -1246,7 +1290,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "CIS"
+    "associatedCloudElement" : "CIS",
+    "cloudType" : "AWS"
   }, {
     "id" : 46,
     "name" : "Transport-data1",
@@ -1274,7 +1319,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "GI-GuardDuty",
-    "dbType" : "Postgresql"
+    "dbType" : "Postgresql",
+    "cloudType" : "AWS"
   }, {
     "id" : 47,
     "name" : "Transport-data2",
@@ -1302,7 +1348,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : "ElasticSearch"
+    "dbType" : "ElasticSearch",
+    "cloudType" : "AWS"
   }, {
     "id" : 48,
     "name" : "Transport-data3",
@@ -1330,7 +1377,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "Radis",
-    "dbType" : "Redis"
+    "dbType" : "Redis",
+    "cloudType" : "AWS"
   }, {
     "id" : 49,
     "name" : "Search-app1",
@@ -1357,7 +1405,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "SES"
+    "associatedCloudElement" : "SES",
+    "cloudType" : "AWS"
   }, {
     "id" : 50,
     "name" : "Search-data2",
@@ -1385,7 +1434,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "SQS",
-    "dbType" : "ElasticSearch"
+    "dbType" : "ElasticSearch",
+    "cloudType" : "AWS"
   }, {
     "id" : 51,
     "name" : "PolicyManager-app1",
@@ -1412,7 +1462,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "Active Directory Management Operations"
+    "associatedCloudElement" : "Active Directory Management Operations",
+    "cloudType" : "AWS"
   }, {
     "id" : 52,
     "name" : "PolicyManager-app2",
@@ -1439,7 +1490,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "Active Directory Management Operations"
+    "associatedCloudElement" : "Active Directory Management Operations",
+    "cloudType" : "AWS"
   }, {
     "id" : 53,
     "name" : "PolicyManager-data2",
@@ -1467,7 +1519,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : "ElasticSearch"
+    "dbType" : "ElasticSearch",
+    "cloudType" : "AWS"
   }, {
     "id" : 54,
     "name" : "Catalogue-app1",
@@ -1494,7 +1547,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "Azure Audit - Overview"
+    "associatedCloudElement" : "aws Audit - Overview",
+    "cloudType" : "AWS"
   }, {
     "id" : 55,
     "name" : "Catalogue-data1",
@@ -1522,7 +1576,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "GI-GuardDuty",
-    "dbType" : "Postgresql"
+    "dbType" : "Postgresql",
+    "cloudType" : "AWS"
   }, {
     "id" : 56,
     "name" : "Catalogue-data2",
@@ -1550,7 +1605,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "SQS",
-    "dbType" : "GIT"
+    "dbType" : "GIT",
+    "cloudType" : "AWS"
   }, {
     "id" : 57,
     "name" : "Catalogue-data3",
@@ -1578,7 +1634,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CIS",
-    "dbType" : "S3 ObjectStore"
+    "dbType" : "S3 ObjectStore",
+    "cloudType" : "AWS"
   }, {
     "id" : 58,
     "name" : "ChangeCentral-app1",
@@ -1605,7 +1662,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "Azure Audit - Overview"
+    "associatedCloudElement" : "aws Audit - Overview",
+    "cloudType" : "AWS"
   }, {
     "id" : 59,
     "name" : "ChangeCentral-data1",
@@ -1633,7 +1691,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "GI-GuardDuty",
-    "dbType" : "Postgresql"
+    "dbType" : "Postgresql",
+    "cloudType" : "AWS"
   }, {
     "id" : 60,
     "name" : "ChangeCentral-data2",
@@ -1661,7 +1720,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "SQS",
-    "dbType" : "GIT"
+    "dbType" : "GIT",
+    "cloudType" : "AWS"
   }, {
     "id" : 61,
     "name" : "Dataflow-app1",
@@ -1688,7 +1748,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "Azure Audit - Overview"
+    "associatedCloudElement" : "aws Audit - Overview",
+    "cloudType" : "AWS"
   }, {
     "id" : 62,
     "name" : "Dataflow-app2",
@@ -1715,7 +1776,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "Azure Audit - Overview"
+    "associatedCloudElement" : "aws Audit - Overview",
+    "cloudType" : "AWS"
   }, {
     "id" : 63,
     "name" : "Dataflow-data1",
@@ -1743,7 +1805,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "GI-GuardDuty",
-    "dbType" : "Postgresql"
+    "dbType" : "Postgresql",
+    "cloudType" : "AWS"
   }, {
     "id" : 64,
     "name" : "Dataflow-data2",
@@ -1771,7 +1834,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "GI-GuardDuty",
-    "dbType" : "Postgresql"
+    "dbType" : "Postgresql",
+    "cloudType" : "AWS"
   }, {
     "id" : 65,
     "name" : "SecurityRbac-app1",
@@ -1798,7 +1862,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "ECS"
+    "associatedCloudElement" : "ECS",
+    "cloudType" : "AWS"
   }, {
     "id" : 66,
     "name" : "SecurityRbac-data1",
@@ -1826,7 +1891,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "ElastiCache",
-    "dbType" : "Postgresql"
+    "dbType" : "Postgresql",
+    "cloudType" : "AWS"
   }, {
     "id" : 67,
     "name" : "PrefernceConfig-app1",
@@ -1853,7 +1919,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "ECS"
+    "associatedCloudElement" : "ECS",
+    "cloudType" : "AWS"
   }, {
     "id" : 68,
     "name" : "PrefernceConfig-data1",
@@ -1881,7 +1948,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "ElastiCache",
-    "dbType" : "Postgresql"
+    "dbType" : "Postgresql",
+    "cloudType" : "AWS"
   }, {
     "id" : 69,
     "name" : "OLAP-app1",
@@ -1908,7 +1976,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "ECS"
+    "associatedCloudElement" : "ECS",
+    "cloudType" : "AWS"
   }, {
     "id" : 70,
     "name" : "OLAP-app2",
@@ -1935,7 +2004,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "ECS"
+    "associatedCloudElement" : "ECS",
+    "cloudType" : "AWS"
   }, {
     "id" : 71,
     "name" : "OLAP-data1",
@@ -1963,7 +2033,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CIS",
-    "dbType" : "S3 ObjectStore"
+    "dbType" : "S3 ObjectStore",
+    "cloudType" : "AWS"
   }, {
     "id" : 72,
     "name" : "RealtimeAnalytics-app1",
@@ -1990,7 +2061,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "ECS"
+    "associatedCloudElement" : "ECS",
+    "cloudType" : "AWS"
   }, {
     "id" : 73,
     "name" : "RealtimeAnalytics-data1",
@@ -2018,7 +2090,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "ElastiCache",
-    "dbType" : "Postgresql"
+    "dbType" : "Postgresql",
+    "cloudType" : "AWS"
   }, {
     "id" : 74,
     "name" : "RealtimeAnalytics-data2",
@@ -2046,7 +2119,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CIS",
-    "dbType" : "S3 ObjectStore"
+    "dbType" : "S3 ObjectStore",
+    "cloudType" : "AWS"
   }, {
     "id" : 75,
     "name" : "StaticRepo-app1",
@@ -2073,7 +2147,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "ECS"
+    "associatedCloudElement" : "ECS",
+    "cloudType" : "AWS"
   }, {
     "id" : 76,
     "name" : "StaticRepo-data1",
@@ -2101,7 +2176,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CIS",
-    "dbType" : "Postgresql"
+    "dbType" : "Postgresql",
+    "cloudType" : "AWS"
   }, {
     "id" : 77,
     "name" : "StaticRepo-data2",
@@ -2129,7 +2205,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "SQS",
-    "dbType" : "GIT"
+    "dbType" : "GIT",
+    "cloudType" : "AWS"
   }, {
     "id" : 78,
     "name" : "FileRepo-app1",
@@ -2156,7 +2233,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "API-Gateway"
+    "associatedCloudElement" : "API-Gateway",
+    "cloudType" : "AWS"
   }, {
     "id" : 79,
     "name" : "FileRepo-app2",
@@ -2183,7 +2261,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "Lambda"
+    "associatedCloudElement" : "Lambda",
+    "cloudType" : "AWS"
   }, {
     "id" : 80,
     "name" : "FileRepo-data1",
@@ -2211,7 +2290,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CDN",
-    "dbType" : "CDN data service"
+    "dbType" : "CDN data service",
+    "cloudType" : "AWS"
   }, {
     "id" : 81,
     "name" : "FileRepo-data2",
@@ -2239,7 +2319,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "Dynamodb",
-    "dbType" : "DynamoDB"
+    "dbType" : "DynamoDB",
+    "cloudType" : "AWS"
   }, {
     "id" : 82,
     "name" : "FileRepo-data3",
@@ -2267,7 +2348,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CIS",
-    "dbType" : "S3 ObjectStore"
+    "dbType" : "S3 ObjectStore",
+    "cloudType" : "AWS"
   }, {
     "id" : 83,
     "name" : "AlertCentral-app1",
@@ -2294,7 +2376,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "CLOUDTRAIL"
+    "associatedCloudElement" : "CLOUDTRAIL",
+    "cloudType" : "AWS"
   }, {
     "id" : 84,
     "name" : "AlertCentral-data1",
@@ -2322,7 +2405,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail-Network-Security",
-    "dbType" : "Mongodb"
+    "dbType" : "Mongodb",
+    "cloudType" : "AWS"
   }, {
     "id" : 85,
     "name" : "AlertCentral-data2",
@@ -2350,7 +2434,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : "ElasticSearch"
+    "dbType" : "ElasticSearch",
+    "cloudType" : "AWS"
   }, {
     "id" : 86,
     "name" : "LogCentral-app1",
@@ -2377,7 +2462,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "CLOUDTRAIL"
+    "associatedCloudElement" : "CLOUDTRAIL",
+    "cloudType" : "AWS"
   }, {
     "id" : 87,
     "name" : "LogCentral-data1",
@@ -2405,7 +2491,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail-Network-Security",
-    "dbType" : "Mongodb"
+    "dbType" : "Mongodb",
+    "cloudType" : "AWS"
   }, {
     "id" : 88,
     "name" : "LogCentral-data2",
@@ -2433,7 +2520,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : "ElasticSearch"
+    "dbType" : "ElasticSearch",
+    "cloudType" : "AWS"
   }, {
     "id" : 89,
     "name" : "LogCentral-data3",
@@ -2461,7 +2549,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : ""
+    "dbType" : "",
+    "cloudType" : "AWS"
   }, {
     "id" : 90,
     "name" : "MetricCentral-app1",
@@ -2488,7 +2577,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "CLOUDTRAIL"
+    "associatedCloudElement" : "CLOUDTRAIL",
+    "cloudType" : "AWS"
   }, {
     "id" : 91,
     "name" : "MetricCentral-data1",
@@ -2516,7 +2606,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : ""
+    "dbType" : "",
+    "cloudType" : "AWS"
   }, {
     "id" : 92,
     "name" : "MetricCentral-data2",
@@ -2544,7 +2635,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : ""
+    "dbType" : "",
+    "cloudType" : "AWS"
   }, {
     "id" : 93,
     "name" : "TraceCentral-app1",
@@ -2571,7 +2663,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "CLOUDTRAIL"
+    "associatedCloudElement" : "CLOUDTRAIL",
+    "cloudType" : "AWS"
   }, {
     "id" : 94,
     "name" : "TraceCentral-app2",
@@ -2598,7 +2691,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "CLOUDTRAIL"
+    "associatedCloudElement" : "CLOUDTRAIL",
+    "cloudType" : "AWS"
   }, {
     "id" : 95,
     "name" : "TraceCentral-app3",
@@ -2625,7 +2719,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "CLOUDTRAIL"
+    "associatedCloudElement" : "CLOUDTRAIL",
+    "cloudType" : "AWS"
   }, {
     "id" : 96,
     "name" : "TraceCentral-data1",
@@ -2653,7 +2748,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : ""
+    "dbType" : "",
+    "cloudType" : "AWS"
   }, {
     "id" : 97,
     "name" : "TraceCentral-data2",
@@ -2681,7 +2777,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "dbType" : ""
+    "dbType" : "",
+    "cloudType" : "AWS"
   }, {
     "id" : 98,
     "name" : "ScriptCentral-app1",
@@ -2708,7 +2805,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "CLOUDTRAIL"
+    "associatedCloudElement" : "CLOUDTRAIL",
+    "cloudType" : "AWS"
   }, {
     "id" : 99,
     "name" : "ScriptCentral-app2",
@@ -2735,7 +2833,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "CLOUDTRAIL"
+    "associatedCloudElement" : "CLOUDTRAIL",
+    "cloudType" : "AWS"
   }, {
     "id" : 100,
     "name" : "ScriptCentral-app3",
@@ -2762,7 +2861,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "CLOUDTRAIL"
+    "associatedCloudElement" : "CLOUDTRAIL",
+    "cloudType" : "AWS"
   }, {
     "id" : 101,
     "name" : "ScriptCentral-data1",
@@ -2790,7 +2890,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "ElastiCache",
-    "dbType" : "Postgresql"
+    "dbType" : "Postgresql",
+    "cloudType" : "AWS"
   }, {
     "id" : 102,
     "name" : "SitesCentral-app1",
@@ -2817,7 +2918,8 @@
       "lastWeekCost" : "15",
       "lastMonthCost" : "15"
     },
-    "associatedCloudElement" : "CLOUDTRAIL"
+    "associatedCloudElement" : "CLOUDTRAIL",
+    "cloudType" : "AWS"
   }, {
     "id" : 103,
     "name" : "SitesCentral-data1",
@@ -2845,7 +2947,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CIS",
-    "dbType" : "Postgresql"
+    "dbType" : "Postgresql",
+    "cloudType" : "AWS"
   }, {
     "id" : 104,
     "name" : "SitesCentral-data2",
@@ -2873,6 +2976,7 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "SQS",
-    "dbType" : "GIT"
+    "dbType" : "GIT",
+    "cloudType" : "AWS"
   } ]
 }
