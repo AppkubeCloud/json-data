@@ -26,7 +26,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "Kinesis",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Java API"
   }, {
     "id" : 2,
     "name" : "ListAndAct-data1",
@@ -83,7 +84,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CIS",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Java API"
   }, {
     "id" : 6,
     "name" : "Admission-data1",
@@ -198,7 +200,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Lambda-Functions"
   }, {
     "id" : 10,
     "name" : "LMS-data1",
@@ -313,7 +316,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CloudTrail",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Lambda-Functions"
   }, {
     "id" : 14,
     "name" : "Canteen-data1",
@@ -428,7 +432,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "Kinesis",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Java API"
   }, {
     "id" : 18,
     "name" : "Attendance-data1",
@@ -543,7 +548,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "Kinesis",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Java API"
   }, {
     "id" : 22,
     "name" : "Collaboration-data1",
@@ -658,7 +664,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CIS",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Java API"
   }, {
     "id" : 26,
     "name" : "CRM-data1",
@@ -773,7 +780,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CIS",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Java API"
   }, {
     "id" : 30,
     "name" : "EXAM-data1",
@@ -888,7 +896,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CIS",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Java API"
   }, {
     "id" : 34,
     "name" : "Finance-data1",
@@ -1003,7 +1012,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CIS",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Java API"
   }, {
     "id" : 38,
     "name" : "HRMS-data1",
@@ -1118,7 +1128,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CIS",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Java API"
   }, {
     "id" : 42,
     "name" : "Library-data1",
@@ -1233,7 +1244,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CIS",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Java API"
   }, {
     "id" : 46,
     "name" : "Transport-data1",
@@ -1348,7 +1360,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "SES",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Java API"
   }, {
     "id" : 50,
     "name" : "Search-data2",
@@ -1405,7 +1418,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "Active Directory Management Operations",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Java API"
   }, {
     "id" : 52,
     "name" : "PolicyManager-app2",
@@ -1433,7 +1447,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "Active Directory Management Operations",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "GO API"
   }, {
     "id" : 53,
     "name" : "PolicyManager-data2",
@@ -1490,7 +1505,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "aws Audit - Overview",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Java API"
   }, {
     "id" : 55,
     "name" : "Catalogue-data1",
@@ -1605,7 +1621,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "aws Audit - Overview",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Java API"
   }, {
     "id" : 59,
     "name" : "ChangeCentral-data1",
@@ -1691,7 +1708,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "aws Audit - Overview",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Java API"
   }, {
     "id" : 62,
     "name" : "Dataflow-app2",
@@ -1719,7 +1737,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "aws Audit - Overview",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "NIFI"
   }, {
     "id" : 63,
     "name" : "Dataflow-data1",
@@ -1805,7 +1824,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "ECS",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Java API"
   }, {
     "id" : 66,
     "name" : "SecurityRbac-data1",
@@ -1862,7 +1882,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "ECS",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Java API"
   }, {
     "id" : 68,
     "name" : "PrefernceConfig-data1",
@@ -1919,7 +1940,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "ECS",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Node API"
   }, {
     "id" : 70,
     "name" : "OLAP-app2",
@@ -1947,7 +1969,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "ECS",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Java API"
   }, {
     "id" : 71,
     "name" : "OLAP-data1",
@@ -2004,7 +2027,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "ECS",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Node API"
   }, {
     "id" : 73,
     "name" : "RealtimeAnalytics-data1",
@@ -2090,7 +2114,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "ECS",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Node API"
   }, {
     "id" : 76,
     "name" : "StaticRepo-data1",
@@ -2176,7 +2201,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "API-Gateway",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "API-Gateway"
   }, {
     "id" : 79,
     "name" : "FileRepo-app2",
@@ -2204,7 +2230,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "Lambda",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Lambda-Functions"
   }, {
     "id" : 80,
     "name" : "FileRepo-data1",
@@ -2319,7 +2346,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CLOUDTRAIL",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Java API"
   }, {
     "id" : 84,
     "name" : "AlertCentral-data1",
@@ -2405,7 +2433,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CLOUDTRAIL",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Java API"
   }, {
     "id" : 87,
     "name" : "LogCentral-data1",
@@ -2520,7 +2549,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CLOUDTRAIL",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Prometheus Server"
   }, {
     "id" : 91,
     "name" : "MetricCentral-data1",
@@ -2606,7 +2636,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CLOUDTRAIL",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "GO API"
   }, {
     "id" : 94,
     "name" : "TraceCentral-app2",
@@ -2634,7 +2665,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CLOUDTRAIL",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Jaeger Server"
   }, {
     "id" : 95,
     "name" : "TraceCentral-app3",
@@ -2662,7 +2694,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CLOUDTRAIL",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Zipkin Server"
   }, {
     "id" : 96,
     "name" : "TraceCentral-data1",
@@ -2748,7 +2781,8 @@
       "lastMonthCost" : "15"
     },
     "associatedCloudElement" : "CLOUDTRAIL",
-    "cloudType" : "KUBERNETES"
+    "cloudType" : "KUBERNETES",
+    "appType" : "Java API"
   }, {
     "id" : 101,
     "name" : "ScriptCentral-data1",
