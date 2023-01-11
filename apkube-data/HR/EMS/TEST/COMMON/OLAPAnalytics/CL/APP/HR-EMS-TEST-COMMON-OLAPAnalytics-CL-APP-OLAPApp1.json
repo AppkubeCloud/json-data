@@ -1,0 +1,21 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"HR",
+	"associatedProduct":"EMS",
+	"associatedEnv":"PROD",
+	"serviceType":"app",
+	"serviceHostingType":"ClusterManaged",
+	"serviceNature": "Common",
+	"associatedCommonService": "OLAPAnalytics",
+	"associatedBusinessService": "NA",
+    "serviceName":"OLAP-App1",
+    "description": "Node App in k8 (Turnilo)",
+    "clusterServiceLoaction":{
+        "landingZone":"67894532",
+        "productEnclave":"VPC1",
+        "clusterId":"Cluster1",
+        "clusterName":"Non-Prod-Cluster",     
+        "clusterNamespace":"EMS",
+        "managementUrl":"Url-1"
+}
+}

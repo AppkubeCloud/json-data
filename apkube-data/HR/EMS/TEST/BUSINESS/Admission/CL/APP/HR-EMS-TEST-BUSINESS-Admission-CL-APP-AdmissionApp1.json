@@ -1,0 +1,21 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"HR",
+	"associatedProduct":"EMS",
+	"associatedEnv":"TEST",
+	"serviceType":"app",
+	"serviceHostingType":"ClusterManaged",
+	"serviceNature": "Business",
+	"associatedCommonService": "NA",
+	"associatedBusinessService": "Admission",
+    "serviceName":"Admission-App1",
+    "description": "Java Spring Boot App in k8",
+    "clusterServiceLoaction":{
+        "landingZone":"67894532",
+        "productEnclave":"VPC1",
+        "clusterId":"Cluster1",
+        "clusterName":"Non-Prod-Cluster",     
+        "clusterNamespace":"EMS",
+    "managementUrl":"Url-1"
+}
+}

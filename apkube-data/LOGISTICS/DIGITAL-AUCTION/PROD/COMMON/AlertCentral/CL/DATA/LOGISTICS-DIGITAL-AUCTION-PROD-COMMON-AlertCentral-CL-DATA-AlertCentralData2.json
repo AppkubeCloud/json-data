@@ -1,0 +1,21 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"LOGISTICS",
+	"associatedProduct":"DIGITAL AUCTION",
+	"associatedEnv":"PROD",
+	"serviceType":"Data",
+	"serviceHostingType":"ClusterManaged",
+	"serviceNature": "Common",
+	"associatedCommonService": "AlertCentral",
+	"associatedBusinessService": "NA",
+    "serviceName":"AlertCentral-data2",
+    "description": "AlertCentral Service ES Database",
+    "clusterServiceLoaction":{
+        "landingZone":"567373484",
+        "productEnclave":"567373484-VPC1",
+        "clusterId":"Cluster1",
+        "clusterName":"Non-Prod-Cluster",     
+        "clusterNamespace":"DIGITAL AUCTION-PROD",
+    "managementUrl":"Url-1"
+}
+}

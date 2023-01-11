@@ -1,0 +1,21 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"LOGISTICS",
+	"associatedProduct":"PROCUREMENT",
+	"associatedEnv":"STAGE",
+	"serviceType":"Data",
+	"serviceHostingType":"ClusterManaged",
+	"serviceNature": "Business",
+	"associatedCommonService": "NA",
+	"associatedBusinessService": "Library",
+    "serviceName":"Library-data3",
+    "description": "Library Business Service Radis database",
+    "clusterServiceLoaction":{
+        "landingZone":"567373484",
+        "productEnclave":"567373484-VPC1",
+        "clusterId":"Cluster1",
+        "clusterName":"Non-Prod-Cluster",     
+        "clusterNamespace":"PROCUREMENT-STAGE",
+    "managementUrl":"Url-1"
+}
+}

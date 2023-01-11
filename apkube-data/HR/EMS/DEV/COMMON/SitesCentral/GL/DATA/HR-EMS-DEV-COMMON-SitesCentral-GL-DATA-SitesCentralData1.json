@@ -1,0 +1,20 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"HR",
+	"associatedProduct":"EMS",
+	"associatedEnv":"DEV",
+	"serviceType":"data",
+	"serviceHostingType":"GlobalManaged",
+	"serviceNature": "Commmon",
+	"associatedCommonService": "SitesCentral",
+	"associatedBusinessService": "NA",
+    "serviceName":"SitesCentral-data1",
+    "description": "Postgresql",		
+    "globalServiceLoaction":{
+        "landingZone":"67894532",
+        "productEnclave":"VPC1",
+        "cloudElementType":"RDS-Postgresql",
+        "cloudElementId":"1234:321",
+        "managementUrl":"Url-1"
+    }
+}

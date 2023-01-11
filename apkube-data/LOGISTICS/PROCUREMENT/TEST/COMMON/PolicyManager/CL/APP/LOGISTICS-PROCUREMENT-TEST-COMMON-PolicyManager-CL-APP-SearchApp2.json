@@ -1,0 +1,21 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"LOGISTICS",
+	"associatedProduct":"PROCUREMENT",
+	"associatedEnv":"TEST",
+	"serviceType":"App",
+	"serviceHostingType":"ClusterManaged",
+	"serviceNature": "Common",
+	"associatedCommonService": "PolicyManager",
+	"associatedBusinessService": "NA",
+    "serviceName":"PolicyManager-app2",
+    "description": "PolicyManager Golang Bsed Data Collector",
+    "clusterServiceLoaction":{
+        "landingZone":"567373484",
+        "productEnclave":"567373484-VPC1",
+        "clusterId":"Cluster1",
+        "clusterName":"Non-Prod-Cluster",     
+        "clusterNamespace":"PROCUREMENT-TEST",
+    "managementUrl":"Url-1"
+}
+}

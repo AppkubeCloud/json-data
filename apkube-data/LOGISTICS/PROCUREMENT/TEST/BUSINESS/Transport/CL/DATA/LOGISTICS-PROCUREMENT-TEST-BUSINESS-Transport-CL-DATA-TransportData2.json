@@ -1,0 +1,21 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"LOGISTICS",
+	"associatedProduct":"PROCUREMENT",
+	"associatedEnv":"TEST",
+	"serviceType":"Data",
+	"serviceHostingType":"ClusterManaged",
+	"serviceNature": "Business",
+	"associatedCommonService": "NA",
+	"associatedBusinessService": "Transport",
+    "serviceName":"Transport-data2",
+    "description": "Transport Business Service Kynesys database",
+    "clusterServiceLoaction":{
+        "landingZone":"567373484",
+        "productEnclave":"567373484-VPC1",
+        "clusterId":"Cluster1",
+        "clusterName":"Non-Prod-Cluster",     
+        "clusterNamespace":"PROCUREMENT-TEST",
+    "managementUrl":"Url-1"
+}
+}

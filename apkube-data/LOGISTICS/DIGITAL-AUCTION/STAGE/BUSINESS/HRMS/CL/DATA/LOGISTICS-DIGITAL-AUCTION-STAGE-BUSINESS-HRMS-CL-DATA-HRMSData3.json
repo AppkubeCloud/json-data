@@ -1,0 +1,21 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"LOGISTICS",
+	"associatedProduct":"DIGITAL AUCTION",
+	"associatedEnv":"STAGE",
+	"serviceType":"Data",
+	"serviceHostingType":"ClusterManaged",
+	"serviceNature": "Business",
+	"associatedCommonService": "NA",
+	"associatedBusinessService": "HRMS",
+    "serviceName":"HRMS-data3",
+    "description": "HRMS Business Service Radis database",
+    "clusterServiceLoaction":{
+        "landingZone":"567373484",
+        "productEnclave":"567373484-VPC1",
+        "clusterId":"Cluster1",
+        "clusterName":"Non-Prod-Cluster",     
+        "clusterNamespace":"DIGITAL AUCTION-DEV",
+    "managementUrl":"Url-1"
+}
+}

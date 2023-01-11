@@ -1,0 +1,21 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"LOGISTICS",
+	"associatedProduct":"DIGITAL AUCTION",
+	"associatedEnv":"DEV",
+	"serviceType":"data",
+	"serviceHostingType":"ClusterManaged",
+	"serviceNature": "Business",
+	"associatedCommonService": "NA",
+	"associatedBusinessService": "Kinesys",
+    "serviceName":"Collaboration-Data2",
+    "description": "Collaboration Business Service Kinesys database",
+    "clusterServiceLoaction":{
+        "landingZone":"567373484",
+        "productEnclave":"567373484-VPC1",
+        "clusterId":"Cluster1",
+        "clusterName":"Non-Prod-Cluster",     
+        "clusterNamespace":"DIGITAL AUCTION-DEV",
+        "managementUrl":"Url-1"
+}
+}

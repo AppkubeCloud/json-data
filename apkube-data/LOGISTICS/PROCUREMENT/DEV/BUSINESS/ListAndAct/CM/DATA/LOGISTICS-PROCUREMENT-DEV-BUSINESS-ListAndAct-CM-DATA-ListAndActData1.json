@@ -1,0 +1,20 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"LOGISTICS",
+	"associatedProduct":"PROCUREMENT",
+	"associatedEnv":"DEV",
+	"serviceType":"Data",
+	"serviceHostingType":"CloudManaged",
+	"serviceNature": "Business",
+	"associatedCommonService": "NA",
+	"associatedBusinessService": "ListAndAct",
+    "serviceName":"ListAndAct-data1",
+    "description": "Library Business Service Postgresql database",
+    "cloudManagedServiceLoaction":{
+        "landingZone":"567373484",
+        "productEnclave":"567373484-VPC1",
+        "cloudElementType":"RDS-Postgresql",
+        "cloudElementId":"567373484-VPC1-CloudManaged",
+        "managementUrl":"Url-1"
+    }
+}

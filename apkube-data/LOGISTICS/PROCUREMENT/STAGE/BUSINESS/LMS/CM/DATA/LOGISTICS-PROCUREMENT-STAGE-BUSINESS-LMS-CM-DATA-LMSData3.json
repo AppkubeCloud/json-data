@@ -1,0 +1,20 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"LOGISTICS",
+	"associatedProduct":"PROCUREMENT",
+	"associatedEnv":"STAGE",
+	"serviceType":"Data",
+	"serviceHostingType":"CloudManaged",
+	"serviceNature": "Business",
+	"associatedCommonService": "NA",
+	"associatedBusinessService": "LMS",
+    "serviceName":"LMS-data3",
+    "description": "LMS Busines Service Radis Database",
+    "cloudManagedServiceLoaction":{
+        "landingZone":"567373484",
+        "productEnclave":"567373484-VPC1",
+        "cloudElementType":"AWS",
+        "cloudElementId":"567373484-VPC1-CloudManaged",
+        "managementUrl":"Url-1"
+    }
+}

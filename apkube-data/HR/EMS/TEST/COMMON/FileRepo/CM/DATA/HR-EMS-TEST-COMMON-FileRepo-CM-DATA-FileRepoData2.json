@@ -1,0 +1,20 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"HR",
+	"associatedProduct":"EMS",
+	"associatedEnv":"TEST",
+	"serviceType":"data",
+	"serviceHostingType":"CloudManaged",
+	"serviceNature": "Common",
+	"associatedCommonService": "FileRepo",
+	"associatedBusinessService": "NA",
+    "serviceName":"FileRepo-Data2",
+    "description": "Dynamo",		
+    "cloudManagedServiceLoaction":{
+        "landingZone":"67894532",
+        "productEnclave":"VPC1",
+        "cloudElementType":"Dynamo",
+        "cloudElementId":"1234:321",
+        "managementUrl":"Url-1"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"LOGISTICS",
+	"associatedProduct":"PROCUREMENT",
+	"associatedEnv":"TEST",
+	"serviceType":"Data",
+	"serviceHostingType":"GlobalManaged",
+	"serviceNature": "Common",
+	"associatedCommonService": "SitesCentral",
+	"associatedBusinessService": "NA",
+    "serviceName":"SitesCentral-data1",
+    "description": "SitesCentral Postgresql Database",		
+    "globalServiceLoaction":{
+        "landingZone":"567373484",
+        "productEnclave":"567373484-VPC1",
+        "cloudElementType":"AWS",
+        "cloudElementId":"S3-1234-CloudManaged",
+        "managementUrl":"Url-1"
+    }
+}

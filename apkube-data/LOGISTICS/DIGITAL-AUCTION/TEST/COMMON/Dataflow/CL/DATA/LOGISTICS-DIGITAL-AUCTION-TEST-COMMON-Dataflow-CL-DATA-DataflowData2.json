@@ -1,0 +1,21 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"LOGISTICS",
+	"associatedProduct":"DIGITAL AUCTION",
+	"associatedEnv":"TEST",
+	"serviceType":"Data",
+	"serviceHostingType":"ClusterManaged",
+	"serviceNature": "Common",
+	"associatedCommonService": "Dataflow",
+	"associatedBusinessService": "NA",
+    "serviceName":"Dataflow-data2",
+    "description": "Dataflow Postgresql DB for Nifi",
+    "clusterServiceLoaction":{
+        "landingZone":"567373484",
+        "productEnclave":"567373484-VPC1",
+        "clusterId":"Cluster1",
+        "clusterName":"Non-Prod-Cluster",     
+        "clusterNamespace":"DIGITAL AUCTION-DEV",
+    "managementUrl":"Url-1"
+}
+}

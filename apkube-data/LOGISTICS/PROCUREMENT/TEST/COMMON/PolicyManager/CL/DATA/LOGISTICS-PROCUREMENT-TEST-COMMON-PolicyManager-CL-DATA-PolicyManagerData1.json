@@ -1,0 +1,21 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"LOGISTICS",
+	"associatedProduct":"PROCUREMENT",
+	"associatedEnv":"TEST",
+	"serviceType":"Data",
+	"serviceHostingType":"ClusterManaged",
+	"serviceNature": "Common",
+	"associatedCommonService": "PolicyManager",
+	"associatedBusinessService": "NA",
+    "serviceName":"PolicyManager-data1",
+    "description": "Common Search Service ES Database",
+    "clusterServiceLoaction":{
+        "landingZone":"567373484",
+        "productEnclave":"567373484-VPC1",
+        "clusterId":"Cluster1",
+        "clusterName":"Non-Prod-Cluster",     
+        "clusterNamespace":"PROCUREMENT-TEST",
+    "managementUrl":"Url-1"
+}
+}

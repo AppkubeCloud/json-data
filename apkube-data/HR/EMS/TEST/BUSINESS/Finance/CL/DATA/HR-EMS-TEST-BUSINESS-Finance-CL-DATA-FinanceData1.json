@@ -1,0 +1,21 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"HR",
+	"associatedProduct":"EMS",
+	"associatedEnv":"TEST",
+	"serviceType":"data",
+	"serviceHostingType":"ClusterManaged",
+	"serviceNature": "Business",
+	"associatedCommonService": "NA",
+	"associatedBusinessService": "Finance",
+    "serviceName":"Finance-Data1",
+    "description": "Postgresql",
+    "clusterServiceLoaction":{
+        "landingZone":"67894532",
+        "productEnclave":"VPC1",
+        "clusterId":"Cluster1",
+        "clusterName":"Non-Prod-Cluster",     
+        "clusterNamespace":"EMS",
+        "managementUrl":"Url-1"
+}
+}

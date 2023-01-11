@@ -1,0 +1,21 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"LOGISTICS",
+	"associatedProduct":"DIGITAL AUCTION",
+	"associatedEnv":"TEST",
+	"serviceType":"App",
+	"serviceHostingType":"ClusterManaged",
+	"serviceNature": "Common",
+	"associatedCommonService": "SitesCentral",
+	"associatedBusinessService": "NA",
+    "serviceName":"SitesCentral-app1",
+    "description": "Node App in k8",
+    "clusterServiceLoaction":{
+        "landingZone":"567373484",
+        "productEnclave":"567373484-VPC1",
+        "clusterId":"Cluster1",
+        "clusterName":"Non-Prod-Cluster",     
+        "clusterNamespace":"DIGITAL AUCTION-DEV",
+    "managementUrl":"Url-1"
+}
+}

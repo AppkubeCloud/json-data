@@ -1,0 +1,20 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"LOGISTICS",
+	"associatedProduct":"DIGITAL AUCTION",
+	"associatedEnv":"DEV",
+	"serviceType":"Data",
+	"serviceHostingType":"GlobalManaged",
+	"serviceNature": "Common",
+	"associatedCommonService": "ChangeCentral",
+	"associatedBusinessService": "NA",
+    "serviceName":"ChangeCentral-data2",
+    "description": "ChangeCentral  Github Database storing Change Objects",		
+    "globalServiceLoaction":{
+        "landingZone":"567373484",
+        "productEnclave":"567373484-VPC1",
+        "cloudElementType":"Github",
+        "cloudElementId":"GIT-1",
+        "managementUrl":"Url-1"
+    }
+}

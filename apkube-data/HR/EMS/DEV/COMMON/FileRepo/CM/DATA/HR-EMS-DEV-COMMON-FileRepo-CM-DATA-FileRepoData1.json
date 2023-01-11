@@ -1,0 +1,20 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"HR",
+	"associatedProduct":"EMS",
+	"associatedEnv":"DEV",
+	"serviceType":"data",
+	"serviceHostingType":"CloudManaged",
+	"serviceNature": "Common",
+	"associatedCommonService": "FileRepo",
+	"associatedBusinessService": "NA",
+    "serviceName":"FileRepo-Data1",
+    "description": "CDN",		
+    "cloudManagedServiceLoaction":{
+        "landingZone":"67894532",
+        "productEnclave":"VPC1",
+        "cloudElementType":"CDN",
+        "cloudElementId":"1234:321",
+        "managementUrl":"Url-1"
+    }
+}

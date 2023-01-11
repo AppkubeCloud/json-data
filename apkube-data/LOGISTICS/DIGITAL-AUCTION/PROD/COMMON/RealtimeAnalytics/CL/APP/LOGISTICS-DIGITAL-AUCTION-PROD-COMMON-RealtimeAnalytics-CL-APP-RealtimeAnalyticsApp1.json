@@ -1,0 +1,21 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"LOGISTICS",
+	"associatedProduct":"DIGITAL AUCTION",
+	"associatedEnv":"PROD",
+	"serviceType":"App",
+	"serviceHostingType":"ClusterManaged",
+	"serviceNature": "Common",
+	"associatedCommonService": "RealtimeAnalytics",
+	"associatedBusinessService": "NA",
+    "serviceName":"RealtimeAnalytics-app1",
+    "description": "Node App in k8 (Dasboard.js)",
+    "clusterServiceLoaction":{
+        "landingZone":"567373484",
+        "productEnclave":"567373484-VPC1",
+        "clusterId":"Cluster1",
+        "clusterName":"Non-Prod-Cluster",     
+        "clusterNamespace":"DIGITAL AUCTION-PROD",
+    "managementUrl":"Url-1"
+}
+}

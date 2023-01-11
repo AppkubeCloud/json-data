@@ -1,0 +1,20 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"LOGISTICS",
+	"associatedProduct":"PROCUREMENT",
+	"associatedEnv":"STAGE",
+	"serviceType":"Data",
+	"serviceHostingType":"CloudManaged",
+	"serviceNature": "Common",
+	"associatedCommonService": "NA",
+	"associatedBusinessService": "OLAP",
+    "serviceName":"OLAP-data1",
+    "description": "Druid s3 database",
+    "cloudManagedServiceLoaction":{
+        "landingZone":"567373484",
+        "productEnclave":"567373484-VPC1",
+        "cloudElementType":"AWS",
+        "cloudElementId":"897373451-S3-112",
+        "managementUrl":"Url-1"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"LOGISTICS",
+	"associatedProduct":"DIGITAL AUCTION",
+	"associatedEnv":"TEST",
+	"serviceType":"Data",
+	"serviceHostingType":"GlobalManaged",
+	"serviceNature": "Common",
+	"associatedCommonService": "SitesCentral",
+	"associatedBusinessService": "NA",
+    "serviceName":"SitesCentral-data2",
+    "description": "SitesCentral Github DB to store templates /Pages",		
+    "globalServiceLoaction":{
+        "landingZone":"567373484",
+        "productEnclave":"567373484-VPC1",
+        "cloudElementType":"GIT",
+        "cloudElementId":"GIT-1",
+        "managementUrl":"Url-1"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"HR",
+	"associatedProduct":"EMS",
+	"associatedEnv":"STAGE",
+	"serviceType":"data",
+	"serviceHostingType":"CloudManaged",
+	"serviceNature": "Business",
+	"associatedCommonService": "NA",
+	"associatedBusinessService": "Canteen",
+    "serviceName":"Canteen-Data2",
+    "description": "ES",		
+    "cloudManagedServiceLoaction":{
+        "landingZone":"67894532",
+        "productEnclave":"VPC1",
+        "cloudElementType":"ES (opensearch)",
+        "cloudElementId":"1234:321",
+        "managementUrl":"Url-1"
+    }
+}

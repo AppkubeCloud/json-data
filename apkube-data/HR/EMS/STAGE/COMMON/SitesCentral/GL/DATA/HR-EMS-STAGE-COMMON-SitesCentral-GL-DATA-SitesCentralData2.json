@@ -1,0 +1,20 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"HR",
+	"associatedProduct":"EMS",
+	"associatedEnv":"STAGE",
+	"serviceType":"data",
+	"serviceHostingType":"GlobalManaged",
+	"serviceNature": "Commmon",
+	"associatedCommonService": "SitesCentral",
+	"associatedBusinessService": "NA",
+    "serviceName":"SitesCentral-data2",
+    "description": "Github DB to store templates /Pages",		
+    "globalServiceLoaction":{
+        "landingZone":"67894532",
+        "productEnclave":"VPC1",
+        "cloudElementType":"Github",
+        "cloudElementId":"1234:321",
+        "managementUrl":"Url-1"
+    }
+}

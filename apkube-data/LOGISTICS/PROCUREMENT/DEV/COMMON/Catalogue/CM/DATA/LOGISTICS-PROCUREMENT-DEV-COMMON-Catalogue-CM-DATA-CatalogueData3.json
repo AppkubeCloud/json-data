@@ -1,0 +1,20 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"LOGISTICS",
+	"associatedProduct":"PROCUREMENT",
+	"associatedEnv":"DEV",
+	"serviceType":"Data",
+	"serviceHostingType":"CloudManaged",
+	"serviceNature": "Common",
+	"associatedCommonService": "NA",
+	"associatedBusinessService": "Catalogue",
+    "serviceName":"Catalogue-data3",
+    "description": "Catalogue Service S3 ObjectStore",
+    "cloudManagedServiceLoaction":{
+        "landingZone":"567373484",
+        "productEnclave":"567373484-VPC1",
+        "cloudElementType":"RDS-S3",
+        "cloudElementId":"S3-1234-CloudManaged",
+        "managementUrl":"Url-1"
+    }
+}

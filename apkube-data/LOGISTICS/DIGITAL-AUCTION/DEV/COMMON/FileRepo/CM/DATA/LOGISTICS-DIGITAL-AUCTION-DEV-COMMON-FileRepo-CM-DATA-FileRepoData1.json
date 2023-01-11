@@ -1,0 +1,20 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"LOGISTICS",
+	"associatedProduct":"DIGITAL AUCTION",
+	"associatedEnv":"DEV",
+	"serviceType":"Data",
+	"serviceHostingType":"CloudManaged",
+	"serviceNature": "Common",
+	"associatedCommonService": "NA",
+	"associatedBusinessService": "FileRepo",
+    "serviceName":"FileRepo-data1",
+    "description": "FileRepo data service of CDN",
+    "cloudManagedServiceLoaction":{
+        "landingZone":"567373484",
+        "productEnclave":"567373484-VPC1",
+        "cloudElementType":"AWS",
+        "cloudElementId":"cdn",
+        "managementUrl":"Url-1"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "associatedOU": "Synectiks",
+	"associatedDept":"HR",
+	"associatedProduct":"EMS",
+	"associatedEnv":"STAGE",
+	"serviceType":"data",
+	"serviceHostingType":"CloudManaged",
+	"serviceNature": "Common",
+	"associatedCommonService": "StaticReporting",
+	"associatedBusinessService": "NA",
+    "serviceName":"StaticReporting-Data1",
+    "description": "Postgresql",		
+    "cloudManagedServiceLoaction":{
+        "landingZone":"67894532",
+        "productEnclave":"VPC1",
+        "cloudElementType":"S3",
+        "cloudElementId":"1234:321",
+        "managementUrl":"Url-1"
+    }
+}
